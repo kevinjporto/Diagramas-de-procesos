@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T14:15:31.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78" etag="KKZuAe37vIpWbxmp04J9" version="20.8.19" type="github">
-  <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
+<mxfile host="app.diagrams.net" modified="2023-02-09T14:27:30.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78" etag="5c49wRcaJGDEKUqpu2XV" version="20.8.19" type="github" pages="2">
+  <diagram name="Recepción de RIPS" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
     <mxGraphModel dx="1073" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2b4e8129b02d487f-1" value="Validación de RIPS" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+        <mxCell id="2b4e8129b02d487f-1" value="Recepción de RIPS" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="40" y="20" width="1030" height="760" as="geometry" />
         </mxCell>
         <mxCell id="2b4e8129b02d487f-2" value="PRESTADOR" style="swimlane;html=1;startSize=20;horizontal=0;" parent="2b4e8129b02d487f-1" vertex="1">
@@ -81,13 +81,107 @@
         <mxCell id="VbbHKaW0TVlcaOJf2SLy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="2b4e8129b02d487f-4" source="VbbHKaW0TVlcaOJf2SLy-3" target="VbbHKaW0TVlcaOJf2SLy-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VbbHKaW0TVlcaOJf2SLy-3" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Verificación de la información del RIPS vs Remisión&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2b4e8129b02d487f-4">
+        <mxCell id="VbbHKaW0TVlcaOJf2SLy-3" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Verificación de la información del RIPS vs Remisión (MACRO)&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2b4e8129b02d487f-4">
           <mxGeometry x="600" y="125" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V99BzwDLuPhs6sOx3akM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=9;dashed=1;" parent="2b4e8129b02d487f-1" source="V99BzwDLuPhs6sOx3akM-2" target="V99BzwDLuPhs6sOx3akM-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V99BzwDLuPhs6sOx3akM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=9;" parent="2b4e8129b02d487f-1" source="V99BzwDLuPhs6sOx3akM-8" target="V99BzwDLuPhs6sOx3akM-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Validación de RIPS" id="-VAdv0tywVqpMTwcyi70">
+    <mxGraphModel dx="1073" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-0" />
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-1" parent="PWW7tiz8hwP4r5j8jMze-0" />
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-2" value="Validación de RIPS" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-1">
+          <mxGeometry x="40" y="20" width="1030" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-3" value="OASIS (ERIP)" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-2">
+          <mxGeometry y="20" width="1030" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-4" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-3">
+          <mxGeometry x="30" y="98.75" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Envia información de facturación&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=send;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-3">
+          <mxGeometry x="100" y="90" width="110" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-6" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;endArrow=openThin;startArrow=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-3" source="PWW7tiz8hwP4r5j8jMze-4" target="PWW7tiz8hwP4r5j8jMze-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="74.66" as="sourcePoint" />
+            <mxPoint x="130" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-7" value="SAGICC" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-2">
+          <mxGeometry y="280" width="1030" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-7" source="PWW7tiz8hwP4r5j8jMze-9" target="PWW7tiz8hwP4r5j8jMze-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.9999999999998" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-9" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Recepción de información de la facturación&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=receive;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-7">
+          <mxGeometry x="100" y="90" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-10" value="Listado de casos de facturación" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-7">
+          <mxGeometry x="260" y="87.5" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-11" value="EMPLEADO" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-2">
+          <mxGeometry y="510" width="1030" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-12" value="Descarga la información" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=manual;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-11">
+          <mxGeometry x="250" y="30" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-11" source="PWW7tiz8hwP4r5j8jMze-14" target="PWW7tiz8hwP4r5j8jMze-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-14" value="Facturas&lt;br&gt;RIPS&lt;br&gt;Soportes" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;fontSize=9;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-11">
+          <mxGeometry x="430" y="117.5" width="110" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=9;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-11" source="PWW7tiz8hwP4r5j8jMze-12" target="PWW7tiz8hwP4r5j8jMze-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.9999999999998" y="85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=9;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-11" source="PWW7tiz8hwP4r5j8jMze-18" target="PWW7tiz8hwP4r5j8jMze-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=9;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-11" source="PWW7tiz8hwP4r5j8jMze-18" target="PWW7tiz8hwP4r5j8jMze-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-18" value="Archivos RIPS" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;bpmnTransferType=input;fontSize=9;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-11">
+          <mxGeometry x="800" y="10" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=9;entryPerimeter=0;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-11" source="PWW7tiz8hwP4r5j8jMze-18" target="PWW7tiz8hwP4r5j8jMze-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-20" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Validación en OASIS de la información recibida&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;bpmnShapeType=call;isLoopSub=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-11">
+          <mxGeometry x="765" y="120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=9;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-11" source="PWW7tiz8hwP4r5j8jMze-22" target="PWW7tiz8hwP4r5j8jMze-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-22" value="Creación de la carpeta con el nombre del prestador para guardar la información" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=manual;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-11">
+          <mxGeometry x="415" y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-11" source="PWW7tiz8hwP4r5j8jMze-24" target="PWW7tiz8hwP4r5j8jMze-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-24" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Verificación de la información del RIPS vs Remisión&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="PWW7tiz8hwP4r5j8jMze-11">
+          <mxGeometry x="600" y="125" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=9;dashed=1;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-2" source="PWW7tiz8hwP4r5j8jMze-5" target="PWW7tiz8hwP4r5j8jMze-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWW7tiz8hwP4r5j8jMze-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=9;" edge="1" parent="PWW7tiz8hwP4r5j8jMze-2" source="PWW7tiz8hwP4r5j8jMze-10" target="PWW7tiz8hwP4r5j8jMze-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
