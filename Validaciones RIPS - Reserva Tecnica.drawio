@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T21:01:13.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="khbbOW_El-V_oeDjuhof" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-03T16:43:32.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="F0PG78PDvpsEJYwQGT_b" version="21.1.2" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
-    <mxGraphModel dx="1617" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,7 +68,7 @@
             <mxPoint x="750.0033333333334" y="300.0999999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0h3Z5OLf3pgDf_X1rs7T-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="2b4e8129b02d487f-2" source="q4aeZ8HjHM6SwuqYir7_-16" target="0h3Z5OLf3pgDf_X1rs7T-3">
+        <mxCell id="0h3Z5OLf3pgDf_X1rs7T-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="2b4e8129b02d487f-2" source="q4aeZ8HjHM6SwuqYir7_-16" target="0h3Z5OLf3pgDf_X1rs7T-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q4aeZ8HjHM6SwuqYir7_-16" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="2b4e8129b02d487f-2" vertex="1">
@@ -275,10 +275,10 @@
             <mxPoint x="1500" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0h3Z5OLf3pgDf_X1rs7T-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.084;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="2b4e8129b02d487f-2" source="q4aeZ8HjHM6SwuqYir7_-99" target="q4aeZ8HjHM6SwuqYir7_-47">
+        <mxCell id="0h3Z5OLf3pgDf_X1rs7T-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.084;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="2b4e8129b02d487f-2" source="q4aeZ8HjHM6SwuqYir7_-99" target="q4aeZ8HjHM6SwuqYir7_-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0h3Z5OLf3pgDf_X1rs7T-2" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0h3Z5OLf3pgDf_X1rs7T-1">
+        <mxCell id="0h3Z5OLf3pgDf_X1rs7T-2" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0h3Z5OLf3pgDf_X1rs7T-1" vertex="1" connectable="0">
           <mxGeometry x="-0.2136" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -334,7 +334,7 @@
         <mxCell id="q4aeZ8HjHM6SwuqYir7_-116" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Mensaje:&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt; &quot;En los registros de mutualser la autorización relacionada [###] esta asociada a otra factura&quot;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#333333;" parent="2b4e8129b02d487f-2" vertex="1">
           <mxGeometry x="1640" y="820" width="160" height="70" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 9px;&quot;&gt;Consultar la fecha de prestación registrada en los RIPS&lt;/font&gt;" id="96rb111MpXqOaE1i3Asx-1">
+        <UserObject label="&lt;font style=&quot;font-size: 9px;&quot;&gt;Consultar la fecha de prestación registrada en los RIPS&lt;/font&gt;" link="https://app.diagrams.net/?client=1#Hkevinjporto%2FDiagramas-de-procesos%2Fmain%2FCapturar%20fecha%20de%20prestaci%C3%B3n%20efectiva.drawio" id="96rb111MpXqOaE1i3Asx-1">
           <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;bpmnShapeType=call;isLoopSub=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="2b4e8129b02d487f-2" vertex="1">
             <mxGeometry x="1100" y="140" width="100" height="60" as="geometry" />
           </mxCell>
@@ -420,7 +420,7 @@
         <mxCell id="96rb111MpXqOaE1i3Asx-188" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="2b4e8129b02d487f-2" vertex="1">
           <mxGeometry x="1660" y="225" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0h3Z5OLf3pgDf_X1rs7T-3" value="Servicios facturados corresponden a los servicios del AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2b4e8129b02d487f-2">
+        <mxCell id="0h3Z5OLf3pgDf_X1rs7T-3" value="Servicios facturados corresponden a los servicios del AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" parent="2b4e8129b02d487f-2" vertex="1">
           <mxGeometry x="790.11" y="1290" width="119.89" height="60" as="geometry" />
         </mxCell>
       </root>
