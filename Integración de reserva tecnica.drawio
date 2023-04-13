@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T14:28:58.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="5_zUgogJemYgV6ArbB0g" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T14:47:04.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="G5WBwe_MTDED7aFMMeGT" version="21.1.4" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1674" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,9 +96,11 @@
             <mxPoint x="1300" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nV3GrIUumQTc8efZI4pm-10" value="Validacion de cumplimiento de condiciones del AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="dbpEQGRwGIBM27BcA5l4-16">
-          <mxGeometry x="1110" y="100" width="120" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Validacion de cumplimiento de condiciones del AS" link="https://app.diagrams.net/#Hkevinjporto%2FDiagramas-de-procesos%2Fmain%2FValidaci%C3%B3n%20de%20A3%20integraci%C3%B3n.drawio" id="nV3GrIUumQTc8efZI4pm-10">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="dbpEQGRwGIBM27BcA5l4-16">
+            <mxGeometry x="1110" y="100" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="nV3GrIUumQTc8efZI4pm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dbpEQGRwGIBM27BcA5l4-16" source="nV3GrIUumQTc8efZI4pm-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1480" y="140" as="targetPoint" />
