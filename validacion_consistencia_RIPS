@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T19:39:52.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vuQS4RZfnpiNHesri7f2" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T20:16:47.785Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="SOh50uCQ4mde-wHSY86s" version="21.3.0" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1900" background="none" math="0" shadow="0">
       <root>
@@ -346,8 +346,13 @@
         <mxCell id="hEWY7Ue1pBz0eI9WxkM8-271" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar la fecha del periodo de facturación en el archivo RIPS (AF)&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
           <mxGeometry x="890" y="1470" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-270" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar consistencia y calidad de CUPS e insumos y F. prestación&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
-          <mxGeometry x="890" y="1710" width="110" height="60" as="geometry" />
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-328" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-270" target="hEWY7Ue1pBz0eI9WxkM8-329">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-270" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar códigos CUPS e insumos reportados en los RIPS (AC, AP y AT)&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="890" y="1700" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hEWY7Ue1pBz0eI9WxkM8-276" value="No" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-275" target="hEWY7Ue1pBz0eI9WxkM8-277">
           <mxGeometry relative="1" as="geometry">
@@ -545,6 +550,17 @@
         </mxCell>
         <mxCell id="hEWY7Ue1pBz0eI9WxkM8-324" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&quot;La fecha de prestación de los servicios reportados en archivos RIPS excede los 3 años desde el inicio del periodo de facturación&quot;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;dashed=1;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
           <mxGeometry x="1440" y="1580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-330" value="Si" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-329" target="hEWY7Ue1pBz0eI9WxkM8-331">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-329" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Archivo AF?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1045" y="1695" width="65" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-331" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar la fecha de prestación de los archivos RIPS (AP, AC, AU, AH, AN y MA)&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1190" y="1700" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
