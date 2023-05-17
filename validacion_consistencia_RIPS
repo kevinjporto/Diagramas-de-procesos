@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T16:26:21.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="X-F3ZlpGrk5xH6vFIWC3" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T19:39:52.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vuQS4RZfnpiNHesri7f2" version="21.3.0" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1800" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hEWY7Ue1pBz0eI9WxkM8-1" value="N" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="1970" height="1770" as="geometry" />
+          <mxGeometry x="10" y="10" width="1970" height="1870" as="geometry" />
         </mxCell>
         <mxCell id="hEWY7Ue1pBz0eI9WxkM8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="7a84cebc1def654-1" target="hEWY7Ue1pBz0eI9WxkM8-3">
           <mxGeometry relative="1" as="geometry" />
@@ -41,6 +41,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hEWY7Ue1pBz0eI9WxkM8-300" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="7a84cebc1def654-53" target="hEWY7Ue1pBz0eI9WxkM8-269">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-317" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="7a84cebc1def654-53" target="hEWY7Ue1pBz0eI9WxkM8-271">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-318" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="7a84cebc1def654-53" target="hEWY7Ue1pBz0eI9WxkM8-270">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7a84cebc1def654-53" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=rhombusPerimeter;background=gateway;outline=none;symbol=parallelGw;" parent="hEWY7Ue1pBz0eI9WxkM8-1" vertex="1">
@@ -326,14 +332,22 @@
         <mxCell id="hEWY7Ue1pBz0eI9WxkM8-268" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar códigos CUMS de archivos RIPS (AM y MA) en la tabla de referencia de CUMS&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
           <mxGeometry x="890" y="1090" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-269" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar consistencia y calidad de CUPS e insumos y F. prestación&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-302" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-269" target="hEWY7Ue1pBz0eI9WxkM8-301">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-269" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar códigos CIE10&amp;nbsp; de archivos RIPS (AC, AP, AU, AH y AN)&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
           <mxGeometry x="890" y="1270" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-271" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar consistencia y calidad de CUPS e insumos y F. prestación&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-312" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-271" target="hEWY7Ue1pBz0eI9WxkM8-314">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-271" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar la fecha del periodo de facturación en el archivo RIPS (AF)&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
           <mxGeometry x="890" y="1470" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hEWY7Ue1pBz0eI9WxkM8-270" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar consistencia y calidad de CUPS e insumos y F. prestación&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
-          <mxGeometry x="890" y="1660" width="110" height="60" as="geometry" />
+          <mxGeometry x="890" y="1710" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hEWY7Ue1pBz0eI9WxkM8-276" value="No" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-275" target="hEWY7Ue1pBz0eI9WxkM8-277">
           <mxGeometry relative="1" as="geometry">
@@ -447,6 +461,90 @@
         </mxCell>
         <mxCell id="hEWY7Ue1pBz0eI9WxkM8-296" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&quot;Los CUMS reportados no se encuentran en la tabla de referencia normativa de códigos CUMS&quot;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;dashed=1;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
           <mxGeometry x="1340" y="1190" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-304" value="No" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-301" target="hEWY7Ue1pBz0eI9WxkM8-303">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-309" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-301" target="7a84cebc1def654-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="1440" />
+              <mxPoint x="1855" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-310" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="hEWY7Ue1pBz0eI9WxkM8-309">
+          <mxGeometry x="-0.309" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-301" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CIE10 se encuentran en la tabla de referencia?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1050" y="1270" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-306" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-303" target="hEWY7Ue1pBz0eI9WxkM8-305">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-303" value="Cargar el error en el módulo ERRE de OASIS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1190" y="1270" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-308" value="Error" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-305" target="hEWY7Ue1pBz0eI9WxkM8-307">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-311" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-305" target="hEWY7Ue1pBz0eI9WxkM8-278">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-305" value="Mostrar en el informe de PDF el error" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1360" y="1270" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-307" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&quot;Los CIE10 reportados no se encuentran en la tabla de referencia normativa de códigos CUMS&quot;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;dashed=1;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1340" y="1370" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-316" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-314" target="hEWY7Ue1pBz0eI9WxkM8-315">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-314" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validar la fecha de prestación de los archivos RIPS (AP, AC, AU, AH, AN y MA)&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1045" y="1470" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-320" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-315" target="hEWY7Ue1pBz0eI9WxkM8-319">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-326" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-315" target="7a84cebc1def654-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1235" y="1670" />
+              <mxPoint x="1855" y="1670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-327" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="hEWY7Ue1pBz0eI9WxkM8-326">
+          <mxGeometry x="-0.4288" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-315" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;F. Prestación &amp;gt; = F periodo de facturación - 3 años&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1202.5" y="1465" width="65" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-322" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-319" target="hEWY7Ue1pBz0eI9WxkM8-321">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-319" value="Cargar el error en el módulo ERRE de OASIS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1310" y="1470" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-323" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-321" target="hEWY7Ue1pBz0eI9WxkM8-278">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1575" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-325" value="Error" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="hEWY7Ue1pBz0eI9WxkM8-1" source="hEWY7Ue1pBz0eI9WxkM8-321" target="hEWY7Ue1pBz0eI9WxkM8-324">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-321" value="Mostrar en el informe de PDF el error" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1460" y="1470" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hEWY7Ue1pBz0eI9WxkM8-324" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&quot;La fecha de prestación de los servicios reportados en archivos RIPS excede los 3 años desde el inicio del periodo de facturación&quot;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;dashed=1;" vertex="1" parent="hEWY7Ue1pBz0eI9WxkM8-1">
+          <mxGeometry x="1440" y="1580" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
