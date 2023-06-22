@@ -1,9 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2023-06-22T19:19:39.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.0" etag="hx3fzGNLAjt5RT3IhGi9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-22T19:28:19.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="p2MSeor9RfzcORy0JlHU" version="21.5.0" type="github">
   <diagram name="Página-1" id="9RYoFY8GCwM7AoHcxTI_">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P0aVc6wDqR4s-njKCgED-1" value="Visualizar servicios en ZSS de acuerdo con la ubicación paciente" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1680" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-2" value="Lane 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="P0aVc6wDqR4s-njKCgED-1">
+          <mxGeometry y="20" width="1680" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-6" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="P0aVc6wDqR4s-njKCgED-2">
+          <mxGeometry x="1200" y="370" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="P0aVc6wDqR4s-njKCgED-2" source="P0aVc6wDqR4s-njKCgED-5" target="P0aVc6wDqR4s-njKCgED-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-5" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="P0aVc6wDqR4s-njKCgED-2">
+          <mxGeometry x="40" y="195" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P0aVc6wDqR4s-njKCgED-2" source="P0aVc6wDqR4s-njKCgED-9" target="P0aVc6wDqR4s-njKCgED-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-9" value="Ingresar a ZSP modulo &quot;Atención al Usuario&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="P0aVc6wDqR4s-njKCgED-2">
+          <mxGeometry x="110" y="175" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P0aVc6wDqR4s-njKCgED-2" source="P0aVc6wDqR4s-njKCgED-11" target="P0aVc6wDqR4s-njKCgED-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-11" value="Seleccionar prestador para crear el A3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="P0aVc6wDqR4s-njKCgED-2">
+          <mxGeometry x="270" y="175" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="P0aVc6wDqR4s-njKCgED-2" source="P0aVc6wDqR4s-njKCgED-12" target="P0aVc6wDqR4s-njKCgED-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-12" value="Buscar el afiliado al que se quiere crear el A3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="P0aVc6wDqR4s-njKCgED-2">
+          <mxGeometry x="420" y="175" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P0aVc6wDqR4s-njKCgED-2" source="P0aVc6wDqR4s-njKCgED-15" target="P0aVc6wDqR4s-njKCgED-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-15" value="Selecionar en TIPO OPERACIÓN la opción &quot;Solicitud de Servicio de Salud&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="P0aVc6wDqR4s-njKCgED-2">
+          <mxGeometry x="570" y="175" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="P0aVc6wDqR4s-njKCgED-2" source="P0aVc6wDqR4s-njKCgED-16" target="P0aVc6wDqR4s-njKCgED-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-16" value="Ingresar el origen de atención, el tipo de servicios solicitados" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="P0aVc6wDqR4s-njKCgED-2">
+          <mxGeometry x="720" y="175" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P0aVc6wDqR4s-njKCgED-19" value="Seleccionar la &quot;Ubicación Paciente&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="P0aVc6wDqR4s-njKCgED-2">
+          <mxGeometry x="880" y="175" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
