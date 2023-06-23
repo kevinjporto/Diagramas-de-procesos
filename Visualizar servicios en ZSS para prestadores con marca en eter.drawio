@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T15:42:52.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VsQSdxa2IPOQRuuPz7oJ" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T15:46:22.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="g23VWr2AG7GkNTwkIqRs" version="21.5.0" type="github">
   <diagram name="Página-1" id="TRl0oPyITWr-6Asu_PwD">
-    <mxGraphModel dx="1034" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="550" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,16 +80,16 @@
             <mxPoint x="1240" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DZp7piEdJl-Q790h61w1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-32" target="DZp7piEdJl-Q790h61w1-47">
+        <mxCell id="DZp7piEdJl-Q790h61w1-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-32" target="DZp7piEdJl-Q790h61w1-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-32" value="Mostrar en ZSS los servicios de acuerdo con el ámbito seleccionado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
-          <mxGeometry x="1510" y="30" width="120" height="80" as="geometry" />
+          <mxGeometry x="1860" y="90" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-36" target="DZp7piEdJl-Q790h61w1-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DZp7piEdJl-Q790h61w1-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-36" target="DZp7piEdJl-Q790h61w1-32">
+        <mxCell id="DZp7piEdJl-Q790h61w1-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-36" target="DZp7piEdJl-Q790h61w1-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-36" value="Consulta la tabla de referencia en ecnc" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
@@ -104,20 +104,40 @@
         <mxCell id="DZp7piEdJl-Q790h61w1-40" value="Nit: &lt;br&gt;8060083942&lt;br&gt;8060083943" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
           <mxGeometry x="1355" y="215" width="110" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-43" target="DZp7piEdJl-Q790h61w1-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-43" value="Mostrar los servicios de acuerdo con las validaciones existentes" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
           <mxGeometry x="1350" y="300" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DZp7piEdJl-Q790h61w1-44" value="Hospitalización" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DZp7piEdJl-Q790h61w1-2">
-          <mxGeometry x="1670" y="70" as="geometry" />
+        <mxCell id="DZp7piEdJl-Q790h61w1-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-45" target="DZp7piEdJl-Q790h61w1-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-45" value="Buscar los servicios de los códigos 100&lt;br&gt;(Parametrizados)&amp;nbsp;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
-          <mxGeometry x="1731" y="30" width="120" height="80" as="geometry" />
+          <mxGeometry x="1660" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-46" target="DZp7piEdJl-Q790h61w1-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-46" value="Buscar los servicios de los códigos 200, 300, 400, 700 y 800&lt;br&gt;(Parametrizados)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
-          <mxGeometry x="1731" y="140" width="120" height="80" as="geometry" />
+          <mxGeometry x="1660" y="140" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DZp7piEdJl-Q790h61w1-47" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=standard;symbol=multiple;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
-          <mxGeometry x="1640" y="150" width="50" height="50" as="geometry" />
+        <mxCell id="DZp7piEdJl-Q790h61w1-50" value="Hospitallario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-47" target="DZp7piEdJl-Q790h61w1-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-51" value="Ambulatorio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-47" target="DZp7piEdJl-Q790h61w1-46">
+          <mxGeometry x="0.5238" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1535" y="180" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-47" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=standard;symbol=multiple;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
+          <mxGeometry x="1510" y="45" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-55" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
+          <mxGeometry x="2030" y="110" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
