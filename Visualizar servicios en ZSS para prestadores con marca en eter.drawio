@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T15:18:39.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FMz4DdJITQlbpqG9Et5B" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T15:22:04.851Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="E1fdybhJNLBhTaG3y61f" version="21.5.0" type="github">
   <diagram name="Página-1" id="TRl0oPyITWr-6Asu_PwD">
     <mxGraphModel dx="1034" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="550" math="0" shadow="0">
       <root>
@@ -27,11 +27,19 @@
             <mxPoint x="280" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-9" target="DZp7piEdJl-Q790h61w1-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-9" value="Buscar el afiliado al que se quiere crear el A3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
           <mxGeometry x="440" y="25" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-8" target="DZp7piEdJl-Q790h61w1-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-13" value="Buscar el afiliado al que se quiere crear el A3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
+          <mxGeometry x="600" y="25" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
