@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T15:03:25.933Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.0" etag="-UXSU_O_pR2--71YIrTb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T15:18:39.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FMz4DdJITQlbpqG9Et5B" version="21.5.0" type="github">
   <diagram name="Página-1" id="TRl0oPyITWr-6Asu_PwD">
-    <mxGraphModel>
+    <mxGraphModel dx="1034" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="550" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DZp7piEdJl-Q790h61w1-1" value="Visualizar servicios de ámbito ambulatorio y hospitalario para prestadores NO RED" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-2" value="Lane 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="DZp7piEdJl-Q790h61w1-1">
+          <mxGeometry y="20" width="1480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-10" target="DZp7piEdJl-Q790h61w1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-10" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
+          <mxGeometry x="40" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-6" value="Ingresar a ZSP modulo &quot;Atención al Usuario&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
+          <mxGeometry x="120" y="25" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-8" value="Seleccionar prestador NO RED para crear el A3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
+          <mxGeometry x="280" y="25" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-6" target="DZp7piEdJl-Q790h61w1-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-9" value="Buscar el afiliado al que se quiere crear el A3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
+          <mxGeometry x="440" y="25" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DZp7piEdJl-Q790h61w1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="DZp7piEdJl-Q790h61w1-8" target="DZp7piEdJl-Q790h61w1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
