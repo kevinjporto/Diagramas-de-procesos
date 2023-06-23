@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T14:30:55.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="z5AQVaNPnjrKA96wsFW_" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T14:33:25.185Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="p1s-KxLZ8ZQlETMIElab" version="21.5.0" type="github">
   <diagram name="Página-1" id="LR75LMpZKILDS1RCnHsB">
-    <mxGraphModel dx="870" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="550" math="0" shadow="0">
+    <mxGraphModel dx="1110" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="550" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Bxh1SdX6oCCCvW3dw0KN-14" value="Crear solicitudes en estado pendiente con marca en epro" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="2020" height="480" as="geometry" />
+          <mxGeometry x="40" y="40" width="1720" height="480" as="geometry" />
         </mxCell>
         <mxCell id="Bxh1SdX6oCCCvW3dw0KN-15" value="Creación de A3 con marca en epro" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="Bxh1SdX6oCCCvW3dw0KN-14">
-          <mxGeometry y="20" width="2020" height="460" as="geometry" />
+          <mxGeometry y="20" width="1720" height="460" as="geometry" />
         </mxCell>
         <mxCell id="Bxh1SdX6oCCCvW3dw0KN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Bxh1SdX6oCCCvW3dw0KN-15" source="Bxh1SdX6oCCCvW3dw0KN-18" target="Bxh1SdX6oCCCvW3dw0KN-22">
           <mxGeometry relative="1" as="geometry" />
@@ -92,7 +92,7 @@
             <mxPoint x="1030" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bxh1SdX6oCCCvW3dw0KN-41" value="Validar en epro que los campos &lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;em style=&quot;box-sizing: border-box; color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; background-color: rgb(255, 255, 255);&quot; data-renderer-mark=&quot;true&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot; data-renderer-mark=&quot;true&quot;&gt;Controlado o Capitado &lt;/strong&gt;&lt;/em&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;se encuentre marcado o el campo &lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; background-color: rgb(255, 255, 255);&quot; data-renderer-mark=&quot;true&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot; data-renderer-mark=&quot;true&quot;&gt;Poss &lt;/strong&gt;&lt;/em&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; letter-spacing: -0.08px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;no este marcado.&lt;/span&gt;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Bxh1SdX6oCCCvW3dw0KN-15">
+        <mxCell id="Bxh1SdX6oCCCvW3dw0KN-41" value="Validar en epro que los campos&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;i style=&quot;font-weight: bold;&quot;&gt;Controlado o Capitado &lt;/i&gt;se encuentre marcado o &lt;i style=&quot;font-weight: bold;&quot;&gt;Poss &lt;/i&gt;no este marcado&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Bxh1SdX6oCCCvW3dw0KN-15">
           <mxGeometry x="820" y="150" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Bxh1SdX6oCCCvW3dw0KN-54" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Bxh1SdX6oCCCvW3dw0KN-15" source="Bxh1SdX6oCCCvW3dw0KN-45" target="Bxh1SdX6oCCCvW3dw0KN-55">
@@ -107,7 +107,7 @@
         <mxCell id="Bxh1SdX6oCCCvW3dw0KN-60" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Bxh1SdX6oCCCvW3dw0KN-15" source="Bxh1SdX6oCCCvW3dw0KN-45" target="Bxh1SdX6oCCCvW3dw0KN-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bxh1SdX6oCCCvW3dw0KN-45" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Campo controlado o &lt;br&gt;capitado marcado y &lt;br&gt;campo poss &lt;br&gt;no marcado?&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Bxh1SdX6oCCCvW3dw0KN-15">
+        <mxCell id="Bxh1SdX6oCCCvW3dw0KN-45" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Campo controlado o &lt;br&gt;capitado marcado y &lt;br&gt;campo poss &lt;br&gt;no marcado?&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Bxh1SdX6oCCCvW3dw0KN-15">
           <mxGeometry x="1040" y="165" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Bxh1SdX6oCCCvW3dw0KN-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Bxh1SdX6oCCCvW3dw0KN-15" source="Bxh1SdX6oCCCvW3dw0KN-48" target="Bxh1SdX6oCCCvW3dw0KN-50">
@@ -115,7 +115,7 @@
             <mxPoint x="1400" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bxh1SdX6oCCCvW3dw0KN-48" value="Crear A3 en estado APROBADA" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Bxh1SdX6oCCCvW3dw0KN-15">
+        <mxCell id="Bxh1SdX6oCCCvW3dw0KN-48" value="Generar A3 en estado APROBADA" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Bxh1SdX6oCCCvW3dw0KN-15">
           <mxGeometry x="1150" y="160" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bxh1SdX6oCCCvW3dw0KN-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Bxh1SdX6oCCCvW3dw0KN-15" source="Bxh1SdX6oCCCvW3dw0KN-50" target="Bxh1SdX6oCCCvW3dw0KN-51">
