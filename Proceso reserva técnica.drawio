@@ -1,9 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T19:28:49.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.5" etag="p8sTSgOM-4bkclaFKL_V" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T20:18:54.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aC6Ffb1dndvv1eruCiUN" version="21.6.5" type="github">
   <diagram name="Página-1" id="OOA_6IZKtUR3cF3tt41C">
-    <mxGraphModel>
+    <mxGraphModel dx="1034" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-1" value="Proceso reserva técnica" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="2180" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-2" value="ZonaSer Prestador" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-1">
+          <mxGeometry y="20" width="2180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-6" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="1470" y="55" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-5" target="e6QzIjx4ru65ZYh6eTGg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-5" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="30" y="55" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-7" target="e6QzIjx4ru65ZYh6eTGg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ingresar a ZonaSer Prestador&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="110" y="42.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-10" target="e6QzIjx4ru65ZYh6eTGg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ingresar al Modulo de &quot;Atención al Usuario&quot;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="270" y="42.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-12" target="e6QzIjx4ru65ZYh6eTGg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Diligenciar formulario seleccionado la IPS prestadora y afiliado&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="430" y="42.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-14" target="e6QzIjx4ru65ZYh6eTGg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Escoger en tipo operación &quot;Solicitud de Servicio de Salud&quot;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="590" y="42.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-17" target="e6QzIjx4ru65ZYh6eTGg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Diligenciar formulación de la solicitud de servicio de salud&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="750" y="42.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-19" target="e6QzIjx4ru65ZYh6eTGg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-19" target="e6QzIjx4ru65ZYh6eTGg-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-19" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=general;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="910" y="55" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Clic botón guardar&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="900" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-26" target="e6QzIjx4ru65ZYh6eTGg-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-26" value="Ejecutar validaciones para crear A3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="980" y="42.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-29" value="Pendiente" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-28" target="e6QzIjx4ru65ZYh6eTGg-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-30" value="Aprobado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-28" target="e6QzIjx4ru65ZYh6eTGg-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1155" y="163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-28" value="Estado A3&lt;br&gt;creado" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="1130" y="50" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-31" target="e6QzIjx4ru65ZYh6eTGg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-31" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;No genera AS&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="1290" y="42.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-32" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Genera AS en estado procesado&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxGeometry x="1290" y="130" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-3" value="Oasis" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-1">
+          <mxGeometry y="240" width="2180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-35" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Se crea AS en EAUT en estado procesado&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-3">
+          <mxGeometry x="1290" y="47.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-4" value="Sofsin" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-1">
+          <mxGeometry y="410" width="2180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e6QzIjx4ru65ZYh6eTGg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-1" source="e6QzIjx4ru65ZYh6eTGg-32" target="e6QzIjx4ru65ZYh6eTGg-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
