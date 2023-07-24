@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T21:48:15.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GPC2LWX4MwNOhdk8LtTR" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T21:48:40.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qntRlr3-DOFVUKSMSQhj" version="21.6.5" type="github">
   <diagram name="Página-1" id="YE9jcJAJMcragg8VuDX6">
     <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2030" pageHeight="530" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="n7Z9oDIm7ifPFA3uMTLZ-1" value="Solicitar siniestros para productos alto costo" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="1990" height="500" as="geometry" />
+          <mxGeometry x="20" y="10" width="1990" height="500" as="geometry" />
         </mxCell>
         <mxCell id="n7Z9oDIm7ifPFA3uMTLZ-2" value="ZonaSer Prestador" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="n7Z9oDIm7ifPFA3uMTLZ-1">
           <mxGeometry y="20" width="1990" height="230" as="geometry" />
