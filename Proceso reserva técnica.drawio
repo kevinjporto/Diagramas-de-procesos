@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T13:44:04.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2sJs_CMYgdJDYMQeZiYJ" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T15:49:05.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cxf6rzN5vYxEpD7lO7UT" version="21.6.5" type="github">
   <diagram name="Página-1" id="OOA_6IZKtUR3cF3tt41C">
-    <mxGraphModel dx="1290" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="819" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="819" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,9 +105,11 @@
         <mxCell id="e6QzIjx4ru65ZYh6eTGg-72" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="e6QzIjx4ru65ZYh6eTGg-2" vertex="1">
           <mxGeometry x="2290" y="42.5" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="H_R73cIt_kcQ9z9remFp-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ejecutar validaciones para crear A3&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
-          <mxGeometry x="980" y="40" width="120" height="70" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ejecutar validaciones para crear A3&lt;/font&gt;" link="https://app.diagrams.net/#Hkevinjporto%2FDiagramas-de-procesos%2Fmain%2FValidaciones%20para%20crear%20un%20A3.drawio" id="H_R73cIt_kcQ9z9remFp-1">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+            <mxGeometry x="980" y="40" width="120" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="e6QzIjx4ru65ZYh6eTGg-3" value="Oasis" style="swimlane;startSize=20;horizontal=0;html=1;" parent="e6QzIjx4ru65ZYh6eTGg-1" vertex="1">
           <mxGeometry y="240" width="2570" height="230" as="geometry" />
         </mxCell>
