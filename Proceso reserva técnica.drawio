@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T18:43:28.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0pNdSuFe31AiyNrZ7Ruy" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T14:29:22.126Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="G9MG2tESe6C4qlNdfnpS" version="21.6.5" type="github">
   <diagram name="Página-1" id="OOA_6IZKtUR3cF3tt41C">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="819" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="819" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,7 +91,7 @@
         <mxCell id="e6QzIjx4ru65ZYh6eTGg-31" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;No genera AS&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#E0E9F5;strokeColor=#6c8ebf;" parent="e6QzIjx4ru65ZYh6eTGg-2" vertex="1">
           <mxGeometry x="1290" y="42.5" width="120" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="H_R73cIt_kcQ9z9remFp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-32" target="H_R73cIt_kcQ9z9remFp-2">
+        <mxCell id="H_R73cIt_kcQ9z9remFp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="e6QzIjx4ru65ZYh6eTGg-2" source="e6QzIjx4ru65ZYh6eTGg-32" target="H_R73cIt_kcQ9z9remFp-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e6QzIjx4ru65ZYh6eTGg-32" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Genera AS en estado procesado&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#E0E9F5;strokeColor=#6c8ebf;" parent="e6QzIjx4ru65ZYh6eTGg-2" vertex="1">
@@ -109,11 +109,11 @@
           <mxGeometry x="2290" y="42.5" width="40" height="40" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ejecutar validaciones para crear A3&lt;/font&gt;" link="https://app.diagrams.net/#Hkevinjporto%2FDiagramas-de-procesos%2Fmain%2FValidaciones%20para%20crear%20un%20A3.drawio" id="H_R73cIt_kcQ9z9remFp-1">
-          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#E0E9F5;strokeColor=#6c8ebf;" parent="e6QzIjx4ru65ZYh6eTGg-2" vertex="1">
             <mxGeometry x="980" y="40" width="120" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="H_R73cIt_kcQ9z9remFp-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Se asigna fecha de prestación automática con marca S&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-2">
+        <mxCell id="H_R73cIt_kcQ9z9remFp-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Se asigna fecha de prestación automática con marca S&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="e6QzIjx4ru65ZYh6eTGg-2" vertex="1">
           <mxGeometry x="1460" y="142.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e6QzIjx4ru65ZYh6eTGg-3" value="Oasis" style="swimlane;startSize=20;horizontal=0;html=1;" parent="e6QzIjx4ru65ZYh6eTGg-1" vertex="1">
@@ -219,7 +219,7 @@
         <mxCell id="e6QzIjx4ru65ZYh6eTGg-70" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Paz y salvo del prestador, indicando que no tiene AS pendiente por facturar&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="e6QzIjx4ru65ZYh6eTGg-65" vertex="1">
           <mxGeometry y="120" width="200" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="H_R73cIt_kcQ9z9remFp-4" value="&lt;ul&gt;&lt;li&gt;Estado P = Procesado&lt;/li&gt;&lt;li&gt;Status = N = Ninguno&amp;nbsp;&lt;/li&gt;&lt;li&gt;Valor Total del AS &amp;gt; 0&lt;/li&gt;&lt;li&gt;Se excluyen servicios de Urgencias como 501, 502, 1102&lt;/li&gt;&lt;li&gt;Clase P = PBS o POSS&lt;/li&gt;&lt;li&gt;Anticipo N = Ninguno o no marcada.&lt;/li&gt;&lt;li&gt;El periodo de la orden = periodo actual (mes y año)&lt;/li&gt;&lt;li&gt;Documento de Contabilidad S = Si Contabiliza (por default)&lt;/li&gt;&lt;li&gt;Periodo contable esté abierto (bper)&lt;/li&gt;&lt;li&gt;Nit de Proveedor sea diferente a 806008394&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e6QzIjx4ru65ZYh6eTGg-4">
+        <mxCell id="H_R73cIt_kcQ9z9remFp-4" value="&lt;ul&gt;&lt;li&gt;Estado P = Procesado&lt;/li&gt;&lt;li&gt;Status = N = Ninguno&amp;nbsp;&lt;/li&gt;&lt;li&gt;Valor Total del AS &amp;gt; 0&lt;/li&gt;&lt;li&gt;Se excluyen servicios de Urgencias como 501, 502, 1102&lt;/li&gt;&lt;li&gt;Clase P = PBS o POSS&lt;/li&gt;&lt;li&gt;Anticipo N = Ninguno o no marcada.&lt;/li&gt;&lt;li&gt;El periodo de la orden = periodo actual (mes y año)&lt;/li&gt;&lt;li&gt;Documento de Contabilidad S = Si Contabiliza (por default)&lt;/li&gt;&lt;li&gt;Periodo contable esté abierto (bper)&lt;/li&gt;&lt;li&gt;Nit de Proveedor sea diferente a 806008394&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="e6QzIjx4ru65ZYh6eTGg-4" vertex="1">
           <mxGeometry x="1510" y="30" width="320" height="190" as="geometry" />
         </mxCell>
         <mxCell id="e6QzIjx4ru65ZYh6eTGg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="e6QzIjx4ru65ZYh6eTGg-1" source="e6QzIjx4ru65ZYh6eTGg-32" target="e6QzIjx4ru65ZYh6eTGg-35" edge="1">
@@ -245,10 +245,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="H_R73cIt_kcQ9z9remFp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="e6QzIjx4ru65ZYh6eTGg-1" source="e6QzIjx4ru65ZYh6eTGg-46" target="H_R73cIt_kcQ9z9remFp-4">
+        <mxCell id="H_R73cIt_kcQ9z9remFp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="e6QzIjx4ru65ZYh6eTGg-1" source="e6QzIjx4ru65ZYh6eTGg-37" target="H_R73cIt_kcQ9z9remFp-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1880" y="450" />
+              <mxPoint x="1610" y="450" />
               <mxPoint x="1670" y="450" />
             </Array>
           </mxGeometry>
