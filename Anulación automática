@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T12:32:05.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tz7IWp1HXkOTR1tqqnPZ" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T13:28:06.986Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hIgxEJHGTgNeNJfgZh8e" version="21.6.5" type="github">
   <diagram name="Página-1" id="boPeBHEnl3kMa-Kccxmb">
-    <mxGraphModel dx="1985" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3200" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1518" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3200" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,6 +190,20 @@
         </mxCell>
         <mxCell id="YHpRPFB93y22__PsxfWm-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Fg67DfGSEv_8l5gcD3iv-2" source="YHpRPFB93y22__PsxfWm-83" target="YHpRPFB93y22__PsxfWm-130">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHpRPFB93y22__PsxfWm-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fg67DfGSEv_8l5gcD3iv-2" source="YHpRPFB93y22__PsxfWm-83" target="YHpRPFB93y22__PsxfWm-234">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1390" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YHpRPFB93y22__PsxfWm-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fg67DfGSEv_8l5gcD3iv-2" source="YHpRPFB93y22__PsxfWm-83" target="YHpRPFB93y22__PsxfWm-240">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1390" y="660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YHpRPFB93y22__PsxfWm-83" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=complex;" vertex="1" parent="Fg67DfGSEv_8l5gcD3iv-2">
           <mxGeometry x="1365" y="420" width="50" height="50" as="geometry" />
@@ -389,6 +403,30 @@
         </mxCell>
         <mxCell id="YHpRPFB93y22__PsxfWm-230" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="Fg67DfGSEv_8l5gcD3iv-2">
           <mxGeometry x="3020" y="420" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YHpRPFB93y22__PsxfWm-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fg67DfGSEv_8l5gcD3iv-2" source="YHpRPFB93y22__PsxfWm-234" target="YHpRPFB93y22__PsxfWm-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHpRPFB93y22__PsxfWm-234" value="A3(ZSS), AS(eaut), si tiene fecha de prestación, no tiene factura, si esta en emcp y se integró a sofsin" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="Fg67DfGSEv_8l5gcD3iv-2">
+          <mxGeometry x="1440" y="515" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YHpRPFB93y22__PsxfWm-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Fg67DfGSEv_8l5gcD3iv-2" source="YHpRPFB93y22__PsxfWm-236" target="YHpRPFB93y22__PsxfWm-238">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHpRPFB93y22__PsxfWm-236" value="Anular A3 en ZonaSer Salud" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="Fg67DfGSEv_8l5gcD3iv-2">
+          <mxGeometry x="1630" y="515" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YHpRPFB93y22__PsxfWm-238" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="Fg67DfGSEv_8l5gcD3iv-2">
+          <mxGeometry x="1800" y="640" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YHpRPFB93y22__PsxfWm-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Fg67DfGSEv_8l5gcD3iv-2" source="YHpRPFB93y22__PsxfWm-240" target="YHpRPFB93y22__PsxfWm-241">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHpRPFB93y22__PsxfWm-240" value="A3(ZSS), AS(eaut), si tiene fecha de prestación, no tiene factura, si esta en emcp y no se integró a sofsin" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="Fg67DfGSEv_8l5gcD3iv-2">
+          <mxGeometry x="1440" y="620" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YHpRPFB93y22__PsxfWm-241" value="Anular A3 en ZonaSer Salud" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="Fg67DfGSEv_8l5gcD3iv-2">
+          <mxGeometry x="1630" y="620" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
