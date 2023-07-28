@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T14:01:06.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mBZpL5FJmXYtfsUy8Wgo" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T14:08:22.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sflOjDE5ROO9Tut5vWPd" version="21.6.5" type="github">
   <diagram name="Página-1" id="boPeBHEnl3kMa-Kccxmb">
     <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="860" math="0" shadow="0">
       <root>
@@ -221,9 +221,11 @@
         <mxCell id="ahGI1350n8-zjHDm6cVW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Fg67DfGSEv_8l5gcD3iv-2" source="ahGI1350n8-zjHDm6cVW-9" target="ahGI1350n8-zjHDm6cVW-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ahGI1350n8-zjHDm6cVW-9" value="Validaciones para anulación de A3 escenarios 1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" vertex="1" parent="Fg67DfGSEv_8l5gcD3iv-2">
-          <mxGeometry x="1530" y="280" width="120" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Validaciones para anulación de A3 escenarios 1" link="https://app.diagrams.net/#Hkevinjporto%2FDiagramas-de-procesos%2Fmain%2FAnulaci%C3%B3n%20autom%C3%A1tica%20en%20el%20mismo%20mes%20del%20A3.drawio" id="ahGI1350n8-zjHDm6cVW-9">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" vertex="1" parent="Fg67DfGSEv_8l5gcD3iv-2">
+            <mxGeometry x="1530" y="280" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="ahGI1350n8-zjHDm6cVW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fg67DfGSEv_8l5gcD3iv-2" source="ahGI1350n8-zjHDm6cVW-10" target="ahGI1350n8-zjHDm6cVW-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
