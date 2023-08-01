@@ -1,23 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T15:20:04.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KDUMvQICp29SfcB05Ht0" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-01T15:21:44.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3ryyUksXIHPoIJCpy44Z" version="21.6.6" type="github">
   <diagram name="Página-1" id="TrdM3WzuNy0MCiwsJbyF">
-    <mxGraphModel dx="1674" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="860" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="640" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dWiLZQFSB1augytXqu6K-1" value="Registrar y aprobar A3 servicios complementarios" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="2060" height="810" as="geometry" />
+          <mxGeometry x="20" y="20" width="2060" height="570" as="geometry" />
         </mxCell>
         <mxCell id="dWiLZQFSB1augytXqu6K-2" value="Lane 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="dWiLZQFSB1augytXqu6K-1">
-          <mxGeometry y="20" width="2060" height="790" as="geometry" />
+          <mxGeometry y="20" width="2060" height="550" as="geometry" />
         </mxCell>
         <mxCell id="dWiLZQFSB1augytXqu6K-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dWiLZQFSB1augytXqu6K-2" source="dWiLZQFSB1augytXqu6K-4" target="dWiLZQFSB1augytXqu6K-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dWiLZQFSB1augytXqu6K-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#E0E68E;strokeColor=#95A81A;" vertex="1" parent="dWiLZQFSB1augytXqu6K-2">
           <mxGeometry x="50" y="67.5" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dWiLZQFSB1augytXqu6K-28" value="&quot;Anulación automática. Usuario con estado de afiliación diferente a activo(retirado, fallecido, anulado, no vigente o no existe)&quot;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=8 8;" vertex="1" parent="dWiLZQFSB1augytXqu6K-2">
-          <mxGeometry x="340" y="700" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="dWiLZQFSB1augytXqu6K-66" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dWiLZQFSB1augytXqu6K-2" source="dWiLZQFSB1augytXqu6K-36" target="dWiLZQFSB1augytXqu6K-65">
           <mxGeometry x="-0.2" relative="1" as="geometry">
@@ -34,18 +31,6 @@
         </mxCell>
         <mxCell id="dWiLZQFSB1augytXqu6K-39" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="dWiLZQFSB1augytXqu6K-2">
           <mxGeometry x="1180" y="195" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dWiLZQFSB1augytXqu6K-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dWiLZQFSB1augytXqu6K-2" source="dWiLZQFSB1augytXqu6K-41" target="dWiLZQFSB1augytXqu6K-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dWiLZQFSB1augytXqu6K-41" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="dWiLZQFSB1augytXqu6K-2">
-          <mxGeometry x="235" y="710" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dWiLZQFSB1augytXqu6K-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dWiLZQFSB1augytXqu6K-2" target="dWiLZQFSB1augytXqu6K-41">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="735" as="sourcePoint" />
-            <mxPoint x="250" y="765" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="dWiLZQFSB1augytXqu6K-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dWiLZQFSB1augytXqu6K-2" source="dWiLZQFSB1augytXqu6K-72" target="dWiLZQFSB1augytXqu6K-116">
           <mxGeometry relative="1" as="geometry">
