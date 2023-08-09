@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T19:47:21.487Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="I6dmxhsoH6yBMBcBpYfk" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T19:51:27.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0naQj_wh_q-HQx5EtZVC" version="21.6.6" type="github">
   <diagram name="Página-1" id="6i_p-R7HKGtbfCE5hA1_">
     <mxGraphModel dx="1674" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="640" math="0" shadow="0">
       <root>
@@ -12,51 +12,51 @@
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-4" target="mdYcMvUlgZSCt1_3ZbtV-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="210" as="targetPoint" />
+            <mxPoint x="100" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="30" y="190" width="40" height="40" as="geometry" />
+          <mxGeometry x="30" y="60" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-10" target="mdYcMvUlgZSCt1_3ZbtV-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="210" as="sourcePoint" />
+            <mxPoint x="550" y="80" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-7" target="mdYcMvUlgZSCt1_3ZbtV-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-7" value="Escoger proceso &quot;&lt;i&gt;PRIMERA VEZ&quot;&lt;/i&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="260" y="170" width="120" height="80" as="geometry" />
+          <mxGeometry x="260" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-9" target="mdYcMvUlgZSCt1_3ZbtV-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="210" as="targetPoint" />
+            <mxPoint x="260" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-9" value="Ingresar a OASIS módulo erip" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="100" y="170" width="120" height="80" as="geometry" />
+          <mxGeometry x="100" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-10" value="Seleccionar modalidad &lt;i&gt;PBS &lt;/i&gt;y Servicio &quot;&lt;i&gt;Ambulatorio&quot;&lt;/i&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="430" y="170" width="120" height="80" as="geometry" />
+          <mxGeometry x="430" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-12" target="mdYcMvUlgZSCt1_3ZbtV-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-12" value="Dar clic en validar y cargar archivos RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="590" y="170" width="120" height="80" as="geometry" />
+          <mxGeometry x="590" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-13" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-44" target="mdYcMvUlgZSCt1_3ZbtV-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="990" y="50" as="sourcePoint" />
-            <mxPoint x="940" y="210" as="targetPoint" />
+            <mxPoint x="990" y="-80" as="sourcePoint" />
+            <mxPoint x="940" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-14" value="Buscar código reportado en los rips en la tabla de referencia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="759.5" y="170" width="140" height="80" as="geometry" />
+          <mxGeometry x="759.5" y="40" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-16" value="Validar si el valor de los cups coincide con el valor contratado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="1230" y="170" width="135" height="80" as="geometry" />
+          <mxGeometry x="1230" y="40" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-31" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-33" target="mdYcMvUlgZSCt1_3ZbtV-34">
           <mxGeometry relative="1" as="geometry">
@@ -85,9 +85,9 @@
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-40" target="mdYcMvUlgZSCt1_3ZbtV-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1135" y="370" as="targetPoint" />
+            <mxPoint x="1135" y="240" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1135" y="355" />
+              <mxPoint x="1135" y="225" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -97,19 +97,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-40" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Código encontrado en&amp;nbsp;&lt;br&gt;la primera columna&lt;br&gt;de la tabla&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="1110" y="185" width="50" height="50" as="geometry" />
+          <mxGeometry x="1110" y="55" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-14" target="mdYcMvUlgZSCt1_3ZbtV-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="930" y="250" as="sourcePoint" />
-            <mxPoint x="950" y="210" as="targetPoint" />
+            <mxPoint x="930" y="120" as="sourcePoint" />
+            <mxPoint x="950" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-44" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Código reportado en rips&lt;br&gt;&lt;font style=&quot;&quot;&gt;se encuentra en la&lt;br&gt;tabla de referencia&lt;/font&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="950" y="185" width="50" height="50" as="geometry" />
+          <mxGeometry x="950" y="55" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-47" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Valor cups coincide&lt;br&gt;con lo contratado?&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="1272.5" y="330" width="50" height="50" as="geometry" />
+        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-47" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Código encontrado en&lt;br&gt;la segunda columna&lt;br&gt;de la tabla&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
+          <mxGeometry x="1272.5" y="200" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mdYcMvUlgZSCt1_3ZbtV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mdYcMvUlgZSCt1_3ZbtV-22" target="mdYcMvUlgZSCt1_3ZbtV-25">
           <mxGeometry relative="1" as="geometry">
