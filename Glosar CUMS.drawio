@@ -1,194 +1,161 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T13:59:42.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="usgARdso4rCKikyDLMAH" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T14:37:25.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KHUAXNw6zZMV7OhAjnti" version="21.6.7" type="github">
   <diagram name="Página-1" id="6i_p-R7HKGtbfCE5hA1_">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-1" value="Glosar facturas de medicamentos CUMS" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="30" y="20" width="2450" height="1060" as="geometry" />
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-123" value="Glosar facturas de medicamentos no autorizados" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="1980" height="920" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-2" value="&lt;br&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" parent="mdYcMvUlgZSCt1_3ZbtV-1" vertex="1">
-          <mxGeometry y="20" width="2450" height="1040" as="geometry" />
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-124" value="Ingreso a módulo erip" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-123">
+          <mxGeometry y="20" width="1980" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-4" target="mdYcMvUlgZSCt1_3ZbtV-9" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-130" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-124">
+          <mxGeometry x="40" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-132" value="Realizar cargue de RIPS opcion &quot;PRIMERA VEZ&quot;, modalidad EVENTO y servicio ambulatorio" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-124">
+          <mxGeometry x="270" y="60" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-124" source="3LwcX4oNFDxZzFYPkHVs-134" target="3LwcX4oNFDxZzFYPkHVs-132">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="170" as="targetPoint" />
+            <mxPoint x="270" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="30" y="150" width="40" height="40" as="geometry" />
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-134" value="Ingresar a OASIS módulo erip" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-124">
+          <mxGeometry x="110" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3LwcX4oNFDxZzFYPkHVs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-7" target="3LwcX4oNFDxZzFYPkHVs-1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-124" source="3LwcX4oNFDxZzFYPkHVs-130" target="3LwcX4oNFDxZzFYPkHVs-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-135" value="Llamar función para validar códigos CUMS en tabla de referencia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-124">
+          <mxGeometry x="460" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-124" source="3LwcX4oNFDxZzFYPkHVs-132" target="3LwcX4oNFDxZzFYPkHVs-135">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-7" value="Realizar cargue de RIPS opcion &quot;PRIMERA VEZ&quot;, modalidad EVENTO y servicio ambulatorio" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="260" y="130" width="140" height="80" as="geometry" />
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-125" value="Todos los cums en el AS" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-123">
+          <mxGeometry y="240" width="1980" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-9" target="mdYcMvUlgZSCt1_3ZbtV-7" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-3" value="&lt;font size=&quot;1&quot;&gt;Todos los códigos&lt;br&gt;CUMS están&amp;nbsp;en el AS&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-125">
+          <mxGeometry x="495" y="85" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-8" value="Validar los CUMS encontrados en el AS, si el valor es MAYOR al valor autorizado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-125">
+          <mxGeometry x="626.25" y="70" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-7" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-125" source="3LwcX4oNFDxZzFYPkHVs-3" target="3LwcX4oNFDxZzFYPkHVs-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="170" as="targetPoint" />
+            <mxPoint x="606.25" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-9" value="Ingresar a OASIS módulo erip" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="100" y="130" width="120" height="80" as="geometry" />
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-9" value="&lt;font size=&quot;1&quot;&gt;Valor de RIPS &lt;br&gt;mayor al AS&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-125">
+          <mxGeometry x="816.25" y="85" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mdYcMvUlgZSCt1_3ZbtV-2" target="mdYcMvUlgZSCt1_3ZbtV-40" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="899.5" y="170" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-16" target="mdYcMvUlgZSCt1_3ZbtV-52" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1645" y="820" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-40" target="mdYcMvUlgZSCt1_3ZbtV-47" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1135" y="330" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="975" y="355" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-46" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mdYcMvUlgZSCt1_3ZbtV-45" vertex="1" connectable="0">
-          <mxGeometry x="0.2469" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-87" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-40" target="mdYcMvUlgZSCt1_3ZbtV-89" edge="1">
-          <mxGeometry x="-0.2381" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-40" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Código encontrado en&amp;nbsp;&lt;br&gt;la primera columna&lt;br&gt;de la tabla&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="950" y="145" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-50" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-47" target="mdYcMvUlgZSCt1_3ZbtV-51" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1380" y="315" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-80" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-47" target="mdYcMvUlgZSCt1_3ZbtV-78" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1055" y="620" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-47" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Código encontrado en&lt;br&gt;la segunda columna&lt;br&gt;de la tabla&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="1030" y="330" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-55" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-52" target="mdYcMvUlgZSCt1_3ZbtV-54" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1788" y="495" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-95" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-52" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1810" y="685" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1725" y="685" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-52" value="&lt;font size=&quot;1&quot;&gt;Todos los códigos&lt;br&gt;reportados están&amp;nbsp;&lt;br&gt;en el AS&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="1700" y="470" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-54" target="mdYcMvUlgZSCt1_3ZbtV-58" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-125" source="3LwcX4oNFDxZzFYPkHVs-8" target="3LwcX4oNFDxZzFYPkHVs-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-54" value="Validar si la tarifa reportada coincide con las del AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="1810" y="455" width="135" height="80" as="geometry" />
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-12" value="Realizar el calculo de la diferencia del valor facturado vs valor autorizado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-125">
+          <mxGeometry x="960" y="70" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-60" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-58" target="mdYcMvUlgZSCt1_3ZbtV-61" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-11" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-125" source="3LwcX4oNFDxZzFYPkHVs-9" target="3LwcX4oNFDxZzFYPkHVs-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2150" y="495" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2025" y="385" />
-            </Array>
+            <mxPoint x="926.25" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-72" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-58" target="mdYcMvUlgZSCt1_3ZbtV-66" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-14" value="Crear en EFAC el documento FD en estado ACTIVO por el valor de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-125">
+          <mxGeometry x="1130" y="70" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-125" source="3LwcX4oNFDxZzFYPkHVs-12" target="3LwcX4oNFDxZzFYPkHVs-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-16" value="Crear en EFAC el documento FS en estado ACTIVO por el valor total reportado en RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-125">
+          <mxGeometry x="1313.75" y="70" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-125" source="3LwcX4oNFDxZzFYPkHVs-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-18" value="Asignar el código de la glosa 207 Medicamentos" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-125">
+          <mxGeometry x="1483.75" y="70" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-125" source="3LwcX4oNFDxZzFYPkHVs-16" target="3LwcX4oNFDxZzFYPkHVs-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1503.75" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-19" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-125">
+          <mxGeometry x="1663.75" y="85" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-125" source="3LwcX4oNFDxZzFYPkHVs-18" target="3LwcX4oNFDxZzFYPkHVs-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-58" value="&lt;font size=&quot;1&quot;&gt;Tarifa reportada&lt;br&gt;coincide con AS&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="2000" y="470" width="50" height="50" as="geometry" />
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="3LwcX4oNFDxZzFYPkHVs-36" target="3LwcX4oNFDxZzFYPkHVs-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-61" target="mdYcMvUlgZSCt1_3ZbtV-63" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="3LwcX4oNFDxZzFYPkHVs-12" target="3LwcX4oNFDxZzFYPkHVs-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-61" value="Continuar con proceso de validación de RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="2100" y="345" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-63" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="2280" y="360" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-66" value="Glosar la diferencia del valor cobrado en los rips vs el valor del AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="2100" y="455" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-51" value="Buscar en la primera columna que código genérico se asocia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="1165" y="315" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-75" value="Glosar el valor total del código no encontrado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="1915" y="645" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-77" target="mdYcMvUlgZSCt1_3ZbtV-89" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="3LwcX4oNFDxZzFYPkHVs-16" target="3LwcX4oNFDxZzFYPkHVs-40">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1390" y="620" />
-              <mxPoint x="1390" y="495" />
+              <mxPoint x="1381.75" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-77" value="Buscar en la primera fila los códigos genéricos asociados" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="1230" y="580" width="135" height="80" as="geometry" />
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-126" value="Lane 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-123">
+          <mxGeometry y="460" width="1980" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-81" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-78" target="mdYcMvUlgZSCt1_3ZbtV-77" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-36" value="Incluir en el valor de la glosa los servicios que se reportaron adicionales que no están en el AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-126">
+          <mxGeometry x="960" y="80" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-40" value="Asignar el código de la glosa 207 Medicamentos" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-126">
+          <mxGeometry x="1483.75" y="80" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-30" value="Validar si existen códigos CUMS en el AS y adicional reportan otros no autorizados" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-126">
+          <mxGeometry x="630" y="80" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-140" value="&lt;font size=&quot;1&quot;&gt;Existen CUMS en el&lt;br&gt;AS y adicional reportan&lt;br&gt;CUMS no autorizados&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-126">
+          <mxGeometry x="830" y="95" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-126" source="3LwcX4oNFDxZzFYPkHVs-30" target="3LwcX4oNFDxZzFYPkHVs-140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="590" as="sourcePoint" />
+            <mxPoint x="980" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-128" value="Lane 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-123">
+          <mxGeometry y="700" width="1980" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-23" value="Validar si existen códigos CUMS en el AS y adicional reportan otros no autorizados" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-128">
+          <mxGeometry x="787.5" y="60" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="3LwcX4oNFDxZzFYPkHVs-135" target="3LwcX4oNFDxZzFYPkHVs-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-82" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-78" target="mdYcMvUlgZSCt1_3ZbtV-83" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-137" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="3LwcX4oNFDxZzFYPkHVs-3" target="3LwcX4oNFDxZzFYPkHVs-30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1135" y="870" as="targetPoint" />
+            <mxPoint x="668.75" y="580" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1135" y="860" />
+              <mxPoint x="520" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-78" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Código encontrado en&lt;br&gt;la tercera columna&lt;br&gt;de la tabla&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="1110" y="595" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-83" target="mdYcMvUlgZSCt1_3ZbtV-89" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-138" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="3LwcX4oNFDxZzFYPkHVs-140" target="3LwcX4oNFDxZzFYPkHVs-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1445" y="860" />
+              <mxPoint x="855" y="490" />
+              <mxPoint x="694" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-83" value="Buscar el código en la tabla del módulo epro de OASIS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="1275" y="820" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-16" value="Validar código homologado en el Número para Facturar AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="1510" y="455" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-89" target="mdYcMvUlgZSCt1_3ZbtV-16" edge="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="3LwcX4oNFDxZzFYPkHVs-140" target="3LwcX4oNFDxZzFYPkHVs-23">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-89" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=end;symbol=general;" parent="mdYcMvUlgZSCt1_3ZbtV-2" vertex="1">
-          <mxGeometry x="1420" y="470" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mdYcMvUlgZSCt1_3ZbtV-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mdYcMvUlgZSCt1_3ZbtV-2" source="mdYcMvUlgZSCt1_3ZbtV-51" target="mdYcMvUlgZSCt1_3ZbtV-89" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="355" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1390" y="355" />
-              <mxPoint x="1390" y="495" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3LwcX4oNFDxZzFYPkHVs-1" value="Llamar función para validar códigos CUMS en tabla de referencia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="mdYcMvUlgZSCt1_3ZbtV-2">
-          <mxGeometry x="450" y="130" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
