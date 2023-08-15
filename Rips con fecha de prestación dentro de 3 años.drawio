@@ -1,9 +1,196 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T14:55:21.042Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="5AsnYVg2_3bxKf4FKDAc" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T14:55:32.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="J7TRVdxNcvbH6Zeom2EC" version="21.6.8" type="github">
   <diagram name="Página-1" id="ZgoGdYMPFus1UZBMLvh4">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="550" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U19V9XCa81fR7P9M3wvY-1" value="Glosar facturas de medicamentos no autorizados" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="1940" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U19V9XCa81fR7P9M3wvY-1" source="U19V9XCa81fR7P9M3wvY-20" target="U19V9XCa81fR7P9M3wvY-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="668.75" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-3" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-1" source="U19V9XCa81fR7P9M3wvY-34" target="U19V9XCa81fR7P9M3wvY-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="855" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-4" value="OASIS" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-1">
+          <mxGeometry y="20" width="1940" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-5" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-4">
+          <mxGeometry x="40" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-6" value="Realizar cargue de RIPS opcion &quot;PRIMERA VEZ&quot;, modalidad EVENTO y servicio ambulatorio" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-4">
+          <mxGeometry x="270" y="60" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-4" source="U19V9XCa81fR7P9M3wvY-8" target="U19V9XCa81fR7P9M3wvY-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-8" value="Ingresar a OASIS módulo erip" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-4">
+          <mxGeometry x="110" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U19V9XCa81fR7P9M3wvY-4" source="U19V9XCa81fR7P9M3wvY-5" target="U19V9XCa81fR7P9M3wvY-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-10" value="Llamar función para validar códigos CUMS en tabla de referencia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-4">
+          <mxGeometry x="460" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U19V9XCa81fR7P9M3wvY-4" source="U19V9XCa81fR7P9M3wvY-6" target="U19V9XCa81fR7P9M3wvY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-12" value="Crear en EFAC el documento FD en estado ACTIVO por el valor de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-4">
+          <mxGeometry x="1300" y="60" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-13" value="Crear en EFAC el documento FS en estado ACTIVO por el valor total reportado en RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-4">
+          <mxGeometry x="1483.75" y="60" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-4" source="U19V9XCa81fR7P9M3wvY-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-15" value="Registrar código de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-4">
+          <mxGeometry x="1653.75" y="60" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U19V9XCa81fR7P9M3wvY-4" source="U19V9XCa81fR7P9M3wvY-13" target="U19V9XCa81fR7P9M3wvY-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1673.75" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-17" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-4">
+          <mxGeometry x="1833.75" y="75" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-4" source="U19V9XCa81fR7P9M3wvY-15" target="U19V9XCa81fR7P9M3wvY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-19" value="Todos los cums en el AS" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-1">
+          <mxGeometry y="240" width="1940" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-20" value="&lt;font size=&quot;1&quot;&gt;Todos los códigos&lt;br&gt;CUMS están&amp;nbsp;en el AS&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-19">
+          <mxGeometry x="495" y="65" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-21" value="Validar los CUMS encontrados en el AS, si el valor es MAYOR al valor autorizado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-19">
+          <mxGeometry x="626.25" y="50" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-22" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U19V9XCa81fR7P9M3wvY-19" source="U19V9XCa81fR7P9M3wvY-20" target="U19V9XCa81fR7P9M3wvY-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="606.25" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-23" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U19V9XCa81fR7P9M3wvY-19" source="U19V9XCa81fR7P9M3wvY-24" target="U19V9XCa81fR7P9M3wvY-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="841.25" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-24" value="&lt;font size=&quot;1&quot;&gt;Valor de RIPS &lt;br&gt;mayor al AS&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-19">
+          <mxGeometry x="816.25" y="65" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-19" source="U19V9XCa81fR7P9M3wvY-21" target="U19V9XCa81fR7P9M3wvY-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-26" value="Realizar el calculo de la diferencia del valor facturado vs valor autorizado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-19">
+          <mxGeometry x="940" y="50" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-27" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-19" source="U19V9XCa81fR7P9M3wvY-24" target="U19V9XCa81fR7P9M3wvY-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="926.25" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-28" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-19">
+          <mxGeometry x="816.25" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-19" source="U19V9XCa81fR7P9M3wvY-30" target="U19V9XCa81fR7P9M3wvY-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-30" value="Código glosa: 207" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-19">
+          <mxGeometry x="952.5" y="200" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-31" value="CUMS en el AS y reportan otros no autorizados" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-1">
+          <mxGeometry y="530" width="1940" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-32" value="Validar si existen códigos CUMS en el AS y adicional reportan otros no autorizados" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-31">
+          <mxGeometry x="630" y="100" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-31" source="U19V9XCa81fR7P9M3wvY-34" target="U19V9XCa81fR7P9M3wvY-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-34" value="&lt;font size=&quot;1&quot;&gt;Existen CUMS en el&lt;br&gt;AS y adicional reportan&lt;br&gt;CUMS no autorizados&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-31">
+          <mxGeometry x="830" y="115" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U19V9XCa81fR7P9M3wvY-31" source="U19V9XCa81fR7P9M3wvY-32" target="U19V9XCa81fR7P9M3wvY-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="590" as="sourcePoint" />
+            <mxPoint x="980" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-31" source="U19V9XCa81fR7P9M3wvY-37" target="U19V9XCa81fR7P9M3wvY-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-37" value="Validar los CUMS encontrados en el AS, s el valor es MAYOR al valor autorizado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-31">
+          <mxGeometry x="940" y="100" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-38" value="Realizar calculo de la diferencia del valor factura mas los AS no autorizados vs el valor del AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-31">
+          <mxGeometry x="1130" y="100" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-31" source="U19V9XCa81fR7P9M3wvY-40" target="U19V9XCa81fR7P9M3wvY-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-40" value="Código glosa: 430" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-31">
+          <mxGeometry x="1142.5" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-41" value="No existen CUMS en el AS" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-1">
+          <mxGeometry y="860" width="1940" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-41" source="U19V9XCa81fR7P9M3wvY-43" target="U19V9XCa81fR7P9M3wvY-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-43" value="No existen ninguno de los códigos reportados en el AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-41">
+          <mxGeometry x="940" y="60" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-44" value="Glosar el 100% del valor total de la factura" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-41">
+          <mxGeometry x="1130" y="60" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-41" source="U19V9XCa81fR7P9M3wvY-46" target="U19V9XCa81fR7P9M3wvY-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-46" value="Código glosa: 423" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U19V9XCa81fR7P9M3wvY-41">
+          <mxGeometry x="1142.5" y="190" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U19V9XCa81fR7P9M3wvY-1" source="U19V9XCa81fR7P9M3wvY-10" target="U19V9XCa81fR7P9M3wvY-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="U19V9XCa81fR7P9M3wvY-1" source="U19V9XCa81fR7P9M3wvY-26" target="U19V9XCa81fR7P9M3wvY-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1008" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U19V9XCa81fR7P9M3wvY-1" source="U19V9XCa81fR7P9M3wvY-38" target="U19V9XCa81fR7P9M3wvY-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="310" />
+              <mxPoint x="1334" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U19V9XCa81fR7P9M3wvY-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U19V9XCa81fR7P9M3wvY-1" source="U19V9XCa81fR7P9M3wvY-44" target="U19V9XCa81fR7P9M3wvY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
