@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T20:21:00.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.9" etag="LeuvAo_YdkMQpi4ZspON" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T20:30:39.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Ad9bxvrLL-9qiQsHUbPa" version="21.6.9" type="github">
   <diagram name="Página-1" id="bUaak_N1VkIxOP4g0amv">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-1" value="Ocultar número para facturar cuando se muestre el mensaje de aprobación del A3" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1560" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-2" value="ZonaSer Prestador" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-1">
+          <mxGeometry y="20" width="1560" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-4" target="7gjInvr5XFCQL2jtsFNz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#E0E68E;strokeColor=#95A81A;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="50" y="67.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ingresar a ZonaSer Prestador&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="140" y="60" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-10" target="7gjInvr5XFCQL2jtsFNz-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="133" as="sourcePoint" />
+            <mxPoint x="300" y="92.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-37" target="7gjInvr5XFCQL2jtsFNz-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-37" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ingresar al Modulo de &quot;Consulta General&quot;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="300" y="60" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-39" target="7gjInvr5XFCQL2jtsFNz-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-39" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Escoger en Tipo de Consulta &quot;Solicitud de Servicio de Salud&quot;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="460" y="60" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-41" target="7gjInvr5XFCQL2jtsFNz-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="357.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-41" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Realizar búsqueda del A3 en estado PENDIENTE&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="620" y="60" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-43" target="7gjInvr5XFCQL2jtsFNz-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-43" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ingresar al detalle de la solicitud A3&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="780" y="60" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-49" target="7gjInvr5XFCQL2jtsFNz-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-49" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Ingresar al detalle del A3&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="940" y="60" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-52" target="7gjInvr5XFCQL2jtsFNz-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="140" />
+              <mxPoint x="1120" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-52" target="7gjInvr5XFCQL2jtsFNz-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-52" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="1100" y="72.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-53" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Clic botón Confirmación&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="1090" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-75" target="7gjInvr5XFCQL2jtsFNz-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1950" y="357.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-67" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="1500" y="67.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7gjInvr5XFCQL2jtsFNz-2" source="7gjInvr5XFCQL2jtsFNz-73" target="7gjInvr5XFCQL2jtsFNz-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-73" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Aprobar solicitud de servicio y generar mensaje&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="1180" y="60" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="7gjInvr5XFCQL2jtsFNz-75" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Ocultar el número para facturar en el mensaje&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#E0E9F5;strokeColor=#6c8ebf;" vertex="1" parent="7gjInvr5XFCQL2jtsFNz-2">
+          <mxGeometry x="1340" y="60" width="120" height="65" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
