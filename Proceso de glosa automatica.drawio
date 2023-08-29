@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T14:59:56.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TfkPNHM-osVvt8lzswl_" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T15:10:22.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vOxh3Of50ROxtZKJEMPw" version="21.6.9" type="github">
   <diagram name="Página-1" id="aSP395trPARNyPkSzp0Z">
-    <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,129 +166,44 @@
             <mxPoint x="1670" y="105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-99" value="&lt;font size=&quot;1&quot;&gt;Genera glosa de CUPS?&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
-          <mxGeometry x="1530" y="95" width="50" height="50" as="geometry" />
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-99" value="&lt;font size=&quot;1&quot;&gt;Genera glosa de CUPS/CUMS?&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
+          <mxGeometry x="1550" y="95" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-31" source="MScTOehCrpyFGFz5a2Hk-97" target="MScTOehCrpyFGFz5a2Hk-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-114" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
-          <mxGeometry x="1530" y="10" width="50" height="50" as="geometry" />
+          <mxGeometry x="1550" y="10" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-116" value="Crear en EFAC el documento FD en estado ACTIVO por el valor de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
-          <mxGeometry x="1680" y="80" width="135" height="80" as="geometry" />
+          <mxGeometry x="1790" y="15" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-31" source="MScTOehCrpyFGFz5a2Hk-117" target="MScTOehCrpyFGFz5a2Hk-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-31" source="MScTOehCrpyFGFz5a2Hk-117" target="MScTOehCrpyFGFz5a2Hk-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-117" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
+          <mxGeometry x="1690" y="95" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-120" value="Crear en EFAC el documento FS en estado ACTIVO por el valor total reportado en RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
+          <mxGeometry x="1790" y="140" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-41" value="Glosa CUPS" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-1">
           <mxGeometry y="740" width="2920" height="180" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-113" value="Realizar proceso de glosa de CUPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-41">
-          <mxGeometry x="1495" y="50" width="120" height="80" as="geometry" />
+          <mxGeometry x="1515" y="50" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-51" value="Glosa CUMS" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-1">
           <mxGeometry y="920" width="2920" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-52" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-51">
-          <mxGeometry x="40" y="80" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-53" value="Realizar cargue de RIPS opcion &quot;PRIMERA VEZ&quot;, modalidad EVENTO y servicio ambulatorio" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-51">
-          <mxGeometry x="270" y="60" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-51" source="MScTOehCrpyFGFz5a2Hk-55" target="MScTOehCrpyFGFz5a2Hk-53">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-55" value="Ingresar a OASIS módulo erip" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-51">
-          <mxGeometry x="110" y="60" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-51" source="MScTOehCrpyFGFz5a2Hk-52" target="MScTOehCrpyFGFz5a2Hk-55">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-57" value="Llamar función para validar códigos CUMS en tabla de referencia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-51">
-          <mxGeometry x="460" y="60" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-51" source="MScTOehCrpyFGFz5a2Hk-53" target="MScTOehCrpyFGFz5a2Hk-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-59" value="Crear en EFAC el documento FD en estado ACTIVO por el valor de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-51">
-          <mxGeometry x="1300" y="60" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-60" value="Crear en EFAC el documento FS en estado ACTIVO por el valor total reportado en RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-51">
-          <mxGeometry x="1483.75" y="60" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-51" source="MScTOehCrpyFGFz5a2Hk-59">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1480" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-62" value="Registrar código de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-51">
-          <mxGeometry x="1653.75" y="60" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-51" source="MScTOehCrpyFGFz5a2Hk-60" target="MScTOehCrpyFGFz5a2Hk-62">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1673.75" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-64" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-51">
-          <mxGeometry x="1833.75" y="75" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-51" source="MScTOehCrpyFGFz5a2Hk-62" target="MScTOehCrpyFGFz5a2Hk-64">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-123" value="Realizar proceso de glosa de CUMS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-51">
+          <mxGeometry x="1515" y="85" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-72" value="Glosa afiliado fallecido o retirado" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-1">
           <mxGeometry y="1170" width="2920" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-73" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-72">
-          <mxGeometry x="40" y="80" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-74" value="Realizar cargue de RIPS opcion &quot;PRIMERA VEZ&quot;, modalidad EVENTO y servicio ambulatorio" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-72">
-          <mxGeometry x="270" y="60" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-72" source="MScTOehCrpyFGFz5a2Hk-76" target="MScTOehCrpyFGFz5a2Hk-74">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-76" value="Ingresar a OASIS módulo erip" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-72">
-          <mxGeometry x="110" y="60" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-72" source="MScTOehCrpyFGFz5a2Hk-73" target="MScTOehCrpyFGFz5a2Hk-76">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-78" value="Llamar función para validar códigos CUMS en tabla de referencia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-72">
-          <mxGeometry x="460" y="60" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-72" source="MScTOehCrpyFGFz5a2Hk-74" target="MScTOehCrpyFGFz5a2Hk-78">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-80" value="Crear en EFAC el documento FD en estado ACTIVO por el valor de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-72">
-          <mxGeometry x="1300" y="60" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-81" value="Crear en EFAC el documento FS en estado ACTIVO por el valor total reportado en RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-72">
-          <mxGeometry x="1483.75" y="60" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-72" source="MScTOehCrpyFGFz5a2Hk-80">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1480" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-83" value="Registrar código de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-72">
-          <mxGeometry x="1653.75" y="60" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-72" source="MScTOehCrpyFGFz5a2Hk-81" target="MScTOehCrpyFGFz5a2Hk-83">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1673.75" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-85" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-72">
-          <mxGeometry x="1833.75" y="75" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-72" source="MScTOehCrpyFGFz5a2Hk-83" target="MScTOehCrpyFGFz5a2Hk-85">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-1" source="MScTOehCrpyFGFz5a2Hk-88" target="MScTOehCrpyFGFz5a2Hk-90">
           <mxGeometry relative="1" as="geometry">
@@ -306,10 +221,22 @@
         <mxCell id="MScTOehCrpyFGFz5a2Hk-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-1" source="MScTOehCrpyFGFz5a2Hk-40" target="MScTOehCrpyFGFz5a2Hk-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-1" source="MScTOehCrpyFGFz5a2Hk-113" target="MScTOehCrpyFGFz5a2Hk-116">
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-1" source="MScTOehCrpyFGFz5a2Hk-113" target="MScTOehCrpyFGFz5a2Hk-117">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1800" y="830" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-1" source="MScTOehCrpyFGFz5a2Hk-99" target="MScTOehCrpyFGFz5a2Hk-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1490" y="620" />
+              <mxPoint x="1490" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-1" source="MScTOehCrpyFGFz5a2Hk-123" target="MScTOehCrpyFGFz5a2Hk-117">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
