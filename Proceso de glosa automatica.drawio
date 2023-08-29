@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T15:18:51.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="LAmrj0Gt4KbyvNmYYcKe" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T15:20:50.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="a4Nki4UCPKchYipgrCvb" version="21.6.9" type="github">
   <diagram name="Página-1" id="aSP395trPARNyPkSzp0Z">
     <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -69,6 +69,11 @@
         <mxCell id="MScTOehCrpyFGFz5a2Hk-91" value="&lt;font size=&quot;1&quot;&gt;Cumplen con las&amp;nbsp;&lt;br&gt;validaciones de&amp;nbsp;&lt;br&gt;estructura&lt;br&gt;&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-4">
           <mxGeometry x="880" y="75" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-4" source="MScTOehCrpyFGFz5a2Hk-94" target="MScTOehCrpyFGFz5a2Hk-151">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-94" value="Generar informe de reporte de errores de estructura" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-4">
           <mxGeometry x="1060" y="60" width="135" height="80" as="geometry" />
         </mxCell>
@@ -80,6 +85,9 @@
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-95" value="Clic botón &lt;br&gt;validar" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-4">
           <mxGeometry x="1240" y="175" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-151" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-4">
+          <mxGeometry x="1240" y="75" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-19" value="modulo eraf" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-1">
           <mxGeometry y="290" width="2550" height="210" as="geometry" />
@@ -124,7 +132,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-116" value="Crear en EFAC el documento FD en estado ACTIVO por el valor de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
-          <mxGeometry x="1980" y="10" width="135" height="80" as="geometry" />
+          <mxGeometry x="1980" y="55" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-31" source="MScTOehCrpyFGFz5a2Hk-117" target="MScTOehCrpyFGFz5a2Hk-120">
           <mxGeometry relative="1" as="geometry" />
@@ -135,23 +143,26 @@
         <mxCell id="MScTOehCrpyFGFz5a2Hk-117" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
           <mxGeometry x="1890" y="150" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-31" source="MScTOehCrpyFGFz5a2Hk-120" target="MScTOehCrpyFGFz5a2Hk-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-120" value="Crear en EFAC el documento FS en estado ACTIVO por el valor total reportado en RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
-          <mxGeometry x="1980" y="135" width="135" height="80" as="geometry" />
+          <mxGeometry x="1980" y="210" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-31" source="MScTOehCrpyFGFz5a2Hk-126" target="MScTOehCrpyFGFz5a2Hk-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-126" value="Insertar en el detalle del FD el o los tipo(s) de glosa(s)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
-          <mxGeometry x="2150" y="10" width="135" height="80" as="geometry" />
+          <mxGeometry x="2150" y="55" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-31" source="MScTOehCrpyFGFz5a2Hk-127" target="MScTOehCrpyFGFz5a2Hk-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-127" value="Agregar en el campo observaciones el resultado de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
-          <mxGeometry x="2310" y="10" width="135" height="80" as="geometry" />
+          <mxGeometry x="2310" y="55" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-17" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
-          <mxGeometry x="2480" y="25" width="50" height="50" as="geometry" />
+          <mxGeometry x="2480" y="70" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-113" value="Realizar proceso de glosa de CUPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
           <mxGeometry x="1710" y="15" width="120" height="80" as="geometry" />
@@ -184,6 +195,9 @@
         <mxCell id="MScTOehCrpyFGFz5a2Hk-130" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
           <mxGeometry x="1640" y="150" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MScTOehCrpyFGFz5a2Hk-31" source="MScTOehCrpyFGFz5a2Hk-135" target="MScTOehCrpyFGFz5a2Hk-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-135" value="Realizar proceso de glosa afiliado fallecido o retirao" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
           <mxGeometry x="1710" y="260" width="120" height="80" as="geometry" />
         </mxCell>
@@ -192,6 +206,9 @@
             <mxPoint x="1850" y="565" as="sourcePoint" />
             <mxPoint x="1905" y="150" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MScTOehCrpyFGFz5a2Hk-148" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="MScTOehCrpyFGFz5a2Hk-31">
+          <mxGeometry x="2022.5" y="310" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
