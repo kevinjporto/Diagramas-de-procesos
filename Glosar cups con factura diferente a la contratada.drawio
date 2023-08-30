@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T15:41:27.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XsIUqcoYaDw_3DnHb8I-" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T16:16:17.636Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="q-ijRWjx4Q3TcXOjiEuq" version="21.7.0" type="github">
   <diagram name="Página-1" id="SKrP5Ogb6LURRghhHCP2">
-    <mxGraphModel dx="1674" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="550" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="550" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="iDgbX58GDVkkqR7G9HbA-2" value="RIps" style="swimlane;html=1;startSize=20;horizontal=0;" parent="iDgbX58GDVkkqR7G9HbA-1" vertex="1">
           <mxGeometry y="20" width="1830" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-4" target="iDgbX58GDVkkqR7G9HbA-19" edge="1">
+        <mxCell id="iDgbX58GDVkkqR7G9HbA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-4" target="iDgbX58GDVkkqR7G9HbA-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="210" as="targetPoint" />
           </mxGeometry>
@@ -18,53 +18,25 @@
         <mxCell id="iDgbX58GDVkkqR7G9HbA-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" parent="iDgbX58GDVkkqR7G9HbA-2" vertex="1">
           <mxGeometry x="30" y="190" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-20" target="iDgbX58GDVkkqR7G9HbA-22" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="210" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-17" target="iDgbX58GDVkkqR7G9HbA-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-17" value="Escoger proceso &quot;&lt;i&gt;PRIMERA VEZ&quot;&lt;/i&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iDgbX58GDVkkqR7G9HbA-2" vertex="1">
-          <mxGeometry x="260" y="170" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-19" target="iDgbX58GDVkkqR7G9HbA-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-19" value="Ingresar a OASIS módulo erip" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iDgbX58GDVkkqR7G9HbA-2" vertex="1">
-          <mxGeometry x="100" y="170" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-20" value="Seleccionar modalidad &lt;i&gt;PBS &lt;/i&gt;y Servicio &quot;&lt;i&gt;Ambulatorio&quot;&lt;/i&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iDgbX58GDVkkqR7G9HbA-2" vertex="1">
-          <mxGeometry x="430" y="170" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-22" target="iDgbX58GDVkkqR7G9HbA-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-22" value="Dar clic en validar u cargar archivos RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iDgbX58GDVkkqR7G9HbA-2" vertex="1">
-          <mxGeometry x="590" y="170" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="iDgbX58GDVkkqR7G9HbA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-24" target="iDgbX58GDVkkqR7G9HbA-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="932" y="210" as="sourcePoint" />
             <mxPoint x="972.5" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-24" value="Verificar que los cups reportados en los rips (AP y AC) se encuentren en el AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iDgbX58GDVkkqR7G9HbA-2" vertex="1">
-          <mxGeometry x="759.5" y="170" width="140" height="80" as="geometry" />
+        <mxCell id="iDgbX58GDVkkqR7G9HbA-24" value="Facturas cargadas en efac" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iDgbX58GDVkkqR7G9HbA-2" vertex="1">
+          <mxGeometry x="110" y="170" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iDgbX58GDVkkqR7G9HbA-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-26" target="iDgbX58GDVkkqR7G9HbA-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iDgbX58GDVkkqR7G9HbA-26" value="Validar si el valor de los cups coincide con el valor contratado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iDgbX58GDVkkqR7G9HbA-2" vertex="1">
-          <mxGeometry x="1080" y="30" width="135" height="80" as="geometry" />
+          <mxGeometry x="440" y="20" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iDgbX58GDVkkqR7G9HbA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-32" target="iDgbX58GDVkkqR7G9HbA-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="965" y="70" />
+              <mxPoint x="315" y="60" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -76,13 +48,13 @@
         <mxCell id="iDgbX58GDVkkqR7G9HbA-35" value="Uno o mas cups &lt;br&gt;se encuentran en el AS &lt;br&gt;y existen otros que &lt;br&gt;no están en el AS?" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-32" target="iDgbX58GDVkkqR7G9HbA-34" edge="1">
           <mxGeometry x="0.069" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="965" y="410" />
+              <mxPoint x="315" y="360" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iDgbX58GDVkkqR7G9HbA-32" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=standard;symbol=multiple;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iDgbX58GDVkkqR7G9HbA-2" vertex="1">
-          <mxGeometry x="940" y="185" width="50" height="50" as="geometry" />
+          <mxGeometry x="290" y="185" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iDgbX58GDVkkqR7G9HbA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-34" target="iDgbX58GDVkkqR7G9HbA-43" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -90,7 +62,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iDgbX58GDVkkqR7G9HbA-34" value="Validar si el valor de los cups que están en el AS coincide con lo contratado&amp;nbsp;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iDgbX58GDVkkqR7G9HbA-2" vertex="1">
-          <mxGeometry x="1080" y="370" width="135" height="80" as="geometry" />
+          <mxGeometry x="440" y="320" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iDgbX58GDVkkqR7G9HbA-44" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-43" target="iDgbX58GDVkkqR7G9HbA-45" edge="1">
           <mxGeometry relative="1" as="geometry">
