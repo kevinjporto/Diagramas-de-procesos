@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T16:57:10.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BQEApYsoeoXTHYR7b5mm" version="21.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T20:13:08.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="h0FuwxlPOy12q8GAIAa-" version="21.7.1" type="github">
   <diagram name="Página-1" id="aSP395trPARNyPkSzp0Z">
-    <mxGraphModel dx="2503" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2150" pageHeight="930" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2150" pageHeight="930" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,9 +147,11 @@
             <mxPoint x="1880" y="175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MScTOehCrpyFGFz5a2Hk-123" value="Realizar proceso de glosa de CUMS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="MScTOehCrpyFGFz5a2Hk-31" vertex="1">
-          <mxGeometry x="1710" y="135" width="120" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Realizar proceso de glosa de CUMS" link="https://app.diagrams.net/#Hkevinjporto%2FDiagramas-de-procesos%2Fmain%2FGlosar%20CUMS.drawio" id="MScTOehCrpyFGFz5a2Hk-123">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="MScTOehCrpyFGFz5a2Hk-31" vertex="1">
+            <mxGeometry x="1710" y="135" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="MScTOehCrpyFGFz5a2Hk-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="MScTOehCrpyFGFz5a2Hk-31" source="MScTOehCrpyFGFz5a2Hk-130" target="MScTOehCrpyFGFz5a2Hk-113" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
