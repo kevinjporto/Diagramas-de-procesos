@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T16:25:07.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="rQONER07swJ581GrEzHo" version="21.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T16:39:13.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FrDanXjdZZ8jmX6Nr6K6" version="21.7.0" type="github">
   <diagram name="Página-1" id="SKrP5Ogb6LURRghhHCP2">
-    <mxGraphModel dx="1502" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="550" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="550" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iDgbX58GDVkkqR7G9HbA-1" value="Glosa de CUPS" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="30" y="10" width="1830" height="1160" as="geometry" />
+          <mxGeometry x="30" y="10" width="1830" height="1220" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-85" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iDgbX58GDVkkqR7G9HbA-1" source="voKNRvu8rPhWnJosz7W9-56" target="voKNRvu8rPhWnJosz7W9-41">
+        <mxCell id="voKNRvu8rPhWnJosz7W9-85" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iDgbX58GDVkkqR7G9HbA-1" source="voKNRvu8rPhWnJosz7W9-56" target="voKNRvu8rPhWnJosz7W9-107">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="315" y="675" />
+              <mxPoint x="315" y="930" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iDgbX58GDVkkqR7G9HbA-2" value="Cargue de facturas en efac" style="swimlane;html=1;startSize=20;horizontal=0;" parent="iDgbX58GDVkkqR7G9HbA-1" vertex="1">
+        <mxCell id="iDgbX58GDVkkqR7G9HbA-2" value="Cargue de facturas" style="swimlane;html=1;startSize=20;horizontal=0;" parent="iDgbX58GDVkkqR7G9HbA-1" vertex="1">
           <mxGeometry y="20" width="1830" height="180" as="geometry" />
         </mxCell>
         <mxCell id="iDgbX58GDVkkqR7G9HbA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iDgbX58GDVkkqR7G9HbA-2" source="iDgbX58GDVkkqR7G9HbA-4" target="iDgbX58GDVkkqR7G9HbA-24" edge="1">
@@ -38,44 +38,13 @@
           <mxGeometry x="290" y="65" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="voKNRvu8rPhWnJosz7W9-30" value="Rips con todos los cups autorizados" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iDgbX58GDVkkqR7G9HbA-1">
-          <mxGeometry y="200" width="1830" height="330" as="geometry" />
+          <mxGeometry y="200" width="1830" height="360" as="geometry" />
         </mxCell>
         <mxCell id="voKNRvu8rPhWnJosz7W9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-30" source="voKNRvu8rPhWnJosz7W9-36" target="voKNRvu8rPhWnJosz7W9-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="voKNRvu8rPhWnJosz7W9-36" value="Validar si el valor de los cups coincide con el valor contratado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
           <mxGeometry x="360" y="50" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-42" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-30" source="voKNRvu8rPhWnJosz7W9-44" target="voKNRvu8rPhWnJosz7W9-46">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1370" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-43" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-30" source="voKNRvu8rPhWnJosz7W9-44" target="voKNRvu8rPhWnJosz7W9-48">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1285" y="270" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1285" y="310" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-44" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Valor cups coincide&lt;br&gt;con lo contratado?&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
-          <mxGeometry x="1260" y="385" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-30" source="voKNRvu8rPhWnJosz7W9-46" target="voKNRvu8rPhWnJosz7W9-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-46" value="Glosar los cups que no se encuentran en el AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
-          <mxGeometry x="1370" y="370" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-30" source="voKNRvu8rPhWnJosz7W9-48" target="voKNRvu8rPhWnJosz7W9-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-48" value="Glosar la diferencia de los cups que están en el AS&amp;nbsp; vs contratado mas el valor de los cups adicionales" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
-          <mxGeometry x="1370" y="230" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-49" value="Registrar la glosa en OASIS en el modulo efac" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
-          <mxGeometry x="1600" y="185" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="voKNRvu8rPhWnJosz7W9-50" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="voKNRvu8rPhWnJosz7W9-30" source="voKNRvu8rPhWnJosz7W9-52" target="voKNRvu8rPhWnJosz7W9-53">
           <mxGeometry relative="1" as="geometry">
@@ -86,87 +55,118 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1285" y="180" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1285" y="170" />
+              <mxPoint x="565" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="voKNRvu8rPhWnJosz7W9-52" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Valor cups coincide&lt;br&gt;con lo contratado?&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
-          <mxGeometry x="1260" y="45" width="50" height="50" as="geometry" />
+          <mxGeometry x="540" y="65" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="voKNRvu8rPhWnJosz7W9-30" source="voKNRvu8rPhWnJosz7W9-53" target="voKNRvu8rPhWnJosz7W9-86">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="voKNRvu8rPhWnJosz7W9-53" value="Continuar con proceso de validación de RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
-          <mxGeometry x="1370" y="30" width="135" height="80" as="geometry" />
+          <mxGeometry x="670" y="50" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-30" source="voKNRvu8rPhWnJosz7W9-55" target="voKNRvu8rPhWnJosz7W9-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-55" value="Glosar la diferencia del valor cobrado en los rips vs contratado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
-          <mxGeometry x="1370" y="130" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-57" value="Rips con servicios adicionales" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iDgbX58GDVkkqR7G9HbA-1">
-          <mxGeometry y="530" width="1830" height="630" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" target="voKNRvu8rPhWnJosz7W9-71">
+        <mxCell id="voKNRvu8rPhWnJosz7W9-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="voKNRvu8rPhWnJosz7W9-30" source="voKNRvu8rPhWnJosz7W9-55" target="voKNRvu8rPhWnJosz7W9-91">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1260" y="380" as="targetPoint" />
-            <mxPoint x="575" y="380" as="sourcePoint" />
+            <mxPoint x="860" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-69" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" source="voKNRvu8rPhWnJosz7W9-71" target="voKNRvu8rPhWnJosz7W9-73">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1370" y="380" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-55" value="Calcular la diferencia del valor cobrado vs valor autorizado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
+          <mxGeometry x="670" y="200" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-70" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" source="voKNRvu8rPhWnJosz7W9-71" target="voKNRvu8rPhWnJosz7W9-75">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1285" y="270" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1285" y="310" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-86" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
+          <mxGeometry x="850" y="65" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-71" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Valor cups coincide&lt;br&gt;con lo contratado?&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
-          <mxGeometry x="1260" y="385" width="50" height="50" as="geometry" />
+        <mxCell id="voKNRvu8rPhWnJosz7W9-91" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-30">
+          <mxGeometry x="850" y="215" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" source="voKNRvu8rPhWnJosz7W9-73" target="voKNRvu8rPhWnJosz7W9-76">
+        <mxCell id="voKNRvu8rPhWnJosz7W9-57" value="modulo efac" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iDgbX58GDVkkqR7G9HbA-1">
+          <mxGeometry y="560" width="1830" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-90" value="Crear en EFAC el documento FD en estado ACTIVO por el valor de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
+          <mxGeometry x="950" y="90" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-93" value="Crear en EFAC el documento FS en estado ACTIVO por el valor total reportado en RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
+          <mxGeometry x="950" y="225" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-95" value="Insertar en el detalle del FD el o los tipo(s) de glosa(s)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
+          <mxGeometry x="1130" y="90" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" source="voKNRvu8rPhWnJosz7W9-90" target="voKNRvu8rPhWnJosz7W9-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-73" value="Glosar los cups que no se encuentran en el AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
-          <mxGeometry x="1370" y="370" width="135" height="80" as="geometry" />
+        <mxCell id="voKNRvu8rPhWnJosz7W9-97" value="Agregar en el campo observaciones el resultado de la glosa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
+          <mxGeometry x="1310" y="90" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" source="voKNRvu8rPhWnJosz7W9-75" target="voKNRvu8rPhWnJosz7W9-76">
+        <mxCell id="voKNRvu8rPhWnJosz7W9-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" source="voKNRvu8rPhWnJosz7W9-95" target="voKNRvu8rPhWnJosz7W9-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-75" value="Glosar la diferencia de los cups que están en el AS&amp;nbsp; vs contratado mas el valor de los cups adicionales" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
-          <mxGeometry x="1370" y="270" width="135" height="80" as="geometry" />
+        <mxCell id="voKNRvu8rPhWnJosz7W9-99" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
+          <mxGeometry x="1480" y="105" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-76" value="Registrar la glosa en OASIS en el modulo efac" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
-          <mxGeometry x="1600" y="185" width="135" height="80" as="geometry" />
+        <mxCell id="voKNRvu8rPhWnJosz7W9-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" source="voKNRvu8rPhWnJosz7W9-97" target="voKNRvu8rPhWnJosz7W9-99">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-78" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" target="voKNRvu8rPhWnJosz7W9-82">
+        <mxCell id="voKNRvu8rPhWnJosz7W9-102" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
+          <mxGeometry x="1130" y="240" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" source="voKNRvu8rPhWnJosz7W9-93" target="voKNRvu8rPhWnJosz7W9-102">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1285" y="180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1285" y="170" />
-            </Array>
-            <mxPoint x="1285" y="95" as="sourcePoint" />
+            <mxPoint x="1130" y="265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" source="voKNRvu8rPhWnJosz7W9-82" target="voKNRvu8rPhWnJosz7W9-76">
+        <mxCell id="voKNRvu8rPhWnJosz7W9-103" value="Tipo glosa: 223 Procedimiento o actividad" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
+          <mxGeometry x="1112.5" y="10" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="voKNRvu8rPhWnJosz7W9-57" source="voKNRvu8rPhWnJosz7W9-103" target="voKNRvu8rPhWnJosz7W9-95">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-82" value="Glosar la diferencia del valor cobrado en los rips vs contratado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
-          <mxGeometry x="1370" y="130" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-41" value="Validar si el valor de los cups que están en el AS coincide con lo contratado&amp;nbsp;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-57">
-          <mxGeometry x="360" y="105" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="voKNRvu8rPhWnJosz7W9-84" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iDgbX58GDVkkqR7G9HbA-1" source="voKNRvu8rPhWnJosz7W9-56" target="voKNRvu8rPhWnJosz7W9-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="voKNRvu8rPhWnJosz7W9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iDgbX58GDVkkqR7G9HbA-1" source="voKNRvu8rPhWnJosz7W9-41" target="voKNRvu8rPhWnJosz7W9-44">
+        <mxCell id="voKNRvu8rPhWnJosz7W9-105" value="Rips con servicios adicionales" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iDgbX58GDVkkqR7G9HbA-1">
+          <mxGeometry y="920" width="1830" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-106" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-105" source="voKNRvu8rPhWnJosz7W9-110" target="voKNRvu8rPhWnJosz7W9-109">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1260" y="580" as="targetPoint" />
+            <mxPoint x="1370" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="565" y="240" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-107" value="Validar si el valor de los cups que están en el AS coincide con lo contratado&amp;nbsp;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-105">
+          <mxGeometry x="360" y="30" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-108" value="Calcular la diferencia de los cups que fueron autorizados" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-105">
+          <mxGeometry x="660" y="30" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-109" value="Glosar los cups adicionales no autorizados" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-105">
+          <mxGeometry x="660" y="200" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-110" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Valor cups coincide&lt;br&gt;con lo contratado?&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="voKNRvu8rPhWnJosz7W9-105">
+          <mxGeometry x="540" y="45" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-105" source="voKNRvu8rPhWnJosz7W9-107" target="voKNRvu8rPhWnJosz7W9-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-112" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="voKNRvu8rPhWnJosz7W9-105" source="voKNRvu8rPhWnJosz7W9-110" target="voKNRvu8rPhWnJosz7W9-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1285" y="-90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iDgbX58GDVkkqR7G9HbA-1" source="voKNRvu8rPhWnJosz7W9-91" target="voKNRvu8rPhWnJosz7W9-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voKNRvu8rPhWnJosz7W9-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iDgbX58GDVkkqR7G9HbA-1" source="voKNRvu8rPhWnJosz7W9-91" target="voKNRvu8rPhWnJosz7W9-93">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
