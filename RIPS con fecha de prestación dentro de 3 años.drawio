@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T14:59:43.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="d9OOXXuo7o4b-0tcEXhU" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T15:00:56.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="fVN66oA8NCKechh7y7ZM" version="21.7.1" type="github">
   <diagram name="Página-1" id="mpdH6doztN7DgkLEiqyZ">
     <mxGraphModel dx="1674" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2150" pageHeight="930" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="F8KtdpI1GHPBsjBE2DjE-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Rips con prestación de servicio posterior al fallecimiento o retiro del afiliado&lt;/font&gt;&lt;/font&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="35" y="10" width="1970" height="930" as="geometry" />
+          <mxGeometry x="35" y="10" width="2085" height="980" as="geometry" />
         </mxCell>
         <mxCell id="I0qWXPTTr72CTAHtNLoR-31" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="F8KtdpI1GHPBsjBE2DjE-1" source="I0qWXPTTr72CTAHtNLoR-29" target="I0qWXPTTr72CTAHtNLoR-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="780" y="740" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="780" y="740" />
+              <mxPoint x="780" y="790" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="F8KtdpI1GHPBsjBE2DjE-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Cargue de factura&lt;/font&gt;&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;" parent="F8KtdpI1GHPBsjBE2DjE-1" vertex="1">
-          <mxGeometry y="20" width="1970" height="320" as="geometry" />
+          <mxGeometry y="20" width="2085" height="320" as="geometry" />
         </mxCell>
         <mxCell id="F8KtdpI1GHPBsjBE2DjE-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" parent="F8KtdpI1GHPBsjBE2DjE-2" vertex="1">
           <mxGeometry x="40" y="80" width="40" height="40" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry x="755" y="75" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="F8KtdpI1GHPBsjBE2DjE-30" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Devolución de factura&lt;/font&gt;&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;" parent="F8KtdpI1GHPBsjBE2DjE-1" vertex="1">
-          <mxGeometry y="340" width="1970" height="270" as="geometry" />
+          <mxGeometry y="340" width="2085" height="320" as="geometry" />
         </mxCell>
         <mxCell id="F8KtdpI1GHPBsjBE2DjE-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="F8KtdpI1GHPBsjBE2DjE-30" source="F8KtdpI1GHPBsjBE2DjE-32" target="F8KtdpI1GHPBsjBE2DjE-35" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -84,11 +84,11 @@
         <mxCell id="F8KtdpI1GHPBsjBE2DjE-35" value="Cargar mensaje de error" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="F8KtdpI1GHPBsjBE2DjE-30" vertex="1">
           <mxGeometry x="1500" y="60" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I0qWXPTTr72CTAHtNLoR-33" value="Rechazar la factura" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="F8KtdpI1GHPBsjBE2DjE-30">
-          <mxGeometry x="885" y="90" width="135" height="80" as="geometry" />
+        <mxCell id="I0qWXPTTr72CTAHtNLoR-33" value="Consultar estado del afiliado y fecha de prestación de los servicios" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="F8KtdpI1GHPBsjBE2DjE-30">
+          <mxGeometry x="885" y="120" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="I0qWXPTTr72CTAHtNLoR-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Glosa de factura&lt;/font&gt;&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="F8KtdpI1GHPBsjBE2DjE-1">
-          <mxGeometry y="610" width="1970" height="320" as="geometry" />
+          <mxGeometry y="660" width="2085" height="320" as="geometry" />
         </mxCell>
         <mxCell id="I0qWXPTTr72CTAHtNLoR-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="I0qWXPTTr72CTAHtNLoR-1" source="I0qWXPTTr72CTAHtNLoR-32" target="I0qWXPTTr72CTAHtNLoR-34">
           <mxGeometry relative="1" as="geometry" />
