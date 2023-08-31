@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T13:54:49.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="jjngSgH7Bj4_ZW0bX519" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T13:56:33.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="c-WKzK-Zdnm-eHn1mDpL" version="21.7.1" type="github">
   <diagram name="Página-1" id="mpdH6doztN7DgkLEiqyZ">
     <mxGraphModel dx="1674" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2150" pageHeight="930" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="F8KtdpI1GHPBsjBE2DjE-1" value="Validar fecha de prestación para rips en un rango de 3 años" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
+        <mxCell id="F8KtdpI1GHPBsjBE2DjE-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Rips con prestación de servicio posterior al fallecimiento o retiro del afiliado&lt;/font&gt;&lt;/font&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="35" y="10" width="1970" height="660" as="geometry" />
         </mxCell>
         <mxCell id="F8KtdpI1GHPBsjBE2DjE-2" value="ERIP" style="swimlane;startSize=20;horizontal=0;html=1;" parent="F8KtdpI1GHPBsjBE2DjE-1" vertex="1">
