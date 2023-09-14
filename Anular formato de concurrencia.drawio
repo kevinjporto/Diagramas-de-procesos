@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T21:52:16.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="zjpzPBIWpSKXFPVyQSTu" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T21:53:29.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2f66KZLyecNyB3VQZkTD" version="21.7.2" type="github">
   <diagram name="Página-1" id="H_onOsxMs5g8z3UfH7xi">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="550" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,7 +77,7 @@
         <mxCell id="cfB6bOsqPIi4NOKpY_Gs-48" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="cfB6bOsqPIi4NOKpY_Gs-3">
           <mxGeometry x="120" y="75" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cfB6bOsqPIi4NOKpY_Gs-52" value="Todos los días" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventNonint;symbol=timer;" vertex="1" parent="cfB6bOsqPIi4NOKpY_Gs-3">
+        <mxCell id="cfB6bOsqPIi4NOKpY_Gs-52" value="Todos los días" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventNonint;symbol=timer;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="cfB6bOsqPIi4NOKpY_Gs-3">
           <mxGeometry x="315" y="320" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cfB6bOsqPIi4NOKpY_Gs-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="cfB6bOsqPIi4NOKpY_Gs-3" source="cfB6bOsqPIi4NOKpY_Gs-54" target="cfB6bOsqPIi4NOKpY_Gs-60">
