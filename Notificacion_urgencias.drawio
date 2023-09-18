@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T18:52:27.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nlb15N9-U2z03KW15odC" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T18:57:41.599Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IEp6LHIoRCqYFWD_OgP7" version="21.7.5" type="github">
   <diagram name="Página-1" id="0e1V_TGeh5D_SGDJpqjy">
-    <mxGraphModel dx="1674" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="800" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="800" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xGjqCvbATH9IHQqyz-IN-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Notificación de urgencias&lt;/font&gt;&lt;/font&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="25" y="10" width="1535" height="770" as="geometry" />
+          <mxGeometry x="25" y="10" width="1535" height="760" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-2" value="Ingresar a ZonaSer Prestador" style="swimlane;startSize=20;horizontal=0;html=1;" parent="xGjqCvbATH9IHQqyz-IN-1" vertex="1">
-          <mxGeometry y="20" width="1535" height="250" as="geometry" />
+          <mxGeometry y="20" width="1535" height="200" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-4" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#d1f58f;strokeColor=#74c059;strokeWidth=2;" parent="xGjqCvbATH9IHQqyz-IN-2" vertex="1">
           <mxGeometry x="30" y="80" width="50" height="50" as="geometry" />
@@ -28,54 +28,62 @@
           <mxGeometry x="275" y="80" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-52" value="Crear notificación de urgencias" style="swimlane;startSize=20;horizontal=0;html=1;" parent="xGjqCvbATH9IHQqyz-IN-1" vertex="1">
-          <mxGeometry y="270" width="1535" height="250" as="geometry" />
+          <mxGeometry y="220" width="1535" height="280" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="xGjqCvbATH9IHQqyz-IN-52" source="xGjqCvbATH9IHQqyz-IN-70" target="xGjqCvbATH9IHQqyz-IN-72" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="545" y="125" as="targetPoint" />
+            <mxPoint x="545" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-70" value="Ingresar al módulo &quot;Atención al Usuario&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" parent="xGjqCvbATH9IHQqyz-IN-52" vertex="1">
-          <mxGeometry x="395" y="85" width="120" height="80" as="geometry" />
+          <mxGeometry x="395" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="xGjqCvbATH9IHQqyz-IN-52" source="xGjqCvbATH9IHQqyz-IN-72" target="xGjqCvbATH9IHQqyz-IN-76" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="715" y="125" as="targetPoint" />
+            <mxPoint x="715" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-72" value="Ingresar documento de identidad del afiliado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" parent="xGjqCvbATH9IHQqyz-IN-52" vertex="1">
-          <mxGeometry x="555" y="85" width="120" height="80" as="geometry" />
+          <mxGeometry x="555" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="xGjqCvbATH9IHQqyz-IN-52" source="xGjqCvbATH9IHQqyz-IN-76" target="xGjqCvbATH9IHQqyz-IN-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-76" value="Escoger en tipo de operación &quot;Notificación de urgencias&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" parent="xGjqCvbATH9IHQqyz-IN-52" vertex="1">
-          <mxGeometry x="715" y="85" width="120" height="80" as="geometry" />
+          <mxGeometry x="715" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="xGjqCvbATH9IHQqyz-IN-52" source="xGjqCvbATH9IHQqyz-IN-77" target="xGjqCvbATH9IHQqyz-IN-89" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1045" y="125" as="targetPoint" />
+            <mxPoint x="1045" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-77" value="Diligenciar formulario de la notificación de urgencias" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" parent="xGjqCvbATH9IHQqyz-IN-52" vertex="1">
-          <mxGeometry x="875" y="85" width="120" height="80" as="geometry" />
+          <mxGeometry x="875" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="xGjqCvbATH9IHQqyz-IN-52" source="xGjqCvbATH9IHQqyz-IN-89" target="xGjqCvbATH9IHQqyz-IN-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-89" value="Clic botón&lt;br&gt;guardar" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=general;strokeColor=#8e9782;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#f1edea;strokeWidth=2;" parent="xGjqCvbATH9IHQqyz-IN-52" vertex="1">
-          <mxGeometry x="1035" y="100" width="50" height="50" as="geometry" />
+          <mxGeometry x="1035" y="55" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="xGjqCvbATH9IHQqyz-IN-52" source="xGjqCvbATH9IHQqyz-IN-88" target="xGjqCvbATH9IHQqyz-IN-93" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1285" y="125" as="targetPoint" />
+            <mxPoint x="1285" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-88" value="Guardar notificación de urgencias" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" parent="xGjqCvbATH9IHQqyz-IN-52" vertex="1">
-          <mxGeometry x="1125" y="85" width="120" height="80" as="geometry" />
+          <mxGeometry x="1125" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GfY8Kz6QiImjGJJJFp_D-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="xGjqCvbATH9IHQqyz-IN-52" source="xGjqCvbATH9IHQqyz-IN-93" target="GfY8Kz6QiImjGJJJFp_D-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="25" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-93" value="Mensaje de creación&lt;br&gt;notificación de urgencias" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" parent="xGjqCvbATH9IHQqyz-IN-52" vertex="1">
-          <mxGeometry x="1295" y="100" width="50" height="50" as="geometry" />
+          <mxGeometry x="1295" y="55" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GfY8Kz6QiImjGJJJFp_D-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&quot;Se ha creado el informe de Atención Inicial de Urgencias con el Número de Atención XXXX.&quot;&lt;br&gt;&lt;br&gt;Nota: Sr Prestador el ID de notificación de urgencias debe coincidir con el reportado en el archivo RIPS de urgencias AU&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="xGjqCvbATH9IHQqyz-IN-52">
+          <mxGeometry x="1218.75" y="175" width="202.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-49" value="Crear notificación&amp;nbsp;&lt;br&gt;de urgencias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="xGjqCvbATH9IHQqyz-IN-1" source="xGjqCvbATH9IHQqyz-IN-47" target="xGjqCvbATH9IHQqyz-IN-70" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -83,7 +91,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-79" value="Crear notificación de urgencias" style="swimlane;startSize=20;horizontal=0;html=1;" parent="xGjqCvbATH9IHQqyz-IN-1" vertex="1">
-          <mxGeometry y="520" width="1535" height="250" as="geometry" />
+          <mxGeometry y="500" width="1535" height="260" as="geometry" />
         </mxCell>
         <mxCell id="xGjqCvbATH9IHQqyz-IN-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="xGjqCvbATH9IHQqyz-IN-79" source="xGjqCvbATH9IHQqyz-IN-95" target="xGjqCvbATH9IHQqyz-IN-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -114,18 +122,19 @@
         <mxCell id="xGjqCvbATH9IHQqyz-IN-103" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" parent="xGjqCvbATH9IHQqyz-IN-79" vertex="1">
           <mxGeometry x="1195" y="95" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xGjqCvbATH9IHQqyz-IN-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="xGjqCvbATH9IHQqyz-IN-69" target="xGjqCvbATH9IHQqyz-IN-95" edge="1">
+        <mxCell id="xGjqCvbATH9IHQqyz-IN-69" value="Ingresar al módulo &quot;Consulta General&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" parent="xGjqCvbATH9IHQqyz-IN-79" vertex="1">
+          <mxGeometry x="385" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xGjqCvbATH9IHQqyz-IN-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="xGjqCvbATH9IHQqyz-IN-79" source="xGjqCvbATH9IHQqyz-IN-69" target="xGjqCvbATH9IHQqyz-IN-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xGjqCvbATH9IHQqyz-IN-69" value="Ingresar al módulo &quot;Consulta General&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="420" y="610" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="xGjqCvbATH9IHQqyz-IN-51" value="Consultar notificación&lt;br&gt;de urgencias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xGjqCvbATH9IHQqyz-IN-47" target="xGjqCvbATH9IHQqyz-IN-69" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="650" as="targetPoint" />
+        <mxCell id="xGjqCvbATH9IHQqyz-IN-51" value="Consultar notificación&lt;br&gt;de urgencias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="xGjqCvbATH9IHQqyz-IN-1" source="xGjqCvbATH9IHQqyz-IN-47" target="xGjqCvbATH9IHQqyz-IN-69" edge="1">
+          <mxGeometry x="0.4414" y="-5" relative="1" as="geometry">
+            <mxPoint x="335" y="640" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="325" y="650" />
+              <mxPoint x="300" y="620" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
