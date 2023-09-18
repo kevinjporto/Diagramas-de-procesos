@@ -1,9 +1,142 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T19:02:03.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="G6YsEBdOCGOQFXjS4sZI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T19:16:54.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="fH2p34tSMerGDoTxSFPG" version="21.7.5" type="github">
   <diagram name="Página-1" id="JOzfCKYc2YDYA0-O9KQo">
-    <mxGraphModel>
+    <mxGraphModel dx="1886" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="800" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5NYgrTEiffQtnbERS2pI-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Validar registro de notificación de urgencias en ZonaSER Prestador al cargar RIPS&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="10" width="1535" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-2" value="Ingresar a ZonaSer Prestador" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-1">
+          <mxGeometry y="20" width="1535" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-3" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#d1f58f;strokeColor=#74c059;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-2">
+          <mxGeometry x="30" y="80" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5NYgrTEiffQtnbERS2pI-2" source="5NYgrTEiffQtnbERS2pI-3" target="5NYgrTEiffQtnbERS2pI-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-2" source="5NYgrTEiffQtnbERS2pI-6" target="5NYgrTEiffQtnbERS2pI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-6" value="Ingresar a ZonaSer Prestador" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-2">
+          <mxGeometry x="115" y="65" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-7" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;strokeColor=#74c059;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#d1f58f;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-2">
+          <mxGeometry x="275" y="80" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-8" value="Crear notificación de urgencias" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-1">
+          <mxGeometry y="220" width="1535" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5NYgrTEiffQtnbERS2pI-8" source="5NYgrTEiffQtnbERS2pI-10" target="5NYgrTEiffQtnbERS2pI-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-10" value="Ingresar al módulo &quot;Atención al Usuario&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-8">
+          <mxGeometry x="395" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-8" source="5NYgrTEiffQtnbERS2pI-12" target="5NYgrTEiffQtnbERS2pI-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-12" value="Ingresar documento de identidad del afiliado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-8">
+          <mxGeometry x="555" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-8" source="5NYgrTEiffQtnbERS2pI-14" target="5NYgrTEiffQtnbERS2pI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-14" value="Escoger en tipo de operación &quot;Notificación de urgencias&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-8">
+          <mxGeometry x="715" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-8" source="5NYgrTEiffQtnbERS2pI-16" target="5NYgrTEiffQtnbERS2pI-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-16" value="Diligenciar formulario de la notificación de urgencias" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-8">
+          <mxGeometry x="875" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-8" source="5NYgrTEiffQtnbERS2pI-18" target="5NYgrTEiffQtnbERS2pI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-18" value="Clic botón&lt;br&gt;guardar" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=general;strokeColor=#8e9782;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#f1edea;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-8">
+          <mxGeometry x="1035" y="55" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5NYgrTEiffQtnbERS2pI-8" source="5NYgrTEiffQtnbERS2pI-20" target="5NYgrTEiffQtnbERS2pI-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1285" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-20" value="Guardar notificación de urgencias" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-8">
+          <mxGeometry x="1125" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5NYgrTEiffQtnbERS2pI-8" source="5NYgrTEiffQtnbERS2pI-22" target="5NYgrTEiffQtnbERS2pI-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-22" value="Mensaje de creación&lt;br&gt;notificación de urgencias" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=message;strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-8">
+          <mxGeometry x="1295" y="55" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-23" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&quot;Se ha creado el informe de Atención Inicial de Urgencias con el Número de Atención XXXX.&quot;&lt;br&gt;&lt;br&gt;Nota: Sr Prestador el ID de notificación de urgencias debe coincidir con el reportado en el archivo RIPS de urgencias AU&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-8">
+          <mxGeometry x="1218.75" y="175" width="202.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-24" value="Crear notificación&amp;nbsp;&lt;br&gt;de urgencias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-1" source="5NYgrTEiffQtnbERS2pI-7" target="5NYgrTEiffQtnbERS2pI-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-25" value="Crear notificación de urgencias" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-1">
+          <mxGeometry y="500" width="1535" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-25" source="5NYgrTEiffQtnbERS2pI-27" target="5NYgrTEiffQtnbERS2pI-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-27" value="Escoger en tipo de consulta &quot;Notificación de urgencias&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-25">
+          <mxGeometry x="555" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-25" source="5NYgrTEiffQtnbERS2pI-29" target="5NYgrTEiffQtnbERS2pI-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-29" value="Buscar la notificación de urgencias" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-25">
+          <mxGeometry x="715" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-25" source="5NYgrTEiffQtnbERS2pI-31" target="5NYgrTEiffQtnbERS2pI-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-31" value="Mostrar la(s) notificación(es) de urgencia(s) según los parámetros de búsqueda" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-25">
+          <mxGeometry x="875" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-25" source="5NYgrTEiffQtnbERS2pI-33" target="5NYgrTEiffQtnbERS2pI-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-33" value="Ingresar al detalle o anexo de la notificación de urgencias" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-25">
+          <mxGeometry x="1035" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-34" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-25">
+          <mxGeometry x="1195" y="95" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-35" value="Ingresar al módulo &quot;Consulta General&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;labelBackgroundColor=none;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#dae8fc;strokeWidth=2;" vertex="1" parent="5NYgrTEiffQtnbERS2pI-25">
+          <mxGeometry x="385" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="5NYgrTEiffQtnbERS2pI-25" source="5NYgrTEiffQtnbERS2pI-35" target="5NYgrTEiffQtnbERS2pI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NYgrTEiffQtnbERS2pI-37" value="Consultar notificación&lt;br&gt;de urgencias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5NYgrTEiffQtnbERS2pI-1" source="5NYgrTEiffQtnbERS2pI-7" target="5NYgrTEiffQtnbERS2pI-35">
+          <mxGeometry x="0.4414" y="-5" relative="1" as="geometry">
+            <mxPoint x="335" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="620" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
