@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T21:10:55.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="UAgMwE2XMvCwPKGiaBbK" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T21:11:36.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_Itmig30y24SqU17z7FV" version="22.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3540" pageHeight="2000" math="0" shadow="0">
       <root>
@@ -211,7 +211,7 @@
         <mxCell id="iBdwi_y_V-MF7VwGNMja-122" value="Contabilizar facturas en salud FS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iBdwi_y_V-MF7VwGNMja-24">
           <mxGeometry x="2420" y="305" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iBdwi_y_V-MF7VwGNMja-123" value="Contabilizar facturas en salud FS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iBdwi_y_V-MF7VwGNMja-24">
+        <mxCell id="iBdwi_y_V-MF7VwGNMja-123" value="Descargar las glosas generadas" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iBdwi_y_V-MF7VwGNMja-24">
           <mxGeometry x="2580" y="305" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iBdwi_y_V-MF7VwGNMja-101" value="Auditor o gestor de calidad" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="2aWyeMzdCx-4pzrAcmwg-5">
