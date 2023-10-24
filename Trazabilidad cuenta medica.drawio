@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T21:25:47.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="11HbrDOQx5PgaBVDzDNK" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-24T21:27:37.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="rMrq7D39bWnLrEinrNEu" version="22.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="794" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3900" pageHeight="2000" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
           <mxGeometry x="697.5" y="310" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iBdwi_y_V-MF7VwGNMja-88" value="Enviar facturas al area de auditoria" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iBdwi_y_V-MF7VwGNMja-24" vertex="1">
-          <mxGeometry x="1650" y="450" width="120" height="80" as="geometry" />
+          <mxGeometry x="1340" y="370" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iBdwi_y_V-MF7VwGNMja-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iBdwi_y_V-MF7VwGNMja-24" source="iBdwi_y_V-MF7VwGNMja-95" target="iBdwi_y_V-MF7VwGNMja-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -200,10 +200,11 @@
         <mxCell id="iBdwi_y_V-MF7VwGNMja-178" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iBdwi_y_V-MF7VwGNMja-24" vertex="1">
           <mxGeometry x="2880" y="425" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iBdwi_y_V-MF7VwGNMja-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iBdwi_y_V-MF7VwGNMja-24" source="iBdwi_y_V-MF7VwGNMja-155" edge="1">
+        <mxCell id="iBdwi_y_V-MF7VwGNMja-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iBdwi_y_V-MF7VwGNMja-24" source="iBdwi_y_V-MF7VwGNMja-155" target="iBdwi_y_V-MF7VwGNMja-88" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1215" y="425" />
+              <mxPoint x="1215" y="410" />
             </Array>
             <mxPoint x="1215" y="175" as="targetPoint" />
           </mxGeometry>
@@ -345,6 +346,9 @@
               <mxPoint x="3145" y="1070" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RtDtF_MCdchjABuQcPKa-12" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1150" y="640" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
