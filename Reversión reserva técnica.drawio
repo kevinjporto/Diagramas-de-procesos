@@ -278,7 +278,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SejdaG8MZKh78bHduHmJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lTPZUzIXuQvI7SsHR9lC-61" source="-zWl22DMir9VvuhOoXGW-25" target="SejdaG8MZKh78bHduHmJ-3">
+        <mxCell id="SejdaG8MZKh78bHduHmJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lTPZUzIXuQvI7SsHR9lC-61" source="-zWl22DMir9VvuhOoXGW-29" target="SejdaG8MZKh78bHduHmJ-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-zWl22DMir9VvuhOoXGW-25" value="Debitar la cuenta contable 610201" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="lTPZUzIXuQvI7SsHR9lC-61" vertex="1">
@@ -336,8 +336,8 @@
             <mxPoint x="2050" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SejdaG8MZKh78bHduHmJ-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Son las mismas cuentas que se hacen en la generación&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lTPZUzIXuQvI7SsHR9lC-61">
-          <mxGeometry x="1160" y="940" width="170" height="30" as="geometry" />
+        <mxCell id="SejdaG8MZKh78bHduHmJ-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Son las mismas cuentas que se hacen en la generación, pero con las fuentes de reversión&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lTPZUzIXuQvI7SsHR9lC-61">
+          <mxGeometry x="1520" y="960" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SejdaG8MZKh78bHduHmJ-2" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1740" y="1390" width="60" height="30" as="geometry" />
