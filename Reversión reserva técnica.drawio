@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Página-1" id="pA1rQGJmWaQGo1QmMtAi">
-    <mxGraphModel dx="1290" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,7 +169,7 @@
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="lTPZUzIXuQvI7SsHR9lC-61" source="lTPZUzIXuQvI7SsHR9lC-78" target="lTPZUzIXuQvI7SsHR9lC-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SejdaG8MZKh78bHduHmJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lTPZUzIXuQvI7SsHR9lC-61" source="lTPZUzIXuQvI7SsHR9lC-88" target="lTPZUzIXuQvI7SsHR9lC-92">
+        <mxCell id="SejdaG8MZKh78bHduHmJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lTPZUzIXuQvI7SsHR9lC-61" source="lTPZUzIXuQvI7SsHR9lC-88" target="lTPZUzIXuQvI7SsHR9lC-92" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1900" y="250" as="targetPoint" />
           </mxGeometry>
@@ -278,7 +278,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SejdaG8MZKh78bHduHmJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lTPZUzIXuQvI7SsHR9lC-61" source="-zWl22DMir9VvuhOoXGW-29" target="SejdaG8MZKh78bHduHmJ-3">
+        <mxCell id="SejdaG8MZKh78bHduHmJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="lTPZUzIXuQvI7SsHR9lC-61" source="-zWl22DMir9VvuhOoXGW-29" target="SejdaG8MZKh78bHduHmJ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-zWl22DMir9VvuhOoXGW-25" value="Debitar la cuenta contable 610201" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="lTPZUzIXuQvI7SsHR9lC-61" vertex="1">
@@ -336,11 +336,8 @@
             <mxPoint x="2050" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SejdaG8MZKh78bHduHmJ-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Son las mismas cuentas que se hacen en la generación, pero con las fuentes de reversión&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lTPZUzIXuQvI7SsHR9lC-61">
+        <mxCell id="SejdaG8MZKh78bHduHmJ-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Son las mismas cuentas que se hacen en la generación, pero con las fuentes de reversión&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lTPZUzIXuQvI7SsHR9lC-61" vertex="1">
           <mxGeometry x="1520" y="960" width="170" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="SejdaG8MZKh78bHduHmJ-2" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="1390" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
