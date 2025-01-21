@@ -79,7 +79,7 @@
           <mxGeometry y="400" width="2340" height="150" as="geometry" />
         </mxCell>
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-24" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Crear asiento de la causación de la FS&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="lTPZUzIXuQvI7SsHR9lC-4" vertex="1">
-          <mxGeometry x="655" y="35" width="120" height="80" as="geometry" />
+          <mxGeometry x="845" y="35" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lTPZUzIXuQvI7SsHR9lC-1" source="lTPZUzIXuQvI7SsHR9lC-12" target="lTPZUzIXuQvI7SsHR9lC-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
