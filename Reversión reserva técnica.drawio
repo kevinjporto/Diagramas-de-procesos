@@ -281,10 +281,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-zWl22DMir9VvuhOoXGW-36" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="lTPZUzIXuQvI7SsHR9lC-61" vertex="1">
-          <mxGeometry x="1900" y="85" width="50" height="50" as="geometry" />
+          <mxGeometry x="1900" y="100" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XMTyabBf-FgVmjhPNOI-5" value="Generar comprobante con fuente PROVCR&lt;br&gt;debitar cuenta 2406010101&lt;br&gt;acreditar cuenta 610901" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="lTPZUzIXuQvI7SsHR9lC-61" vertex="1">
-          <mxGeometry x="1700" y="70" width="160" height="80" as="geometry" />
+          <mxGeometry x="1700" y="85" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9XMTyabBf-FgVmjhPNOI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="lTPZUzIXuQvI7SsHR9lC-61" source="9XMTyabBf-FgVmjhPNOI-6" target="9XMTyabBf-FgVmjhPNOI-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -297,13 +297,13 @@
         <mxCell id="9XMTyabBf-FgVmjhPNOI-6" value="¿Regimen?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="lTPZUzIXuQvI7SsHR9lC-61" vertex="1">
           <mxGeometry x="1436" y="255" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9XMTyabBf-FgVmjhPNOI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lTPZUzIXuQvI7SsHR9lC-61" target="9XMTyabBf-FgVmjhPNOI-10" edge="1">
+        <mxCell id="9XMTyabBf-FgVmjhPNOI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="lTPZUzIXuQvI7SsHR9lC-61" source="ZRN_mtLQNNem1LIYAk43-1" target="9XMTyabBf-FgVmjhPNOI-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2070" y="510" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9XMTyabBf-FgVmjhPNOI-10" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="lTPZUzIXuQvI7SsHR9lC-61" vertex="1">
-          <mxGeometry x="2200" y="485" width="50" height="50" as="geometry" />
+          <mxGeometry x="1900" y="315" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XMTyabBf-FgVmjhPNOI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="lTPZUzIXuQvI7SsHR9lC-61" source="9XMTyabBf-FgVmjhPNOI-5" target="-zWl22DMir9VvuhOoXGW-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -368,19 +368,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XMTyabBf-FgVmjhPNOI-32" value="&lt;span data-teams=&quot;true&quot;&gt;Generar comprobante con fuente PROVCR &lt;br&gt;debitar cuenta 2406010102&lt;br&gt;acreditar cuenta 610901&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="lTPZUzIXuQvI7SsHR9lC-61" vertex="1">
-          <mxGeometry x="1700" y="200" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="9XMTyabBf-FgVmjhPNOI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="lTPZUzIXuQvI7SsHR9lC-61" source="9XMTyabBf-FgVmjhPNOI-30" target="9XMTyabBf-FgVmjhPNOI-32" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1631" y="240" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9XMTyabBf-FgVmjhPNOI-35" value="Privado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9XMTyabBf-FgVmjhPNOI-33" vertex="1" connectable="0">
-          <mxGeometry x="0.499" y="-2" relative="1" as="geometry">
-            <mxPoint x="-9" y="-2" as="offset" />
-          </mxGeometry>
+          <mxGeometry x="1700" y="190" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZRN_mtLQNNem1LIYAk43-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lTPZUzIXuQvI7SsHR9lC-61" source="9XMTyabBf-FgVmjhPNOI-36" target="ZRN_mtLQNNem1LIYAk43-3">
           <mxGeometry relative="1" as="geometry" />
@@ -404,7 +392,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9XMTyabBf-FgVmjhPNOI-38" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="lTPZUzIXuQvI7SsHR9lC-61" vertex="1">
-          <mxGeometry x="1900" y="215" width="50" height="50" as="geometry" />
+          <mxGeometry x="1900" y="205" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZRN_mtLQNNem1LIYAk43-1" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Generar comprobante con fuente PROVSR &lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;debitar cuenta&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;2406010201&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;acreditar cuenta 610901&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="lTPZUzIXuQvI7SsHR9lC-61">
           <mxGeometry x="1700" y="300" width="160" height="80" as="geometry" />
@@ -419,6 +407,20 @@
         </mxCell>
         <mxCell id="ZRN_mtLQNNem1LIYAk43-3" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Generar comprobante con fuente PROVSR &lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;debitar cuenta&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;2406010202&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;acreditar cuenta 610901&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="lTPZUzIXuQvI7SsHR9lC-61">
           <mxGeometry x="1700" y="405" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRN_mtLQNNem1LIYAk43-9" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lTPZUzIXuQvI7SsHR9lC-61">
+          <mxGeometry x="1900" y="420" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRN_mtLQNNem1LIYAk43-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lTPZUzIXuQvI7SsHR9lC-61" source="ZRN_mtLQNNem1LIYAk43-3" target="ZRN_mtLQNNem1LIYAk43-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRN_mtLQNNem1LIYAk43-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lTPZUzIXuQvI7SsHR9lC-61" source="9XMTyabBf-FgVmjhPNOI-30" target="9XMTyabBf-FgVmjhPNOI-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRN_mtLQNNem1LIYAk43-13" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Privada&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRN_mtLQNNem1LIYAk43-11">
+          <mxGeometry x="0.0061" relative="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
