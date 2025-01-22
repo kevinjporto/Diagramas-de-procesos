@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-1" value="Proceso causación de facturas y reversión de reserva técnica" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="60" y="20" width="2440" height="1790" as="geometry" />
+          <mxGeometry x="60" y="20" width="2050" height="1790" as="geometry" />
         </mxCell>
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;OASIS - erip&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;verticalAlign=middle;" parent="lTPZUzIXuQvI7SsHR9lC-1" vertex="1">
-          <mxGeometry y="20" width="2440" height="190" as="geometry" />
+          <mxGeometry y="20" width="2050" height="190" as="geometry" />
         </mxCell>
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-5" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" parent="lTPZUzIXuQvI7SsHR9lC-2" vertex="1">
           <mxGeometry x="40" y="65" width="50" height="50" as="geometry" />
@@ -49,7 +49,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;OASIS - efac&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" parent="lTPZUzIXuQvI7SsHR9lC-1" vertex="1">
-          <mxGeometry y="210" width="2440" height="230" as="geometry" />
+          <mxGeometry y="210" width="2050" height="230" as="geometry" />
         </mxCell>
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lTPZUzIXuQvI7SsHR9lC-3" source="lTPZUzIXuQvI7SsHR9lC-18" target="lTPZUzIXuQvI7SsHR9lC-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -106,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-4" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;SOFSIN C X P&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" parent="lTPZUzIXuQvI7SsHR9lC-1" vertex="1">
-          <mxGeometry y="440" width="2440" height="370" as="geometry" />
+          <mxGeometry y="440" width="2050" height="370" as="geometry" />
         </mxCell>
         <mxCell id="Uj06ka_1NvC9JDa_I5zb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="lTPZUzIXuQvI7SsHR9lC-4" source="lTPZUzIXuQvI7SsHR9lC-24" target="Uj06ka_1NvC9JDa_I5zb-12" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -207,7 +207,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-61" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;SOFSIN - Contabilidad&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" parent="lTPZUzIXuQvI7SsHR9lC-1" vertex="1">
-          <mxGeometry y="810" width="2440" height="980" as="geometry" />
+          <mxGeometry y="810" width="2050" height="980" as="geometry" />
         </mxCell>
         <mxCell id="lTPZUzIXuQvI7SsHR9lC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="lTPZUzIXuQvI7SsHR9lC-61" source="lTPZUzIXuQvI7SsHR9lC-33" target="lTPZUzIXuQvI7SsHR9lC-75" edge="1">
           <mxGeometry relative="1" as="geometry">
