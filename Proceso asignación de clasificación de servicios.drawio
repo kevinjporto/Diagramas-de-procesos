@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="Página-1" id="oxVxN3O1TLyWzm_6McE1">
-    <mxGraphModel dx="3004" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
+    <mxGraphModel dx="1767" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,7 +259,7 @@
           <mxGeometry y="750" width="2230" height="220" as="geometry" />
         </mxCell>
         <mxCell id="C-gcfBAUuE_V13TWch20-85" value="Consultar estado de las clasificaciones" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" vertex="1" parent="C-gcfBAUuE_V13TWch20-84">
-          <mxGeometry x="880" y="50" width="120" height="80" as="geometry" />
+          <mxGeometry x="890" y="50" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="C-gcfBAUuE_V13TWch20-113" value="Escoger clasificación activa" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" vertex="1" parent="C-gcfBAUuE_V13TWch20-84">
           <mxGeometry x="1050" y="50" width="120" height="80" as="geometry" />
@@ -270,7 +270,7 @@
             <mxPoint x="1000" y="90" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-gcfBAUuE_V13TWch20-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bKLb0kCSBSLetyQ8Wws8-13" source="C-gcfBAUuE_V13TWch20-81" target="C-gcfBAUuE_V13TWch20-85">
+        <mxCell id="C-gcfBAUuE_V13TWch20-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bKLb0kCSBSLetyQ8Wws8-13" source="C-gcfBAUuE_V13TWch20-81" target="C-gcfBAUuE_V13TWch20-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C-gcfBAUuE_V13TWch20-105" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C-gcfBAUuE_V13TWch20-104">
