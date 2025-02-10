@@ -305,6 +305,12 @@
         <mxCell id="xZDpBpC2g1gE5NETA6p0-19" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
           <mxGeometry x="810" y="105" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="fg5Dpt6eukiP1sMMi7ds-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Validar con negocio si se verifican las cantidades autorizadas con las reportadas y el valor total y verificar si estan reportando el mismo valor&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="I6SyIY9X4S2mshl3AVVj-19">
+          <mxGeometry x="1020" y="72.5" width="130" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="fg5Dpt6eukiP1sMMi7ds-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="I6SyIY9X4S2mshl3AVVj-19" source="fg5Dpt6eukiP1sMMi7ds-1" target="Vrwh3DZQy4N4ysGJemR1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="I6SyIY9X4S2mshl3AVVj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" source="I6SyIY9X4S2mshl3AVVj-23" target="3LwcX4oNFDxZzFYPkHVs-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
