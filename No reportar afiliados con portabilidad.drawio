@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FrVx9M3K2qQtIgsd41kI-1" value="No reportar afiliados con portabilidad en municipios de no operación" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="170" y="100" width="1600" height="1100" as="geometry" />
+          <mxGeometry x="170" y="100" width="1490" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-2" value="OASIS - epgb" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-1">
-          <mxGeometry y="20" width="1600" height="170" as="geometry" />
+          <mxGeometry y="20" width="1490" height="170" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FrVx9M3K2qQtIgsd41kI-2" source="FrVx9M3K2qQtIgsd41kI-5" target="FrVx9M3K2qQtIgsd41kI-6">
           <mxGeometry relative="1" as="geometry" />
@@ -28,7 +28,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-3" value="OASIS - eafi" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-1">
-          <mxGeometry y="190" width="1600" height="250" as="geometry" />
+          <mxGeometry y="190" width="1490" height="250" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-12" value="Validar si el afiliado tiene portabilidad y el municipio actual y DNP" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-3">
           <mxGeometry x="330" y="50" width="120" height="80" as="geometry" />
@@ -76,13 +76,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-4" value="OASIS - epaq" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-1">
-          <mxGeometry y="440" width="1600" height="200" as="geometry" />
+          <mxGeometry y="440" width="1490" height="200" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-24" value="¿Tiene escenarios &lt;br&gt;de contratación?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-4">
           <mxGeometry x="710" y="75" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-8" value="OASIS - ecnc" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-1">
-          <mxGeometry y="640" width="1600" height="280" as="geometry" />
+          <mxGeometry y="640" width="1490" height="280" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-30" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-8">
           <mxGeometry x="830" y="175" width="50" height="50" as="geometry" />
@@ -99,7 +99,7 @@
         <mxCell id="FrVx9M3K2qQtIgsd41kI-27" value="Excluir al afiliado del total de afiliados" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-8">
           <mxGeometry x="675" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FrVx9M3K2qQtIgsd41kI-39" value="Incluir afiliado en el total de afiliados" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-8">
+        <mxCell id="FrVx9M3K2qQtIgsd41kI-39" value="Incluir afiliado en el total de afiliados del municipio actual" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-8">
           <mxGeometry x="920" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FrVx9M3K2qQtIgsd41kI-8" source="FrVx9M3K2qQtIgsd41kI-41" target="FrVx9M3K2qQtIgsd41kI-43">
@@ -131,7 +131,7 @@
           <mxGeometry x="1170" y="175" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-13" value="OASIS - erbd" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-1">
-          <mxGeometry y="920" width="1600" height="180" as="geometry" />
+          <mxGeometry y="920" width="1490" height="180" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FrVx9M3K2qQtIgsd41kI-13" source="FrVx9M3K2qQtIgsd41kI-29" target="FrVx9M3K2qQtIgsd41kI-48">
           <mxGeometry relative="1" as="geometry" />
@@ -142,7 +142,7 @@
         <mxCell id="FrVx9M3K2qQtIgsd41kI-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FrVx9M3K2qQtIgsd41kI-13" source="FrVx9M3K2qQtIgsd41kI-47" target="FrVx9M3K2qQtIgsd41kI-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FrVx9M3K2qQtIgsd41kI-47" value="Relacionar afiliado en la base de datos" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-13">
+        <mxCell id="FrVx9M3K2qQtIgsd41kI-47" value="Relacionar afiliado en la base de datos del municipio actual" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-13">
           <mxGeometry x="1210" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-48" value="Fin" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="FrVx9M3K2qQtIgsd41kI-13">
