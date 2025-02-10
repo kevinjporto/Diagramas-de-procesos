@@ -198,7 +198,7 @@
         <mxCell id="FrVx9M3K2qQtIgsd41kI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrVx9M3K2qQtIgsd41kI-23" target="FrVx9M3K2qQtIgsd41kI-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FrVx9M3K2qQtIgsd41kI-23" value="Validar si el prestador tiene escenarios de contratación" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="FrVx9M3K2qQtIgsd41kI-23" value="Validar si el prestador tiene escenarios de contratación en estado PROCESADO" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="725" y="600" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FrVx9M3K2qQtIgsd41kI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrVx9M3K2qQtIgsd41kI-21" target="FrVx9M3K2qQtIgsd41kI-23">
