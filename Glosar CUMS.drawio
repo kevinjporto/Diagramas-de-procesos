@@ -310,7 +310,7 @@
         <mxCell id="Vrwh3DZQy4N4ysGJemR1-1" value="Glosar el 100% del CUMS concepto = &quot;Cobertura&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
           <mxGeometry x="655" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vrwh3DZQy4N4ysGJemR1-13" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Glosar diferencia de la cantidad vs el valor unitario facturado aplica concepto &quot;Facturación&quot;&lt;/font&gt;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
+        <mxCell id="Vrwh3DZQy4N4ysGJemR1-13" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Glosar diferencia y aplicar concepto &quot;Facturación&quot;&lt;/font&gt;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
           <mxGeometry x="1460" y="105" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xZDpBpC2g1gE5NETA6p0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="I6SyIY9X4S2mshl3AVVj-19" source="Vrwh3DZQy4N4ysGJemR1-1" target="I6SyIY9X4S2mshl3AVVj-46" edge="1">
@@ -330,7 +330,7 @@
           <mxGeometry x="810" y="105" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fg5Dpt6eukiP1sMMi7ds-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Validar con negocio si se verifican las cantidades autorizadas con las reportadas y el valor total y verificar si estan reportando el mismo valor&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
-          <mxGeometry x="1220" y="135" width="130" height="115" as="geometry" />
+          <mxGeometry x="1260" y="140" width="130" height="115" as="geometry" />
         </mxCell>
         <mxCell id="fg5Dpt6eukiP1sMMi7ds-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="I6SyIY9X4S2mshl3AVVj-19" source="fg5Dpt6eukiP1sMMi7ds-1" target="Vrwh3DZQy4N4ysGJemR1-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
