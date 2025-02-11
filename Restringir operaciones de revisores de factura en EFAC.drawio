@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Página-1" id="fY9CfMk3jhYueVGxdAlR">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FOxbTMZbdNv_BBdFPmgn-2" value="Restringir operaciones de revisores de factura en EFAC" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="780" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="FOxbTMZbdNv_BBdFPmgn-3" value="Lane 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="FOxbTMZbdNv_BBdFPmgn-2">
+          <mxGeometry y="20" width="780" height="310" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
