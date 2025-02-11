@@ -121,7 +121,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uj06ka_1NvC9JDa_I5zb-14" value="Fecha constitución del AS VS fecha contable de la FS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lTPZUzIXuQvI7SsHR9lC-4" vertex="1">
-          <mxGeometry x="1190" y="30" width="120" height="30" as="geometry" />
+          <mxGeometry x="1190" y="30" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Uj06ka_1NvC9JDa_I5zb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lTPZUzIXuQvI7SsHR9lC-4" source="lTPZUzIXuQvI7SsHR9lC-67" target="Uj06ka_1NvC9JDa_I5zb-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
