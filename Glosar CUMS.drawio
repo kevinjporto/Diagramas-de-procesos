@@ -90,7 +90,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xZDpBpC2g1gE5NETA6p0-7" value="&lt;font size=&quot;1&quot;&gt;¿AS Corresponde a &lt;br&gt;afiliado y prestador?&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;" parent="3LwcX4oNFDxZzFYPkHVs-126" vertex="1">
-          <mxGeometry x="690" y="55" width="50" height="50" as="geometry" />
+          <mxGeometry x="700" y="55" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xZDpBpC2g1gE5NETA6p0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3LwcX4oNFDxZzFYPkHVs-126" source="xZDpBpC2g1gE5NETA6p0-1" target="xZDpBpC2g1gE5NETA6p0-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -313,10 +313,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xZDpBpC2g1gE5NETA6p0-18" value="Devolver factura en módulo EFAC con código devolución 821" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
-          <mxGeometry x="655" y="90" width="120" height="80" as="geometry" />
+          <mxGeometry x="665" y="90" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xZDpBpC2g1gE5NETA6p0-19" value="Fin" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
-          <mxGeometry x="810" y="105" width="50" height="50" as="geometry" />
+          <mxGeometry x="820" y="105" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kSkRkdUQKawP1oYZoRHr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="I6SyIY9X4S2mshl3AVVj-19" source="kSkRkdUQKawP1oYZoRHr-8" target="Vrwh3DZQy4N4ysGJemR1-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -338,6 +338,14 @@
         </mxCell>
         <mxCell id="0FS1YswocWa1yCGsBYn5-5" value="Glosar 100% total del CUMS NO PBS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="I6SyIY9X4S2mshl3AVVj-19">
           <mxGeometry x="905" y="95" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0FS1YswocWa1yCGsBYn5-9" value="Insertar en el campo observación&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="I6SyIY9X4S2mshl3AVVj-19">
+          <mxGeometry x="1090" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0FS1YswocWa1yCGsBYn5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="I6SyIY9X4S2mshl3AVVj-19" source="0FS1YswocWa1yCGsBYn5-5" target="0FS1YswocWa1yCGsBYn5-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="90" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="I6SyIY9X4S2mshl3AVVj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" source="I6SyIY9X4S2mshl3AVVj-23" target="3LwcX4oNFDxZzFYPkHVs-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -419,6 +427,11 @@
         </mxCell>
         <mxCell id="0FS1YswocWa1yCGsBYn5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="0FS1YswocWa1yCGsBYn5-1" target="0FS1YswocWa1yCGsBYn5-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FS1YswocWa1yCGsBYn5-7" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0FS1YswocWa1yCGsBYn5-4">
+          <mxGeometry x="0.054" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
