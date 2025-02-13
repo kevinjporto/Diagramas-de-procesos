@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="Página-1" id="ysO1k51nOjcaHEiqDqQ2">
-    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,11 @@
         <mxCell id="a9DDQnHwPIiveUVgymR4-15" value="Clic en &lt;br&gt;&quot;Detalle &lt;br&gt;Referencia&quot;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=catching;symbol=signal;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="a9DDQnHwPIiveUVgymR4-2">
           <mxGeometry x="590" y="70" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="a9DDQnHwPIiveUVgymR4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="a9DDQnHwPIiveUVgymR4-2" source="a9DDQnHwPIiveUVgymR4-18" target="a9DDQnHwPIiveUVgymR4-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="a9DDQnHwPIiveUVgymR4-18" value="Registrar servicio, tecnología, cantidad y fecha de traslado o ingreso del paciente" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="a9DDQnHwPIiveUVgymR4-2">
           <mxGeometry x="680" y="55" width="120" height="80" as="geometry" />
         </mxCell>
@@ -46,6 +51,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="700" y="95" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="a9DDQnHwPIiveUVgymR4-20" value="Clic en &lt;br&gt;&quot;Guardar&quot;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=catching;symbol=signal;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="a9DDQnHwPIiveUVgymR4-2">
+          <mxGeometry x="840" y="70" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="a9DDQnHwPIiveUVgymR4-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Solicitud de autorización&lt;/font&gt;&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="a9DDQnHwPIiveUVgymR4-1">
           <mxGeometry y="260" width="1790" height="240" as="geometry" />
