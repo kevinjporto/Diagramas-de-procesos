@@ -173,7 +173,7 @@
         <mxCell id="kjx2y3uTgsjd5vGbnacT-35" value="Fisioterapeuta" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="560" y="660" width="109.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kjx2y3uTgsjd5vGbnacT-37" value="Fisioterapeuta" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="kjx2y3uTgsjd5vGbnacT-37" value="Psicologa" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="690" y="660" width="109.5" height="60" as="geometry" />
         </mxCell>
       </root>
