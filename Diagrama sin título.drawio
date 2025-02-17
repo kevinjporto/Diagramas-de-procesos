@@ -132,6 +132,9 @@
         <mxCell id="kELuxNzVzLS3wfhE76MD-80" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kELuxNzVzLS3wfhE76MD-76" target="kELuxNzVzLS3wfhE76MD-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kjx2y3uTgsjd5vGbnacT-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="kELuxNzVzLS3wfhE76MD-76" target="kjx2y3uTgsjd5vGbnacT-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kELuxNzVzLS3wfhE76MD-76" value="Coordinador de &#xa;Calidad" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1460" y="660" width="150" height="60" as="geometry" />
         </mxCell>
@@ -144,7 +147,7 @@
         <mxCell id="kELuxNzVzLS3wfhE76MD-84" value="Auxiliar &#xa;Administrativa" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="880.5" y="780" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kjx2y3uTgsjd5vGbnacT-33" value="Auxiliar de Calidad" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="kjx2y3uTgsjd5vGbnacT-33" value="Auxiliar de SST" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1460" y="780" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
