@@ -142,15 +142,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kSkRkdUQKawP1oYZoRHr-1" value="Calcular valor total a facturar (Cantidad Facturada * Vr Unit AS)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="3LwcX4oNFDxZzFYPkHVs-126" vertex="1">
-          <mxGeometry x="1780" y="40" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Vrwh3DZQy4N4ysGJemR1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="3LwcX4oNFDxZzFYPkHVs-126" source="Vrwh3DZQy4N4ysGJemR1-8" target="kSkRkdUQKawP1oYZoRHr-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Vrwh3DZQy4N4ysGJemR1-11" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Vrwh3DZQy4N4ysGJemR1-10" vertex="1" connectable="0">
-          <mxGeometry x="-0.0846" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="1900" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kSkRkdUQKawP1oYZoRHr-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;¿Vr total a facturar &amp;lt;&lt;br&gt;Vr total facturado?&lt;/span&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;" parent="3LwcX4oNFDxZzFYPkHVs-126" vertex="1">
           <mxGeometry x="2082.5" y="55" width="50" height="50" as="geometry" />
@@ -343,7 +335,7 @@
           <mxGeometry y="1030" width="3510" height="420" as="geometry" />
         </mxCell>
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-147" value="Glosar el 100% del CUMS código glosa 430" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
-          <mxGeometry x="1605" y="240" width="135" height="80" as="geometry" />
+          <mxGeometry x="1970" y="255" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kSkRkdUQKawP1oYZoRHr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="I6SyIY9X4S2mshl3AVVj-19" source="3LwcX4oNFDxZzFYPkHVs-158" target="0FS1YswocWa1yCGsBYn5-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -405,13 +397,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vrwh3DZQy4N4ysGJemR1-13" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Glosar diferencia de valores y aplicar concepto &quot;Facturación&quot; Código 107&lt;/font&gt;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
-          <mxGeometry x="1820" y="105" width="130" height="80" as="geometry" />
+          <mxGeometry x="1940" y="105" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kSkRkdUQKawP1oYZoRHr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="I6SyIY9X4S2mshl3AVVj-19" source="kSkRkdUQKawP1oYZoRHr-8" target="Vrwh3DZQy4N4ysGJemR1-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kSkRkdUQKawP1oYZoRHr-8" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=end;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
-          <mxGeometry x="1800" y="25" width="50" height="50" as="geometry" />
+          <mxGeometry x="1990" y="25" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kSkRkdUQKawP1oYZoRHr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="I6SyIY9X4S2mshl3AVVj-19" source="Vrwh3DZQy4N4ysGJemR1-13" target="I6SyIY9X4S2mshl3AVVj-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
