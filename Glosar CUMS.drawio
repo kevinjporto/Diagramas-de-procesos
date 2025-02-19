@@ -1,11 +1,24 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="Página-1" id="6i_p-R7HKGtbfCE5hA1_">
-    <mxGraphModel dx="1034" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1130" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1130" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-123" value="Glosa medicamentos contrato evento ámbito ambulatorio" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="10" width="3510" height="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="M_9tR8TZ_ZrpfwXMIzji-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="M_9tR8TZ_ZrpfwXMIzji-29" target="kSkRkdUQKawP1oYZoRHr-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1405" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1405" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M_9tR8TZ_ZrpfwXMIzji-33" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M_9tR8TZ_ZrpfwXMIzji-32">
+          <mxGeometry x="-0.2692" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-124" value="OASIS - ERIP" style="swimlane;startSize=20;horizontal=0;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" vertex="1">
           <mxGeometry y="20" width="3510" height="270" as="geometry" />
@@ -427,19 +440,6 @@
         </mxCell>
         <mxCell id="0FS1YswocWa1yCGsBYn5-14" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,{&amp;quot;displayMode&amp;quot;:null,&amp;quot;isNumberColumnEnabled&amp;quot;:false,&amp;quot;layout&amp;quot;:&amp;quot;center&amp;quot;,&amp;quot;localId&amp;quot;:&amp;quot;922ff2e6-c428-4bf7-b1dc-2d80d05656cd&amp;quot;,&amp;quot;width&amp;quot;:760,&amp;quot;__autoSize&amp;quot;:false},&amp;quot;tableRow&amp;quot;,{},&amp;quot;tableCell&amp;quot;,{&amp;quot;colspan&amp;quot;:1,&amp;quot;rowspan&amp;quot;:1,&amp;quot;colwidth&amp;quot;:[329],&amp;quot;background&amp;quot;:null}]&quot; data-prosemirror-node-block=&quot;true&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-content-type=&quot;node&quot;&gt;PRODUCTO GLOSADO: XXX  VALOR: XXX TOTAL_CONTRATADO: XXX TIPO GLOSA: XXX&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
           <mxGeometry x="2899" y="300" width="162.5" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="M_9tR8TZ_ZrpfwXMIzji-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="M_9tR8TZ_ZrpfwXMIzji-29" target="kSkRkdUQKawP1oYZoRHr-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1405" y="1110" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1405" y="1080" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="M_9tR8TZ_ZrpfwXMIzji-33" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M_9tR8TZ_ZrpfwXMIzji-32">
-          <mxGeometry x="-0.2692" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="M_9tR8TZ_ZrpfwXMIzji-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="I6SyIY9X4S2mshl3AVVj-25" target="I6SyIY9X4S2mshl3AVVj-35">
           <mxGeometry relative="1" as="geometry" />
