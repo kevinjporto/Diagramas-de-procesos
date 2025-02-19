@@ -131,7 +131,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vrwh3DZQy4N4ysGJemR1-8" value="¿Cantidad facturada&lt;br&gt;&amp;gt; autorizada?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;" parent="3LwcX4oNFDxZzFYPkHVs-126" vertex="1">
+        <mxCell id="Vrwh3DZQy4N4ysGJemR1-8" value="¿Cantidad autorizada&amp;lt;= &lt;br&gt;cantidad facturada?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;fontSize=10;" parent="3LwcX4oNFDxZzFYPkHVs-126" vertex="1">
           <mxGeometry x="1380" y="55" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kSkRkdUQKawP1oYZoRHr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-126" source="kSkRkdUQKawP1oYZoRHr-1" target="kSkRkdUQKawP1oYZoRHr-3" edge="1">
@@ -153,7 +153,7 @@
         <mxCell id="kSkRkdUQKawP1oYZoRHr-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;¿Vr total a facturar &amp;lt;&lt;br&gt;Vr total facturado?&lt;/span&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;" parent="3LwcX4oNFDxZzFYPkHVs-126" vertex="1">
           <mxGeometry x="1650" y="55" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="M_9tR8TZ_ZrpfwXMIzji-29" value="¿Valor total facturado &lt;br&gt;&amp;gt; Valor autorizado?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-126">
+        <mxCell id="M_9tR8TZ_ZrpfwXMIzji-29" value="¿Valor total facturado &lt;br&gt;&amp;gt; Valor autorizado?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-126">
           <mxGeometry x="1380" y="150" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="I6SyIY9X4S2mshl3AVVj-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" source="I6SyIY9X4S2mshl3AVVj-25" target="I6SyIY9X4S2mshl3AVVj-69" edge="1">
@@ -173,7 +173,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1576" y="1010" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2325" y="895" />
+              <mxPoint x="2325" y="1095" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -199,10 +199,10 @@
           <mxGeometry y="710" width="2940" height="160" as="geometry" />
         </mxCell>
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-168" value="Validar valor del CUMS vs el valor contratado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="3LwcX4oNFDxZzFYPkHVs-128" vertex="1">
-          <mxGeometry x="1710" y="40" width="135" height="80" as="geometry" />
+          <mxGeometry x="1840" y="40" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="I6SyIY9X4S2mshl3AVVj-25" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;¿Valor facturado &amp;gt;&lt;br&gt;Valor contratado?&lt;/font&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;" parent="3LwcX4oNFDxZzFYPkHVs-128" vertex="1">
-          <mxGeometry x="1890" y="55" width="50" height="50" as="geometry" />
+          <mxGeometry x="2030" y="55" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="I6SyIY9X4S2mshl3AVVj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-128" source="3LwcX4oNFDxZzFYPkHVs-168" target="I6SyIY9X4S2mshl3AVVj-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -313,7 +313,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kSkRkdUQKawP1oYZoRHr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" source="I6SyIY9X4S2mshl3AVVj-25" target="I6SyIY9X4S2mshl3AVVj-35" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2055" y="850" />
+              <mxPoint x="1915" y="850" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="kSkRkdUQKawP1oYZoRHr-17" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kSkRkdUQKawP1oYZoRHr-16" vertex="1" connectable="0">
           <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
@@ -435,6 +440,19 @@
         </mxCell>
         <mxCell id="0FS1YswocWa1yCGsBYn5-14" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,{&amp;quot;displayMode&amp;quot;:null,&amp;quot;isNumberColumnEnabled&amp;quot;:false,&amp;quot;layout&amp;quot;:&amp;quot;center&amp;quot;,&amp;quot;localId&amp;quot;:&amp;quot;922ff2e6-c428-4bf7-b1dc-2d80d05656cd&amp;quot;,&amp;quot;width&amp;quot;:760,&amp;quot;__autoSize&amp;quot;:false},&amp;quot;tableRow&amp;quot;,{},&amp;quot;tableCell&amp;quot;,{&amp;quot;colspan&amp;quot;:1,&amp;quot;rowspan&amp;quot;:1,&amp;quot;colwidth&amp;quot;:[329],&amp;quot;background&amp;quot;:null}]&quot; data-prosemirror-node-block=&quot;true&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-content-type=&quot;node&quot;&gt;PRODUCTO GLOSADO: XXX  VALOR: XXX TOTAL_CONTRATADO: XXX TIPO GLOSA: XXX&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
           <mxGeometry x="2448.75" y="300" width="162.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="M_9tR8TZ_ZrpfwXMIzji-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="M_9tR8TZ_ZrpfwXMIzji-29" target="kSkRkdUQKawP1oYZoRHr-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1405" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1405" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M_9tR8TZ_ZrpfwXMIzji-33" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M_9tR8TZ_ZrpfwXMIzji-32">
+          <mxGeometry x="-0.2692" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
