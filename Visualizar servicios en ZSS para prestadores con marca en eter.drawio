@@ -7,6 +7,21 @@
         <mxCell id="DZp7piEdJl-Q790h61w1-1" value="Visualizar servicios de ámbito ambulatorio y hospitalario para prestadores NO RED" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="2370" height="870" as="geometry" />
         </mxCell>
+        <mxCell id="FZRKKht7appjnMGiK8aR-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1915" y="717" as="sourcePoint" />
+            <mxPoint x="1735" y="112" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1915" y="412" />
+              <mxPoint x="1735" y="412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZRKKht7appjnMGiK8aR-58" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZRKKht7appjnMGiK8aR-57">
+          <mxGeometry x="-0.6535" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FZRKKht7appjnMGiK8aR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-1" source="DZp7piEdJl-Q790h61w1-29" target="FZRKKht7appjnMGiK8aR-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1505" y="890" as="targetPoint" />
@@ -41,13 +56,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-43" value="Mostrar los servicios de acuerdo con las validaciones existentes" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DZp7piEdJl-Q790h61w1-2" vertex="1">
-          <mxGeometry x="1830" y="210" width="120" height="80" as="geometry" />
+          <mxGeometry x="1810" y="210" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-45" value="Mostrar servicios hospitalarios (100-199)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DZp7piEdJl-Q790h61w1-2" vertex="1">
-          <mxGeometry x="1830" y="25" width="120" height="80" as="geometry" />
+          <mxGeometry x="1810" y="25" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DZp7piEdJl-Q790h61w1-55" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="DZp7piEdJl-Q790h61w1-2" vertex="1">
-          <mxGeometry x="1980" y="230" width="40" height="40" as="geometry" />
+          <mxGeometry x="1970" y="230" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YhVUN2A8UuCsmT0SYXPu-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DZp7piEdJl-Q790h61w1-2" source="YhVUN2A8UuCsmT0SYXPu-39" target="YhVUN2A8UuCsmT0SYXPu-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -104,7 +119,7 @@
           <mxGeometry x="1890" y="140" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FZRKKht7appjnMGiK8aR-43" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Mostrar Servicios Habilitados del contrato en el campo &quot;Servicio&quot;&lt;/font&gt;&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DZp7piEdJl-Q790h61w1-2">
-          <mxGeometry x="2050" y="25" width="120" height="80" as="geometry" />
+          <mxGeometry x="2030" y="25" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FZRKKht7appjnMGiK8aR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-2" source="FZRKKht7appjnMGiK8aR-44" target="DZp7piEdJl-Q790h61w1-45">
           <mxGeometry relative="1" as="geometry" />
@@ -254,7 +269,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2000" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2110" y="740" />
+              <mxPoint x="2090" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -275,21 +290,18 @@
             <mxPoint x="1740" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FZRKKht7appjnMGiK8aR-49" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZRKKht7appjnMGiK8aR-48">
-          <mxGeometry x="0.8771" y="-1" relative="1" as="geometry">
+        <mxCell id="FZRKKht7appjnMGiK8aR-59" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZRKKht7appjnMGiK8aR-48">
+          <mxGeometry x="-0.7006" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FZRKKht7appjnMGiK8aR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DZp7piEdJl-Q790h61w1-1" source="DZp7piEdJl-Q790h61w1-29" target="DZp7piEdJl-Q790h61w1-43">
+        <mxCell id="FZRKKht7appjnMGiK8aR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-1" source="DZp7piEdJl-Q790h61w1-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1810" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FZRKKht7appjnMGiK8aR-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DZp7piEdJl-Q790h61w1-1" source="FZRKKht7appjnMGiK8aR-36" target="FZRKKht7appjnMGiK8aR-44">
-          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1810" y="270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1915" y="450" />
-              <mxPoint x="1735" y="450" />
+              <mxPoint x="1670" y="400" />
+              <mxPoint x="1670" y="270" />
+              <mxPoint x="1811" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
