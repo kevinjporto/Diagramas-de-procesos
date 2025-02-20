@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="Página-1" id="6i_p-R7HKGtbfCE5hA1_">
-    <mxGraphModel dx="1384" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1130" math="0" shadow="0">
+    <mxGraphModel dx="1382" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1130" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,14 +64,8 @@
         <mxCell id="I6SyIY9X4S2mshl3AVVj-23" value="Cargar RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#fff2cc;strokeColor=#d6b656;" parent="3LwcX4oNFDxZzFYPkHVs-124" vertex="1">
           <mxGeometry x="260" y="30" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iVjvkwj3p_KeQu9TfVZr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-124" source="M_9tR8TZ_ZrpfwXMIzji-4" target="M_9tR8TZ_ZrpfwXMIzji-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="M_9tR8TZ_ZrpfwXMIzji-4" value="Bloquear cargue de RIPS y generar informe de errores" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="3LwcX4oNFDxZzFYPkHVs-124" vertex="1">
           <mxGeometry x="740" y="30" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="M_9tR8TZ_ZrpfwXMIzji-3" value="El código que intenta facturar no es un CUM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" parent="3LwcX4oNFDxZzFYPkHVs-124" vertex="1">
-          <mxGeometry x="750" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M_9tR8TZ_ZrpfwXMIzji-8" value="¿Rips EVENTO &lt;br&gt;Ambulatorio?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;" parent="3LwcX4oNFDxZzFYPkHVs-124" vertex="1">
           <mxGeometry x="882.5" y="240" width="50" height="50" as="geometry" />
