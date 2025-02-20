@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="Página-1" id="6i_p-R7HKGtbfCE5hA1_">
-    <mxGraphModel dx="2492" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1130" math="0" shadow="0">
+    <mxGraphModel dx="1384" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1130" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,7 +39,7 @@
             <mxPoint x="-2" y="116" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3LwcX4oNFDxZzFYPkHVs-124" value="OASIS - ERIP" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="3LwcX4oNFDxZzFYPkHVs-123" vertex="1">
+        <mxCell id="3LwcX4oNFDxZzFYPkHVs-124" value="OASIS - ERIP" style="swimlane;startSize=20;horizontal=0;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" vertex="1">
           <mxGeometry y="20" width="2890" height="330" as="geometry" />
         </mxCell>
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-130" value="Inicio" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" parent="3LwcX4oNFDxZzFYPkHVs-124" vertex="1">
@@ -126,6 +126,11 @@
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-124" source="iVjvkwj3p_KeQu9TfVZr-31" target="iVjvkwj3p_KeQu9TfVZr-36">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVjvkwj3p_KeQu9TfVZr-42" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iVjvkwj3p_KeQu9TfVZr-38">
+          <mxGeometry x="-0.0963" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-31" value="¿Reporta AS?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3LwcX4oNFDxZzFYPkHVs-124">
           <mxGeometry x="440" y="45" width="50" height="50" as="geometry" />
