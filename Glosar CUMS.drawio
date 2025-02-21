@@ -413,6 +413,14 @@
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3LwcX4oNFDxZzFYPkHVs-123" source="iVjvkwj3p_KeQu9TfVZr-36" target="3LwcX4oNFDxZzFYPkHVs-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="iVjvkwj3p_KeQu9TfVZr-58" value="¿Valor CUM Rips &lt;br&gt;&amp;gt; Valor Contratado?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="920" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iVjvkwj3p_KeQu9TfVZr-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iVjvkwj3p_KeQu9TfVZr-49" target="iVjvkwj3p_KeQu9TfVZr-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1930" y="945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
