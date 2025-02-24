@@ -83,7 +83,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MjaqNSDwa1cyb_so7ybZ-22" value="¿Siniestro asociado?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="MjaqNSDwa1cyb_so7ybZ-2">
+        <mxCell id="MjaqNSDwa1cyb_so7ybZ-22" value="¿Siniestro&amp;nbsp;&lt;div&gt;asociado?&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="MjaqNSDwa1cyb_so7ybZ-2">
           <mxGeometry x="420" y="190" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MjaqNSDwa1cyb_so7ybZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MjaqNSDwa1cyb_so7ybZ-2" source="MjaqNSDwa1cyb_so7ybZ-18" target="MjaqNSDwa1cyb_so7ybZ-22">
