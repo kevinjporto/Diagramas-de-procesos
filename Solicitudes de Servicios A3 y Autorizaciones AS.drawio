@@ -106,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JW_ZT9TwwhXl2gYUWcVb-76" value="Inicio" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JW_ZT9TwwhXl2gYUWcVb-2">
-          <mxGeometry x="2290" y="25" width="50" height="50" as="geometry" />
+          <mxGeometry x="2040" y="25" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JW_ZT9TwwhXl2gYUWcVb-45" value="¿Rol autorizado?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="JW_ZT9TwwhXl2gYUWcVb-2">
           <mxGeometry x="1450" y="75" width="50" height="50" as="geometry" />
@@ -127,9 +127,11 @@
         <mxCell id="JW_ZT9TwwhXl2gYUWcVb-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JW_ZT9TwwhXl2gYUWcVb-2" source="JW_ZT9TwwhXl2gYUWcVb-83" target="JW_ZT9TwwhXl2gYUWcVb-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JW_ZT9TwwhXl2gYUWcVb-83" value="Validar creación A3 automatico" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="JW_ZT9TwwhXl2gYUWcVb-2">
-          <mxGeometry x="840" y="60" width="120" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Validar creación A3 automatico" link="https://app.diagrams.net/#Hkevinjporto%2FDiagramas-de-procesos%2Fmain%2FValidar%20condiciones%20para%20crear%20A3%20automatico.drawio#%7B%22pageId%22%3A%22XB4Z8zkzqnux2oW8rPwN%22%7D" id="JW_ZT9TwwhXl2gYUWcVb-83">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="JW_ZT9TwwhXl2gYUWcVb-2">
+            <mxGeometry x="840" y="60" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="JW_ZT9TwwhXl2gYUWcVb-84" value="¿Cumple &lt;br&gt;validaciones?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;fontSize=10;" vertex="1" parent="JW_ZT9TwwhXl2gYUWcVb-2">
           <mxGeometry x="1010" y="75" width="50" height="50" as="geometry" />
         </mxCell>
