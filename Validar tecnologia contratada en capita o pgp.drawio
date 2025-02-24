@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IwLEYxxJopyAIarnTmrt-1" value="Validar si una tecnologia esta contratada en una capita o pgp" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="130" y="40" width="1660" height="720" as="geometry" />
+          <mxGeometry x="130" y="40" width="1660" height="820" as="geometry" />
         </mxCell>
         <mxCell id="IwLEYxxJopyAIarnTmrt-2" value="ZonaSer Prestador" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="IwLEYxxJopyAIarnTmrt-1">
           <mxGeometry y="20" width="1660" height="290" as="geometry" />
@@ -62,7 +62,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IwLEYxxJopyAIarnTmrt-3" value="OASIS - ecnc" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="IwLEYxxJopyAIarnTmrt-1">
-          <mxGeometry y="310" width="1660" height="290" as="geometry" />
+          <mxGeometry y="310" width="1660" height="390" as="geometry" />
         </mxCell>
         <mxCell id="IwLEYxxJopyAIarnTmrt-19" value="Consultar si existen contratos clase PGP o Cápita en estado PROCESADO y LEGALIZADO para el prestador" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="IwLEYxxJopyAIarnTmrt-3">
           <mxGeometry x="475" y="60" width="170" height="80" as="geometry" />
@@ -115,10 +115,47 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IwLEYxxJopyAIarnTmrt-31" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=end;symbol=general;" vertex="1" parent="IwLEYxxJopyAIarnTmrt-3">
-          <mxGeometry x="1030" y="210" width="50" height="50" as="geometry" />
+          <mxGeometry x="1160" y="300" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IwLEYxxJopyAIarnTmrt-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IwLEYxxJopyAIarnTmrt-3" source="IwLEYxxJopyAIarnTmrt-21" target="IwLEYxxJopyAIarnTmrt-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwLEYxxJopyAIarnTmrt-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IwLEYxxJopyAIarnTmrt-3" source="IwLEYxxJopyAIarnTmrt-24" target="IwLEYxxJopyAIarnTmrt-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwLEYxxJopyAIarnTmrt-35" value="¿¿Municipio atención &lt;br&gt;afiliado = ubicación &lt;br&gt;del contrato?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="IwLEYxxJopyAIarnTmrt-3">
+          <mxGeometry x="1030" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IwLEYxxJopyAIarnTmrt-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IwLEYxxJopyAIarnTmrt-3" source="IwLEYxxJopyAIarnTmrt-26" target="IwLEYxxJopyAIarnTmrt-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="945" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwLEYxxJopyAIarnTmrt-36" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IwLEYxxJopyAIarnTmrt-34">
+          <mxGeometry x="-0.5111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwLEYxxJopyAIarnTmrt-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IwLEYxxJopyAIarnTmrt-3" source="IwLEYxxJopyAIarnTmrt-35" target="IwLEYxxJopyAIarnTmrt-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1055" y="325" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IwLEYxxJopyAIarnTmrt-4" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="IwLEYxxJopyAIarnTmrt-1">
-          <mxGeometry y="600" width="1660" height="120" as="geometry" />
+          <mxGeometry y="700" width="1660" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IwLEYxxJopyAIarnTmrt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IwLEYxxJopyAIarnTmrt-1" source="IwLEYxxJopyAIarnTmrt-11" target="IwLEYxxJopyAIarnTmrt-19">
           <mxGeometry relative="1" as="geometry">
