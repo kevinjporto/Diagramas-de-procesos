@@ -256,7 +256,7 @@
         <mxCell id="OuBoWgfDjwoYJAEYba90-99" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=end;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" parent="JzyulNl6e5APR63eF1yB-2" vertex="1">
           <mxGeometry x="2360" y="185" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OuBoWgfDjwoYJAEYba90-55" value="Consultar servicio en el contrato en ECNC" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="JzyulNl6e5APR63eF1yB-2" vertex="1">
+        <mxCell id="OuBoWgfDjwoYJAEYba90-55" value="Consultar servicio en el contrato del A3 en ECNC" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="JzyulNl6e5APR63eF1yB-2" vertex="1">
           <mxGeometry x="1810" y="55" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OuBoWgfDjwoYJAEYba90-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="JzyulNl6e5APR63eF1yB-2" source="OuBoWgfDjwoYJAEYba90-55" target="OuBoWgfDjwoYJAEYba90-45" edge="1">
@@ -419,6 +419,9 @@
         </mxCell>
         <mxCell id="dvrANLXSKc0wDXmjuW-p-1" value="El usuario debe seleccionar el servicio para continuar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="JzyulNl6e5APR63eF1yB-2">
           <mxGeometry x="1120" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dvrANLXSKc0wDXmjuW-p-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="370" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
