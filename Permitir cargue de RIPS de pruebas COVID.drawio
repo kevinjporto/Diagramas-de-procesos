@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Página-1" id="Hdc81AM2Uc06f9mj2QX-">
-    <mxGraphModel dx="1034" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
             <mxPoint x="580" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HDhrtGJA4EhIXhscm4DT-15" value="¿RIPS con fecha &amp;gt;=&amp;nbsp;&lt;div&gt;01/01/2025 y reportan&amp;nbsp;&lt;/div&gt;&lt;div&gt;CUP de canastas&amp;nbsp;&lt;/div&gt;&lt;div&gt;con fecha prestación&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;lt; 01/01/2025&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;?&lt;/span&gt;&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="HDhrtGJA4EhIXhscm4DT-2">
+        <mxCell id="HDhrtGJA4EhIXhscm4DT-15" value="¿RIPS fecha&amp;nbsp;&lt;div&gt;prestación &amp;gt;=&amp;nbsp;&lt;div&gt;01/01/2025 &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;?&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="HDhrtGJA4EhIXhscm4DT-2">
           <mxGeometry x="710" y="85" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HDhrtGJA4EhIXhscm4DT-2" source="HDhrtGJA4EhIXhscm4DT-13" target="HDhrtGJA4EhIXhscm4DT-15">
@@ -80,6 +80,14 @@
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-21" value="El código que intenta facturar corresponde a canastas COVID-19, debe facturarse por separado" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;fontSize=10;" vertex="1" parent="HDhrtGJA4EhIXhscm4DT-2">
           <mxGeometry x="910" y="340" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDhrtGJA4EhIXhscm4DT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="HDhrtGJA4EhIXhscm4DT-2" source="HDhrtGJA4EhIXhscm4DT-15" target="HDhrtGJA4EhIXhscm4DT-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDhrtGJA4EhIXhscm4DT-25" value="¿Viene reportado&amp;nbsp;&lt;div&gt;un CUPS de&amp;nbsp;&lt;/div&gt;&lt;div&gt;canasta en&amp;nbsp;&lt;/div&gt;&lt;div&gt;archivo AP?&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="HDhrtGJA4EhIXhscm4DT-2">
+          <mxGeometry x="810" y="85" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
