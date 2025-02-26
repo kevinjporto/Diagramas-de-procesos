@@ -79,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-21" value="El código que intenta facturar corresponde a canastas COVID-19, debe facturarse por separado" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;fontSize=10;" vertex="1" parent="HDhrtGJA4EhIXhscm4DT-2">
-          <mxGeometry x="1370" y="10" width="110" height="70" as="geometry" />
+          <mxGeometry x="1360" y="10" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HDhrtGJA4EhIXhscm4DT-2" source="HDhrtGJA4EhIXhscm4DT-25" target="HDhrtGJA4EhIXhscm4DT-27">
           <mxGeometry relative="1" as="geometry" />
