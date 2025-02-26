@@ -65,13 +65,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-17" value="Rechazar RIPS e insertar error en tabla de errores" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="HDhrtGJA4EhIXhscm4DT-2">
-          <mxGeometry x="1220" y="130" width="120" height="80" as="geometry" />
+          <mxGeometry x="1090" y="130" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="HDhrtGJA4EhIXhscm4DT-2" source="HDhrtGJA4EhIXhscm4DT-20" target="HDhrtGJA4EhIXhscm4DT-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-20" value="Generar informe de errores" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="HDhrtGJA4EhIXhscm4DT-2">
-          <mxGeometry x="1400" y="130" width="120" height="80" as="geometry" />
+          <mxGeometry x="1250" y="130" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HDhrtGJA4EhIXhscm4DT-2" source="HDhrtGJA4EhIXhscm4DT-17" target="HDhrtGJA4EhIXhscm4DT-20">
           <mxGeometry relative="1" as="geometry">
@@ -143,6 +143,20 @@
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="HDhrtGJA4EhIXhscm4DT-2" source="HDhrtGJA4EhIXhscm4DT-41" target="HDhrtGJA4EhIXhscm4DT-51">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDhrtGJA4EhIXhscm4DT-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HDhrtGJA4EhIXhscm4DT-2" source="HDhrtGJA4EhIXhscm4DT-57" target="HDhrtGJA4EhIXhscm4DT-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDhrtGJA4EhIXhscm4DT-57" value="Aplicar validaciones para asignar clasificación" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="HDhrtGJA4EhIXhscm4DT-2">
+          <mxGeometry x="1090" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HDhrtGJA4EhIXhscm4DT-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HDhrtGJA4EhIXhscm4DT-2" source="HDhrtGJA4EhIXhscm4DT-50" target="HDhrtGJA4EhIXhscm4DT-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDhrtGJA4EhIXhscm4DT-60" value="Generar cuenta medica en EFAC" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="HDhrtGJA4EhIXhscm4DT-2">
+          <mxGeometry x="1250" y="310" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
