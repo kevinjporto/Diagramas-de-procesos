@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Página-1" id="6i_p-R7HKGtbfCE5hA1_">
-    <mxGraphModel dx="3034" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1130" math="0" shadow="0">
+    <mxGraphModel dx="2794" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1130" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -420,9 +420,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iVjvkwj3p_KeQu9TfVZr-339" value="Cant RIPS &amp;lt;=&amp;nbsp;&lt;div&gt;Cant AS y&amp;nbsp;&lt;div&gt;Valor Unit RIPS&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;gt; Valor Unit AS&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iVjvkwj3p_KeQu9TfVZr-338" vertex="1" connectable="0">
+        <mxCell id="iVjvkwj3p_KeQu9TfVZr-339" value="Cant RIPS &amp;lt;=&amp;nbsp;&lt;div&gt;Cant AS y&amp;nbsp;&lt;div&gt;Valor Unit RIPS&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;gt; Valor Unit AS&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="iVjvkwj3p_KeQu9TfVZr-338" vertex="1" connectable="0">
           <mxGeometry x="0.3021" relative="1" as="geometry">
-            <mxPoint x="12" as="offset" />
+            <mxPoint x="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iVjvkwj3p_KeQu9TfVZr-283" source="iVjvkwj3p_KeQu9TfVZr-325" target="iVjvkwj3p_KeQu9TfVZr-301" edge="1">
@@ -432,9 +432,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iVjvkwj3p_KeQu9TfVZr-344" value="Cant RIPS &amp;gt;&lt;div&gt;Cant AS y&amp;nbsp;&lt;/div&gt;&lt;div&gt;Valor Unit RIPS&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;gt; Valor Unit AS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iVjvkwj3p_KeQu9TfVZr-343" vertex="1" connectable="0">
+        <mxCell id="iVjvkwj3p_KeQu9TfVZr-344" value="Cant RIPS &amp;gt;&lt;div&gt;Cant AS y&amp;nbsp;&lt;/div&gt;&lt;div&gt;Valor Unit RIPS&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;gt; Valor Unit AS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="iVjvkwj3p_KeQu9TfVZr-343" vertex="1" connectable="0">
           <mxGeometry x="0.3617" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-13" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-367" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iVjvkwj3p_KeQu9TfVZr-283" source="iVjvkwj3p_KeQu9TfVZr-345" target="iVjvkwj3p_KeQu9TfVZr-302" edge="1">
