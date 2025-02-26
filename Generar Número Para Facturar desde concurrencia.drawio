@@ -420,9 +420,6 @@
         <mxCell id="dvrANLXSKc0wDXmjuW-p-1" value="El usuario debe seleccionar el servicio para continuar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="JzyulNl6e5APR63eF1yB-2">
           <mxGeometry x="1120" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dvrANLXSKc0wDXmjuW-p-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="370" width="60" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
