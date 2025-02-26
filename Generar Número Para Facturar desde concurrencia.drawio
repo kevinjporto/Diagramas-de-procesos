@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Página-1" id="g5fUxCn4HUF5k6jVXiy7">
-    <mxGraphModel dx="1034" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,6 +69,9 @@
         </mxCell>
         <mxCell id="OuBoWgfDjwoYJAEYba90-11" value="Clic botón &lt;br&gt;&quot;Generar No. &lt;br&gt;Para Facturar&quot;&amp;nbsp;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=catching;symbol=signal;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=10;labelPosition=center;" parent="JzyulNl6e5APR63eF1yB-2" vertex="1">
           <mxGeometry x="930" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dvrANLXSKc0wDXmjuW-p-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="JzyulNl6e5APR63eF1yB-2" source="OuBoWgfDjwoYJAEYba90-13" target="dvrANLXSKc0wDXmjuW-p-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OuBoWgfDjwoYJAEYba90-13" value="Listar servicios sin No. Para Facturar y con fecha de salida diligenciada" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="JzyulNl6e5APR63eF1yB-2" vertex="1">
           <mxGeometry x="1180" y="55" width="120" height="80" as="geometry" />
@@ -413,6 +416,9 @@
         </mxCell>
         <mxCell id="OuBoWgfDjwoYJAEYba90-160" value="Mostrar resumen antes de generar el AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="JzyulNl6e5APR63eF1yB-2" vertex="1">
           <mxGeometry x="2770" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dvrANLXSKc0wDXmjuW-p-1" value="El usuario debe seleccionar el servicio para continuar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="JzyulNl6e5APR63eF1yB-2">
+          <mxGeometry x="1120" y="180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
