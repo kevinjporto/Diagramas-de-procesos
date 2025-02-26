@@ -393,7 +393,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-302" value="Glosar resultado con concepto tarifas código glosa: 207" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iVjvkwj3p_KeQu9TfVZr-283" vertex="1">
-          <mxGeometry x="2460" y="145" width="120" height="80" as="geometry" />
+          <mxGeometry x="2460" y="155" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-346" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iVjvkwj3p_KeQu9TfVZr-283" source="iVjvkwj3p_KeQu9TfVZr-303" target="iVjvkwj3p_KeQu9TfVZr-345" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -441,7 +441,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-345" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=end;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iVjvkwj3p_KeQu9TfVZr-283" vertex="1">
-          <mxGeometry x="2370" y="160" width="50" height="50" as="geometry" />
+          <mxGeometry x="2370" y="170" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z4ZImV3BdOVlYTGnUbKM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iVjvkwj3p_KeQu9TfVZr-283" source="z4ZImV3BdOVlYTGnUbKM-13" target="iVjvkwj3p_KeQu9TfVZr-298">
           <mxGeometry relative="1" as="geometry" />
@@ -455,7 +455,7 @@
         <mxCell id="z4ZImV3BdOVlYTGnUbKM-17" value="¿Valor unit RIPS &amp;gt; &lt;br&gt;Valor unit AS?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="iVjvkwj3p_KeQu9TfVZr-283">
           <mxGeometry x="1520" y="340" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z4ZImV3BdOVlYTGnUbKM-20" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="iVjvkwj3p_KeQu9TfVZr-283">
+        <mxCell id="z4ZImV3BdOVlYTGnUbKM-20" value="Fin" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iVjvkwj3p_KeQu9TfVZr-283">
           <mxGeometry x="1675" y="340" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z4ZImV3BdOVlYTGnUbKM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iVjvkwj3p_KeQu9TfVZr-283" source="z4ZImV3BdOVlYTGnUbKM-17" target="z4ZImV3BdOVlYTGnUbKM-20">
