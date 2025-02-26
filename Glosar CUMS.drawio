@@ -455,7 +455,7 @@
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iVjvkwj3p_KeQu9TfVZr-283" source="iVjvkwj3p_KeQu9TfVZr-308" target="iVjvkwj3p_KeQu9TfVZr-345" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iVjvkwj3p_KeQu9TfVZr-308" value="Calcular (Valor Total RIPS - Valor Contratado ECAC)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iVjvkwj3p_KeQu9TfVZr-283" vertex="1">
+        <mxCell id="iVjvkwj3p_KeQu9TfVZr-308" value="Calcular (Valor Unit RIPS - Valor Unit Contratado) * Cant RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iVjvkwj3p_KeQu9TfVZr-283" vertex="1">
           <mxGeometry x="2210" y="145" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iVjvkwj3p_KeQu9TfVZr-283" source="iVjvkwj3p_KeQu9TfVZr-325" target="iVjvkwj3p_KeQu9TfVZr-308" edge="1">
