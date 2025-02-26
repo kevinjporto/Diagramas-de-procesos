@@ -301,14 +301,14 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2870" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2825" y="360" />
-              <mxPoint x="2385" y="360" />
+              <mxPoint x="2825" y="330" />
+              <mxPoint x="2385" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OuBoWgfDjwoYJAEYba90-121" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OuBoWgfDjwoYJAEYba90-116" vertex="1" connectable="0">
           <mxGeometry x="0.6898" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="-46" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OuBoWgfDjwoYJAEYba90-120" value="Fin" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#f8cecc;strokeColor=#b85450;" parent="JzyulNl6e5APR63eF1yB-2" vertex="1">
