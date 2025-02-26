@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-123" value="Glosa medicamentos contrato evento ámbito ambulatorio" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="-60" width="3000" height="1740" as="geometry" />
+          <mxGeometry x="-10" y="-60" width="3000" height="1730" as="geometry" />
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3LwcX4oNFDxZzFYPkHVs-123" source="iVjvkwj3p_KeQu9TfVZr-80" target="z4ZImV3BdOVlYTGnUbKM-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -19,7 +19,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-124" value="OASIS - ERIP" style="swimlane;startSize=20;horizontal=0;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" vertex="1">
-          <mxGeometry y="20" width="3000" height="270" as="geometry" />
+          <mxGeometry y="20" width="3000" height="260" as="geometry" />
         </mxCell>
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-130" value="Inicio" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" parent="3LwcX4oNFDxZzFYPkHVs-124" vertex="1">
           <mxGeometry x="40" y="50" width="40" height="40" as="geometry" />
@@ -59,7 +59,7 @@
         </mxCell>
         <mxCell id="M_9tR8TZ_ZrpfwXMIzji-16" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="M_9tR8TZ_ZrpfwXMIzji-10" vertex="1" connectable="0">
           <mxGeometry x="0.0588" y="-1" relative="1" as="geometry">
-            <mxPoint y="2" as="offset" />
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M_9tR8TZ_ZrpfwXMIzji-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-124" source="M_9tR8TZ_ZrpfwXMIzji-17" target="M_9tR8TZ_ZrpfwXMIzji-20" edge="1">
@@ -124,7 +124,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-125" value="OASIS - EPRO" style="swimlane;startSize=20;horizontal=0;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" vertex="1">
-          <mxGeometry y="290" width="3000" height="170" as="geometry" />
+          <mxGeometry y="280" width="3000" height="170" as="geometry" />
         </mxCell>
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-8" value="Buscar código reportado en archivo AM y MA en pestaña &quot;Código Invima&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="3LwcX4oNFDxZzFYPkHVs-125" vertex="1">
           <mxGeometry x="397.5" y="45" width="135" height="80" as="geometry" />
@@ -151,7 +151,7 @@
         </mxCell>
         <mxCell id="M_9tR8TZ_ZrpfwXMIzji-15" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="M_9tR8TZ_ZrpfwXMIzji-9" vertex="1" connectable="0">
           <mxGeometry x="-0.3333" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M_9tR8TZ_ZrpfwXMIzji-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" source="3LwcX4oNFDxZzFYPkHVs-9" target="M_9tR8TZ_ZrpfwXMIzji-20" edge="1">
@@ -177,7 +177,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-126" value="OASIS - EAUT" style="swimlane;startSize=20;horizontal=0;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" vertex="1">
-          <mxGeometry y="460" width="3000" height="190" as="geometry" />
+          <mxGeometry y="450" width="3000" height="190" as="geometry" />
         </mxCell>
         <mxCell id="3LwcX4oNFDxZzFYPkHVs-30" value="Validar si el CUMS se encuentra autorizado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="3LwcX4oNFDxZzFYPkHVs-126" vertex="1">
           <mxGeometry x="940" y="40" width="135" height="80" as="geometry" />
@@ -219,7 +219,7 @@
           <mxGeometry x="1520" y="55" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="I6SyIY9X4S2mshl3AVVj-19" value="OASIS - ECAC" style="swimlane;startSize=20;horizontal=0;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" vertex="1">
-          <mxGeometry y="650" width="3000" height="240" as="geometry" />
+          <mxGeometry y="640" width="3000" height="240" as="geometry" />
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-60" value="Validar si el CUM ha tenido cambio de tarifas" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="I6SyIY9X4S2mshl3AVVj-19" vertex="1">
           <mxGeometry x="1690" y="25" width="120" height="80" as="geometry" />
@@ -318,7 +318,7 @@
           <mxGeometry x="1520" y="40" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-283" value="OASIS - EFAC" style="swimlane;startSize=20;horizontal=0;html=1;" parent="3LwcX4oNFDxZzFYPkHVs-123" vertex="1">
-          <mxGeometry y="890" width="3000" height="850" as="geometry" />
+          <mxGeometry y="880" width="3000" height="850" as="geometry" />
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-284" value="Glosar el 100% del CUMS código glosa 430" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iVjvkwj3p_KeQu9TfVZr-283" vertex="1">
           <mxGeometry x="1877.5" y="710" width="135" height="80" as="geometry" />
