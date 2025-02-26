@@ -452,20 +452,6 @@
         <mxCell id="I6SyIY9X4S2mshl3AVVj-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iVjvkwj3p_KeQu9TfVZr-283" source="I6SyIY9X4S2mshl3AVVj-54" target="I6SyIY9X4S2mshl3AVVj-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iVjvkwj3p_KeQu9TfVZr-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iVjvkwj3p_KeQu9TfVZr-283" source="iVjvkwj3p_KeQu9TfVZr-308" target="iVjvkwj3p_KeQu9TfVZr-345" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iVjvkwj3p_KeQu9TfVZr-308" value="Calcular (Valor Unit RIPS - Valor Unit Contratado) * Cant RIPS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" parent="iVjvkwj3p_KeQu9TfVZr-283" vertex="1">
-          <mxGeometry x="2210" y="145" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iVjvkwj3p_KeQu9TfVZr-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iVjvkwj3p_KeQu9TfVZr-283" source="iVjvkwj3p_KeQu9TfVZr-325" target="iVjvkwj3p_KeQu9TfVZr-308" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iVjvkwj3p_KeQu9TfVZr-342" value="Valor unit RIPS&amp;gt;&lt;div&gt;Valor unit&amp;nbsp;&lt;/div&gt;&lt;div&gt;AS y Cant RIPS&amp;nbsp;&lt;/div&gt;&lt;div&gt;= Cant AS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iVjvkwj3p_KeQu9TfVZr-341" vertex="1" connectable="0">
-          <mxGeometry x="-0.1818" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-325" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=complex;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iVjvkwj3p_KeQu9TfVZr-283" vertex="1">
           <mxGeometry x="2050" y="160" width="50" height="50" as="geometry" />
         </mxCell>
@@ -476,9 +462,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iVjvkwj3p_KeQu9TfVZr-339" value="Valor unit RIPS &amp;gt;&amp;nbsp;&lt;div&gt;Valor unit AS y&amp;nbsp;&lt;/div&gt;&lt;div&gt;Cant RIPS&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;nbsp; Cant AS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iVjvkwj3p_KeQu9TfVZr-338" vertex="1" connectable="0">
+        <mxCell id="iVjvkwj3p_KeQu9TfVZr-339" value="Cant RIPS &amp;lt;=&amp;nbsp;&lt;div&gt;Cant AS y&amp;nbsp;&lt;div&gt;Valor Unit RIPS&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;gt; Valor Unit AS&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iVjvkwj3p_KeQu9TfVZr-338" vertex="1" connectable="0">
           <mxGeometry x="0.3021" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iVjvkwj3p_KeQu9TfVZr-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iVjvkwj3p_KeQu9TfVZr-283" source="iVjvkwj3p_KeQu9TfVZr-325" target="iVjvkwj3p_KeQu9TfVZr-301" edge="1">
