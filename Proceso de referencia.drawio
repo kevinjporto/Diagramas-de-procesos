@@ -463,9 +463,11 @@
         <mxCell id="j3ywk_b7daHQP_dhVzby-126" value="Mostrar mensaje de campo obligatorio" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="j3ywk_b7daHQP_dhVzby-2">
           <mxGeometry x="2350" y="460" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="j3ywk_b7daHQP_dhVzby-131" value="Generar A3 y AS" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="j3ywk_b7daHQP_dhVzby-2">
-          <mxGeometry x="2510" y="555" width="120" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="Generar A3 y AS" link="https://app.diagrams.net/#Hkevinjporto%2FDiagramas-de-procesos%2Fmain%2FGenerar%20A3%20automatica%20desde%20referencia.drawio#%7B%22pageId%22%3A%22ysO1k51nOjcaHEiqDqQ2%22%7D" id="j3ywk_b7daHQP_dhVzby-131">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="j3ywk_b7daHQP_dhVzby-2">
+            <mxGeometry x="2510" y="555" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="j3ywk_b7daHQP_dhVzby-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j3ywk_b7daHQP_dhVzby-2" source="j3ywk_b7daHQP_dhVzby-120" target="j3ywk_b7daHQP_dhVzby-131">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2530" y="595" as="targetPoint" />
