@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HDhrtGJA4EhIXhscm4DT-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Permitir cargue de RIPS de pruebas COVID&lt;/font&gt;&lt;/font&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="80" width="2160" height="640" as="geometry" />
+          <mxGeometry x="70" y="80" width="2120" height="640" as="geometry" />
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;OASIS&lt;/font&gt;&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;" parent="HDhrtGJA4EhIXhscm4DT-1" vertex="1">
-          <mxGeometry y="20" width="2160" height="620" as="geometry" />
+          <mxGeometry y="20" width="2120" height="620" as="geometry" />
         </mxCell>
         <mxCell id="HDhrtGJA4EhIXhscm4DT-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="HDhrtGJA4EhIXhscm4DT-2" source="HDhrtGJA4EhIXhscm4DT-25" target="HDhrtGJA4EhIXhscm4DT-41" edge="1">
           <mxGeometry relative="1" as="geometry">
