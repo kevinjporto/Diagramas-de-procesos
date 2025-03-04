@@ -1,9 +1,88 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Página-1" id="IlgPHUIr30ymX8XfOESt">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="atKFINVoUCp-cOblMxAU-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="60" width="2090" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-3" value="Lane 2" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="atKFINVoUCp-cOblMxAU-1">
+          <mxGeometry y="20" width="2090" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-7" value="Inicio proceso&amp;nbsp;&lt;div&gt;con notificación&amp;nbsp;&lt;div&gt;de urgencias o&lt;/div&gt;&lt;div&gt;&amp;nbsp;referencia&lt;/div&gt;&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=conditional;" vertex="1" parent="atKFINVoUCp-cOblMxAU-3">
+          <mxGeometry x="60" y="85" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-9" value="Ingresar a ZonaSer Prestador &quot;Registro de Solicitude&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="atKFINVoUCp-cOblMxAU-3">
+          <mxGeometry x="150" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="atKFINVoUCp-cOblMxAU-3" source="atKFINVoUCp-cOblMxAU-7" target="atKFINVoUCp-cOblMxAU-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-11" value="Buscar afiliado" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="atKFINVoUCp-cOblMxAU-3">
+          <mxGeometry x="310" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="atKFINVoUCp-cOblMxAU-3" source="atKFINVoUCp-cOblMxAU-9" target="atKFINVoUCp-cOblMxAU-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-13" value="Diligenciar formulario" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="atKFINVoUCp-cOblMxAU-3">
+          <mxGeometry x="470" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="atKFINVoUCp-cOblMxAU-3" source="atKFINVoUCp-cOblMxAU-11" target="atKFINVoUCp-cOblMxAU-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="atKFINVoUCp-cOblMxAU-3" source="atKFINVoUCp-cOblMxAU-15" target="atKFINVoUCp-cOblMxAU-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-15" value="Asociar código de urgencias o referencia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="atKFINVoUCp-cOblMxAU-3">
+          <mxGeometry x="630" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="atKFINVoUCp-cOblMxAU-3" source="atKFINVoUCp-cOblMxAU-13" target="atKFINVoUCp-cOblMxAU-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-16" value="¿Urgencia o&amp;nbsp;&lt;div&gt;Referencia&amp;nbsp;&lt;div&gt;asociada al&amp;nbsp;&lt;/div&gt;&lt;div&gt;prestador?&lt;/div&gt;&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;labelPosition=center;" vertex="1" parent="atKFINVoUCp-cOblMxAU-3">
+          <mxGeometry x="800" y="85" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-22" value="Crear A3 en estado PENDIENTE" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" vertex="1" parent="atKFINVoUCp-cOblMxAU-3">
+          <mxGeometry x="1010" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="atKFINVoUCp-cOblMxAU-3" source="atKFINVoUCp-cOblMxAU-24" target="atKFINVoUCp-cOblMxAU-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-24" value="Clic &quot;Guardar&quot;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=catching;symbol=signal;" vertex="1" parent="atKFINVoUCp-cOblMxAU-3">
+          <mxGeometry x="910" y="85" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="atKFINVoUCp-cOblMxAU-3" source="atKFINVoUCp-cOblMxAU-16" target="atKFINVoUCp-cOblMxAU-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-23" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="atKFINVoUCp-cOblMxAU-21">
+          <mxGeometry x="-0.04" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-19" value="Fin" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="1">
+          <mxGeometry x="870" y="265" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="atKFINVoUCp-cOblMxAU-16" target="atKFINVoUCp-cOblMxAU-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atKFINVoUCp-cOblMxAU-20" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="atKFINVoUCp-cOblMxAU-18">
+          <mxGeometry x="-0.28" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
