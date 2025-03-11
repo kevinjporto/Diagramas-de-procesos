@@ -23,9 +23,6 @@
         <mxCell id="6a7d8f32e03d9370-60" value="ZONASER PRESTADOR" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontSize=19;strokeColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="644" y="870" width="602" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="6a7d8f32e03d9370-59" value="Citrix XenApp Server Farm&lt;div&gt;with firewalls&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#EDEDED;fontSize=14;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1720" y="80" width="280" height="1010" as="geometry" />
-        </mxCell>
         <mxCell id="6a7d8f32e03d9370-57" value="&lt;b&gt;OASIS&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFD470;gradientColor=none;fontSize=19;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="179" y="98" width="308" height="832" as="geometry" />
         </mxCell>
