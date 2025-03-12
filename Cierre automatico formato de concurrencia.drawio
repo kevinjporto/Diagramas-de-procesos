@@ -7,6 +7,16 @@
         <mxCell id="d49fMDWEcjazd6GvnsSK-1" value="Cierre formato de concurrencia" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="20" width="2190" height="480" as="geometry" />
         </mxCell>
+        <mxCell id="d49fMDWEcjazd6GvnsSK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d49fMDWEcjazd6GvnsSK-1" source="d49fMDWEcjazd6GvnsSK-25" target="d49fMDWEcjazd6GvnsSK-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d49fMDWEcjazd6GvnsSK-39" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d49fMDWEcjazd6GvnsSK-30">
+          <mxGeometry x="-0.1805" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="d49fMDWEcjazd6GvnsSK-2" value="ZonaSer Prestador" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-1">
           <mxGeometry y="20" width="2190" height="250" as="geometry" />
         </mxCell>
@@ -112,21 +122,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d49fMDWEcjazd6GvnsSK-38" value="¿Formato concurrencia&amp;nbsp;&lt;div&gt;con egreso?&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-2">
-          <mxGeometry x="1310" y="60" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="d49fMDWEcjazd6GvnsSK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d49fMDWEcjazd6GvnsSK-2" source="d49fMDWEcjazd6GvnsSK-25" target="d49fMDWEcjazd6GvnsSK-38">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1360" y="85" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="d49fMDWEcjazd6GvnsSK-39" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d49fMDWEcjazd6GvnsSK-30">
-          <mxGeometry x="-0.1805" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="d49fMDWEcjazd6GvnsSK-3" value="Concurrencia" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-1">
           <mxGeometry y="270" width="2190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="d49fMDWEcjazd6GvnsSK-38" value="¿Formato concurrencia&amp;nbsp;&lt;div&gt;con egreso?&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-3">
+          <mxGeometry x="1300" y="70" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d49fMDWEcjazd6GvnsSK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d49fMDWEcjazd6GvnsSK-9" target="d49fMDWEcjazd6GvnsSK-11">
           <mxGeometry relative="1" as="geometry">
@@ -139,6 +139,14 @@
         <mxCell id="d49fMDWEcjazd6GvnsSK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d49fMDWEcjazd6GvnsSK-5" target="d49fMDWEcjazd6GvnsSK-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d49fMDWEcjazd6GvnsSK-42" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="360" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d49fMDWEcjazd6GvnsSK-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d49fMDWEcjazd6GvnsSK-38" target="d49fMDWEcjazd6GvnsSK-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
