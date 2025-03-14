@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4nS9QQrtOacxWqZYsx-n-1" value="Tecnologías agrupadas" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="1920" height="920" as="geometry" />
+          <mxGeometry x="40" y="40" width="2240" height="900" as="geometry" />
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4nS9QQrtOacxWqZYsx-n-1" source="4nS9QQrtOacxWqZYsx-n-36" target="4nS9QQrtOacxWqZYsx-n-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-2" value="OASIS - Bint" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="4nS9QQrtOacxWqZYsx-n-1">
-          <mxGeometry y="20" width="1920" height="320" as="geometry" />
+          <mxGeometry y="20" width="2240" height="320" as="geometry" />
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-6" value="Inicio" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="4nS9QQrtOacxWqZYsx-n-2">
           <mxGeometry x="50" y="70" width="50" height="50" as="geometry" />
@@ -118,33 +118,33 @@
           <mxGeometry x="1230" y="170" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-3" value="OASIS - Ehab" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="4nS9QQrtOacxWqZYsx-n-1">
-          <mxGeometry y="340" width="1920" height="140" as="geometry" />
+          <mxGeometry y="340" width="2240" height="140" as="geometry" />
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-18" value="¿Producto&amp;nbsp;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;agrupador&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;y agrupados&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;habilitados?&lt;/span&gt;&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=right;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=left;direction=south;" vertex="1" parent="4nS9QQrtOacxWqZYsx-n-3">
           <mxGeometry x="707.5" y="40" width="55" height="55" as="geometry" />
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-4" value="OASIS - Epro" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="4nS9QQrtOacxWqZYsx-n-1">
-          <mxGeometry y="480" width="1920" height="260" as="geometry">
+          <mxGeometry y="480" width="2240" height="240" as="geometry">
             <mxRectangle y="260" width="1000" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-36" value="¿Productos en&amp;nbsp;&lt;div&gt;estado ACTIVO?&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=right;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;labelPosition=left;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="4nS9QQrtOacxWqZYsx-n-4">
-          <mxGeometry x="710" y="60" width="50" height="50" as="geometry" />
+          <mxGeometry x="710" y="40" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-56" value="¿Clasificación reportada&amp;nbsp;&lt;div&gt;esta asociada en&amp;nbsp;&lt;/div&gt;&lt;div&gt;EPRO al producto&amp;nbsp;&lt;/div&gt;&lt;div&gt;en estado ACTIVO?&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4nS9QQrtOacxWqZYsx-n-4">
-          <mxGeometry x="840" y="130" width="50" height="50" as="geometry" />
+          <mxGeometry x="840" y="120" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="4nS9QQrtOacxWqZYsx-n-4" source="4nS9QQrtOacxWqZYsx-n-36" target="4nS9QQrtOacxWqZYsx-n-56">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="970" y="140" as="targetPoint" />
             <mxPoint x="735" y="120" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="735" y="155" />
+              <mxPoint x="735" y="145" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-5" value="OASIS -&amp;nbsp;" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="4nS9QQrtOacxWqZYsx-n-1">
-          <mxGeometry y="740" width="1920" height="180" as="geometry">
+          <mxGeometry y="720" width="2240" height="180" as="geometry">
             <mxRectangle y="260" width="1000" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -185,7 +185,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4nS9QQrtOacxWqZYsx-n-61" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="4nS9QQrtOacxWqZYsx-n-61" value="¿Sumatoria de&amp;nbsp;&lt;div&gt;agrupados =&amp;nbsp;&lt;div&gt;Valor CUPS en&amp;nbsp;&lt;/div&gt;&lt;div&gt;la Solicitud?&lt;/div&gt;&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="1">
           <mxGeometry x="1435" y="245" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4nS9QQrtOacxWqZYsx-n-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4nS9QQrtOacxWqZYsx-n-59" target="4nS9QQrtOacxWqZYsx-n-61">
