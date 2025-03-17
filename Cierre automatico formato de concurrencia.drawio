@@ -325,6 +325,9 @@
         <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-187" value="¿Último servicio&amp;nbsp;&lt;div&gt;sin fecha salida&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;?&lt;/span&gt;&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-2">
           <mxGeometry x="1750" y="565" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d49fMDWEcjazd6GvnsSK-2" source="eIDD2qYjzkZ-Xh7ebVP3-190" target="eIDD2qYjzkZ-Xh7ebVP3-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-190" value="Asignar fecha egreso en fecha de salida del servicio" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-2">
           <mxGeometry x="1860" y="660" width="120" height="80" as="geometry" />
         </mxCell>
@@ -338,13 +341,13 @@
         </mxCell>
         <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-191" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eIDD2qYjzkZ-Xh7ebVP3-189">
           <mxGeometry x="-0.08" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="29" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-193" value="Insertar información de fecha, diagnostico y motivo de egreso en pestaña &quot;Egreso&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-2">
-          <mxGeometry x="1860" y="550" width="120" height="80" as="geometry" />
+          <mxGeometry x="1990" y="550" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d49fMDWEcjazd6GvnsSK-2" source="eIDD2qYjzkZ-Xh7ebVP3-187" target="eIDD2qYjzkZ-Xh7ebVP3-193">
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d49fMDWEcjazd6GvnsSK-2" source="eIDD2qYjzkZ-Xh7ebVP3-187" target="eIDD2qYjzkZ-Xh7ebVP3-197">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1870" y="590" as="targetPoint" />
           </mxGeometry>
@@ -355,12 +358,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-196" value="Insertar mensaje en observaciones de pestaña &quot;Egreso&quot; de cierre automático" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-2">
-          <mxGeometry x="2020" y="550" width="120" height="80" as="geometry" />
+          <mxGeometry x="2160" y="550" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d49fMDWEcjazd6GvnsSK-2" source="eIDD2qYjzkZ-Xh7ebVP3-193" target="eIDD2qYjzkZ-Xh7ebVP3-196">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2050" y="590" as="targetPoint" />
+            <mxPoint x="2220" y="590" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d49fMDWEcjazd6GvnsSK-2" source="eIDD2qYjzkZ-Xh7ebVP3-197" target="eIDD2qYjzkZ-Xh7ebVP3-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-197" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=end;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-2">
+          <mxGeometry x="1895" y="565" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d49fMDWEcjazd6GvnsSK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d49fMDWEcjazd6GvnsSK-9" target="d49fMDWEcjazd6GvnsSK-11" edge="1">
           <mxGeometry relative="1" as="geometry">
