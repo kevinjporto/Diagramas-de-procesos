@@ -322,6 +322,11 @@
             <mxPoint x="29" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eIDD2qYjzkZ-Xh7ebVP3-42" source="eIDD2qYjzkZ-Xh7ebVP3-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-106" value="¿Cierre manual&amp;nbsp;&lt;div&gt;o automático?&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;" vertex="1" parent="eIDD2qYjzkZ-Xh7ebVP3-42">
           <mxGeometry x="1415" y="70" width="50" height="50" as="geometry" />
         </mxCell>
