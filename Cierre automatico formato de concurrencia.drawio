@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Página-1" id="ptAYf3jcV3ZSNVXvtiK4">
-    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -406,6 +406,32 @@
         </mxCell>
         <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-208" value="Visualizar AS en el formato de concurrencia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-2">
           <mxGeometry x="2650" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-215" value="¿Formato cerrado&amp;nbsp;&lt;div&gt;manual o automático?&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=right;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=left;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-2">
+          <mxGeometry x="1190" y="820" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d49fMDWEcjazd6GvnsSK-2" source="eIDD2qYjzkZ-Xh7ebVP3-45" target="eIDD2qYjzkZ-Xh7ebVP3-215">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1215" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-214" value="C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eIDD2qYjzkZ-Xh7ebVP3-212">
+          <mxGeometry x="-0.0843" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-218" value="Comparar información de ZonaSer Prestador y concurrencia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-2">
+          <mxGeometry x="1300" y="805" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d49fMDWEcjazd6GvnsSK-2" source="eIDD2qYjzkZ-Xh7ebVP3-215" target="eIDD2qYjzkZ-Xh7ebVP3-218">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-219" value="A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eIDD2qYjzkZ-Xh7ebVP3-216">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="d49fMDWEcjazd6GvnsSK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d49fMDWEcjazd6GvnsSK-9" target="d49fMDWEcjazd6GvnsSK-11" edge="1">
           <mxGeometry relative="1" as="geometry">
