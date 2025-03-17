@@ -354,6 +354,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-196" value="Insertar mensaje en observaciones de pestaña &quot;Egreso&quot; de cierre automático" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="d49fMDWEcjazd6GvnsSK-2">
+          <mxGeometry x="2020" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eIDD2qYjzkZ-Xh7ebVP3-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d49fMDWEcjazd6GvnsSK-2" source="eIDD2qYjzkZ-Xh7ebVP3-193" target="eIDD2qYjzkZ-Xh7ebVP3-196">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2050" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="d49fMDWEcjazd6GvnsSK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d49fMDWEcjazd6GvnsSK-9" target="d49fMDWEcjazd6GvnsSK-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="125" as="targetPoint" />
