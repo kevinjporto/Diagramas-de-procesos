@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="d49fMDWEcjazd6GvnsSK-1" value="Cierre formato de concurrencia" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="20" width="3150" height="1340" as="geometry" />
+          <mxGeometry x="40" y="20" width="3360" height="1340" as="geometry" />
         </mxCell>
         <mxCell id="d49fMDWEcjazd6GvnsSK-2" value="ZonaSer Prestador - Concurrencia" style="swimlane;startSize=20;horizontal=0;html=1;" parent="d49fMDWEcjazd6GvnsSK-1" vertex="1">
-          <mxGeometry y="20" width="3150" height="1320" as="geometry" />
+          <mxGeometry y="20" width="3360" height="1320" as="geometry" />
         </mxCell>
         <mxCell id="d49fMDWEcjazd6GvnsSK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="d49fMDWEcjazd6GvnsSK-2" source="d49fMDWEcjazd6GvnsSK-25" target="eIDD2qYjzkZ-Xh7ebVP3-45" edge="1">
           <mxGeometry relative="1" as="geometry">
