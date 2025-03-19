@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
-    <mxGraphModel dx="1880" dy="1255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1293" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -189,7 +189,7 @@
               <mxPoint x="1100" y="620" />
               <mxPoint x="1530" y="620" />
             </Array>
-            <mxPoint x="1530" y="940" as="targetPoint" />
+            <mxPoint x="1530" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BlY4hrDkD569rEbZpt_4-14" value="Servicios habilitados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BlY4hrDkD569rEbZpt_4-13" vertex="1" connectable="0">
