@@ -1,9 +1,21 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Página-1" id="z7Y-W6jfC3Ox6cZTRiAi">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2910" pageHeight="1030" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s0VizQJeQqhxxSqVnCaU-1" value="Calcular valor de UPC diferencial para contratos cápita y PGP&amp;nbsp;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1000" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="s0VizQJeQqhxxSqVnCaU-2" value="OASIS - EPGB" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="s0VizQJeQqhxxSqVnCaU-1">
+          <mxGeometry y="20" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s0VizQJeQqhxxSqVnCaU-3" value="OASIS - ECNC" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="s0VizQJeQqhxxSqVnCaU-1">
+          <mxGeometry y="140" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s0VizQJeQqhxxSqVnCaU-4" value="Lane 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="s0VizQJeQqhxxSqVnCaU-1">
+          <mxGeometry y="260" width="1000" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
