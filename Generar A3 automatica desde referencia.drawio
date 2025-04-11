@@ -348,7 +348,7 @@
         <mxCell id="y6o6sd25BWiJfOIVjn6D-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a9DDQnHwPIiveUVgymR4-3" source="y6o6sd25BWiJfOIVjn6D-122" target="a9DDQnHwPIiveUVgymR4-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y6o6sd25BWiJfOIVjn6D-122" value="Asociar código aceptación referencia en campo&amp;nbsp;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="a9DDQnHwPIiveUVgymR4-3">
+        <mxCell id="y6o6sd25BWiJfOIVjn6D-122" value="Asociar en campo Código Aceptación de Referencia el código generado&amp;nbsp;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="a9DDQnHwPIiveUVgymR4-3">
           <mxGeometry x="1929.5" y="52.5" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
