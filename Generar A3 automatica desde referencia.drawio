@@ -272,7 +272,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y6o6sd25BWiJfOIVjn6D-79" value="¿Prestador tiene&amp;nbsp;&lt;div&gt;contrato EVENTO&amp;nbsp;&lt;/div&gt;&lt;div&gt;procesado y&amp;nbsp;&lt;/div&gt;&lt;div&gt;legalizado?&lt;/div&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;labelPosition=center;" vertex="1" parent="a9DDQnHwPIiveUVgymR4-3">
-          <mxGeometry x="2480" y="180" width="50" height="50" as="geometry" />
+          <mxGeometry x="2470" y="180" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="y6o6sd25BWiJfOIVjn6D-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a9DDQnHwPIiveUVgymR4-3" source="y6o6sd25BWiJfOIVjn6D-86" target="y6o6sd25BWiJfOIVjn6D-92">
           <mxGeometry relative="1" as="geometry" />
@@ -283,7 +283,7 @@
         <mxCell id="y6o6sd25BWiJfOIVjn6D-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="a9DDQnHwPIiveUVgymR4-3" source="y6o6sd25BWiJfOIVjn6D-79" target="y6o6sd25BWiJfOIVjn6D-86">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2505" y="330" />
+              <mxPoint x="2495" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
